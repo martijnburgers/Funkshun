@@ -25,6 +25,7 @@ namespace Funkshun.Core
     ///<summary>
     /// Base class for <see cref="FunctionResult{TResult}"/>.
     ///</summary>
+    [Serializable]
     public class FunctionResult : IFunctionResult
     {
         readonly List<Message> _messages = new List<Message>();
@@ -41,6 +42,7 @@ namespace Funkshun.Core
     /// Class containing the return value and messages of function.
     ///</summary>
     ///<typeparam name="TResult">The type of the return value of the function result.</typeparam>
+    [Serializable]
     public class FunctionResult<TResult> : FunctionResult, IFunctionResult<TResult>
     {
         /// <summary>
