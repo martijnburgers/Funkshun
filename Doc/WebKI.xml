@@ -1,0 +1,1103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="BaseCatchExceptionDecorator(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="BaseCatchExceptionDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="BaseCatchExceptionDecorator(Of TResult) class">
+    <HelpKINode Title="about BaseCatchExceptionDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseCatchExceptionDecorator(Of TResult).BaseCatchExceptionDecorator constructor" Url="html/M_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1__ctor.htm" />
+  <HelpKINode Title="BaseCatchExceptionDecorator(Of TResult).Message field" Url="html/F_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1_Message.htm" />
+  <HelpKINode Title="BaseCatchExceptionDecorator&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="BaseCatchExceptionDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="BaseCatchExceptionDecorator&lt;TResult&gt; class">
+    <HelpKINode Title="about BaseCatchExceptionDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseCatchExceptionDecorator&lt;TResult&gt;.BaseCatchExceptionDecorator constructor" Url="html/M_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1__ctor.htm" />
+  <HelpKINode Title="BaseCatchExceptionDecorator&lt;TResult&gt;.Message field" Url="html/F_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1_Message.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator(Of TResult) class">
+    <HelpKINode Title="about BaseResultCollectorDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseResultCollectorDecorator(Of TResult).BaseResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1__ctor.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator(Of TResult).Count property" Url="html/P_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Count.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator(Of TResult).GetResults method" Url="html/Overload_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator(Of TResult).Results field" Url="html/F_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Results.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator&lt;TResult&gt; class">
+    <HelpKINode Title="about BaseResultCollectorDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseResultCollectorDecorator&lt;TResult&gt;.BaseResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1__ctor.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator&lt;TResult&gt;.Count property" Url="html/P_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Count.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator&lt;TResult&gt;.GetResults method" Url="html/Overload_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults.htm" />
+  <HelpKINode Title="BaseResultCollectorDecorator&lt;TResult&gt;.Results field" Url="html/F_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Results.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T, TResult) class">
+    <HelpKINode Title="about CatchExceptionDecorator(Of T, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator(Of T, TResult).CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, T5, TResult) class">
+    <HelpKINode Title="about CatchExceptionDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, T5, TResult).CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, T5, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, TResult) class">
+    <HelpKINode Title="about CatchExceptionDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, TResult).CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, T4, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, TResult) class">
+    <HelpKINode Title="about CatchExceptionDecorator(Of T1, T2, T3, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, TResult).CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, T3, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, TResult) class">
+    <HelpKINode Title="about CatchExceptionDecorator(Of T1, T2, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, TResult).CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of T1, T2, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of TResult) class">
+    <HelpKINode Title="about CatchExceptionDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator(Of TResult).CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator(Of TResult).Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T, TResult&gt; class">
+    <HelpKINode Title="about CatchExceptionDecorator&lt;T, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator&lt;T, TResult&gt;.CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class">
+    <HelpKINode Title="about CatchExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult&gt;.CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, TResult&gt; class">
+    <HelpKINode Title="about CatchExceptionDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, TResult&gt;.CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, T4, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, TResult&gt; class">
+    <HelpKINode Title="about CatchExceptionDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, TResult&gt;.CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, T3, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, TResult&gt; class">
+    <HelpKINode Title="about CatchExceptionDecorator&lt;T1, T2, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, TResult&gt;.CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;T1, T2, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3_Run.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;TResult&gt; class">
+    <HelpKINode Title="about CatchExceptionDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchExceptionDecorator&lt;TResult&gt;.CatchExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm" />
+  <HelpKINode Title="CatchExceptionDecorator&lt;TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1_Run.htm" />
+  <HelpKINode Title="CatchExceptions method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T, TResult, TException) class">
+    <HelpKINode Title="about CatchTExceptionDecorator(Of T, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator(Of T, TResult, TException).CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T, TResult, TException).Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, T5, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, T5, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, T5, TResult, TException) class">
+    <HelpKINode Title="about CatchTExceptionDecorator(Of T1, T2, T3, T4, T5, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, T5, TResult, TException).CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, T5, TResult, TException).Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, TResult, TException) class">
+    <HelpKINode Title="about CatchTExceptionDecorator(Of T1, T2, T3, T4, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, TResult, TException).CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, T4, TResult, TException).Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, TResult, TException) class">
+    <HelpKINode Title="about CatchTExceptionDecorator(Of T1, T2, T3, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, TResult, TException).CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, T3, TResult, TException).Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, TResult, TException) class">
+    <HelpKINode Title="about CatchTExceptionDecorator(Of T1, T2, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, TResult, TException).CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of T1, T2, TResult, TException).Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of TResult, TException) class">
+    <HelpKINode Title="about CatchTExceptionDecorator(Of TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator(Of TResult, TException).CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator(Of TResult, TException).Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T, TResult, TException&gt; class">
+    <HelpKINode Title="about CatchTExceptionDecorator&lt;T, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T, TResult, TException&gt;.CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T, TResult, TException&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult, TException&gt; class">
+    <HelpKINode Title="about CatchTExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult, TException&gt;.CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult, TException&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, TResult, TException&gt; class">
+    <HelpKINode Title="about CatchTExceptionDecorator&lt;T1, T2, T3, T4, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, TResult, TException&gt;.CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, T4, TResult, TException&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, TResult, TException&gt; class">
+    <HelpKINode Title="about CatchTExceptionDecorator&lt;T1, T2, T3, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, TResult, TException&gt;.CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, T3, TResult, TException&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, TResult, TException&gt; class">
+    <HelpKINode Title="about CatchTExceptionDecorator&lt;T1, T2, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, TResult, TException&gt;.CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;T1, T2, TResult, TException&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4_Run.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;TResult, TException&gt; class">
+    <HelpKINode Title="about CatchTExceptionDecorator&lt;TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CatchTExceptionDecorator&lt;TResult, TException&gt;.CatchTExceptionDecorator constructor" Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm" />
+  <HelpKINode Title="CatchTExceptionDecorator&lt;TResult, TException&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2_Run.htm" />
+  <HelpKINode Title="Code property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Code.htm" />
+  <HelpKINode Title="Code property" Url="html/P_Funkshun_Core_Message_Code.htm" />
+  <HelpKINode Title="CollectResults method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CollectResults.htm" />
+  <HelpKINode Title="Count property" Url="html/P_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Count.htm" />
+  <HelpKINode Title="Description property" Url="html/P_Funkshun_Core_Message_Description.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions class" Url="html/AllMembers_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions class" Url="html/T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions class">
+    <HelpKINode Title="about EnumerableFunctionResultExtensions class" Url="html/T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumerableFunctionResultExtensions.Errors(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Errors__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.Errors&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Errors__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.HasErrors(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasErrors__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.HasErrors&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasErrors__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.HasInformationals(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasInformationals__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.HasInformationals&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasInformationals__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.HasWarnings(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasWarnings__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.HasWarnings&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasWarnings__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.Informationals(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Informationals__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.Informationals&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Informationals__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.OnError method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.OnInformational method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.OnSuccess method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.OnWarning method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.Warnings(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Warnings__1.htm" />
+  <HelpKINode Title="EnumerableFunctionResultExtensions.Warnings&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Warnings__1.htm" />
+  <HelpKINode Title="Error enumeration member" Url="html/T_Funkshun_Core_MessageType.htm" />
+  <HelpKINode Title="Errors method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Errors.htm" />
+  <HelpKINode Title="Errors property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Errors.htm" />
+  <HelpKINode Title="Errors(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Errors__1.htm" />
+  <HelpKINode Title="Errors&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Errors__1.htm" />
+  <HelpKINode Title="FunctionExtensions class" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
+  <HelpKINode Title="FunctionExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
+  <HelpKINode Title="FunctionExtensions class">
+    <HelpKINode Title="about FunctionExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionExtensions.CatchExceptions method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions.htm" />
+  <HelpKINode Title="FunctionExtensions.CollectResults method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CollectResults.htm" />
+  <HelpKINode Title="FunctionExtensions.MakeResult method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_MakeResult.htm" />
+  <HelpKINode Title="FunctionResult class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult.htm" />
+  <HelpKINode Title="FunctionResult class" Url="html/T_Funkshun_Core_FunctionResult.htm" />
+  <HelpKINode Title="FunctionResult class">
+    <HelpKINode Title="about FunctionResult class" Url="html/T_Funkshun_Core_FunctionResult.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_FunctionResult.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_FunctionResult__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_FunctionResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_FunctionResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionResult(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
+  <HelpKINode Title="FunctionResult(Of TResult) class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
+  <HelpKINode Title="FunctionResult(Of TResult) class">
+    <HelpKINode Title="about FunctionResult(Of TResult) class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_FunctionResult_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_FunctionResult_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionResult(Of TResult).FunctionResult constructor" Url="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" />
+  <HelpKINode Title="FunctionResult(Of TResult).New method" Url="html/M_Funkshun_Core_FunctionResult_1_New.htm" />
+  <HelpKINode Title="FunctionResult(Of TResult).ReturnType property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnType.htm" />
+  <HelpKINode Title="FunctionResult(Of TResult).ReturnValue property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnValue.htm" />
+  <HelpKINode Title="FunctionResult.FunctionResult constructor" Url="html/M_Funkshun_Core_FunctionResult__ctor.htm" />
+  <HelpKINode Title="FunctionResult.Messages property" Url="html/P_Funkshun_Core_FunctionResult_Messages.htm" />
+  <HelpKINode Title="FunctionResult&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
+  <HelpKINode Title="FunctionResult&lt;TResult&gt; class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
+  <HelpKINode Title="FunctionResult&lt;TResult&gt; class">
+    <HelpKINode Title="about FunctionResult&lt;TResult&gt; class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_FunctionResult_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_FunctionResult_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionResult&lt;TResult&gt;.FunctionResult constructor" Url="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" />
+  <HelpKINode Title="FunctionResult&lt;TResult&gt;.New method" Url="html/M_Funkshun_Core_FunctionResult_1_New.htm" />
+  <HelpKINode Title="FunctionResult&lt;TResult&gt;.ReturnType property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnType.htm" />
+  <HelpKINode Title="FunctionResult&lt;TResult&gt;.ReturnValue property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnValue.htm" />
+  <HelpKINode Title="FunctionResultExtensions class" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
+  <HelpKINode Title="FunctionResultExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
+  <HelpKINode Title="FunctionResultExtensions class">
+    <HelpKINode Title="about FunctionResultExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionResultExtensions.Errors method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Errors.htm" />
+  <HelpKINode Title="FunctionResultExtensions.HasErrors method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasErrors.htm" />
+  <HelpKINode Title="FunctionResultExtensions.HasInformationals method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasInformationals.htm" />
+  <HelpKINode Title="FunctionResultExtensions.HasWarnings method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasWarnings.htm" />
+  <HelpKINode Title="FunctionResultExtensions.Informationals method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Informationals.htm" />
+  <HelpKINode Title="FunctionResultExtensions.IsVoid(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_IsVoid__1.htm" />
+  <HelpKINode Title="FunctionResultExtensions.IsVoid&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_IsVoid__1.htm" />
+  <HelpKINode Title="FunctionResultExtensions.OnError method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnError.htm" />
+  <HelpKINode Title="FunctionResultExtensions.OnInformational method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational.htm" />
+  <HelpKINode Title="FunctionResultExtensions.OnSuccess method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess.htm" />
+  <HelpKINode Title="FunctionResultExtensions.OnWarning method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning.htm" />
+  <HelpKINode Title="FunctionResultExtensions.ThrowOnError method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_ThrowOnError.htm" />
+  <HelpKINode Title="FunctionResultExtensions.Warnings method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Warnings.htm" />
+  <HelpKINode Title="Funkshun(Of TFunctionType) class" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
+  <HelpKINode Title="Funkshun(Of TFunctionType) class" Url="html/T_Funkshun_Core_Funkshun_1.htm" />
+  <HelpKINode Title="Funkshun(Of TFunctionType) class">
+    <HelpKINode Title="about Funkshun(Of TFunctionType) class" Url="html/T_Funkshun_Core_Funkshun_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Funkshun_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Funkshun_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Funkshun(Of TFunctionType).Instance property" Url="html/P_Funkshun_Core_Funkshun_1_Instance.htm" />
+  <HelpKINode Title="Funkshun(Of TFunctionType).New method" Url="html/M_Funkshun_Core_Funkshun_1_New.htm" />
+  <HelpKINode Title="Funkshun.Core namespace" Url="html/N_Funkshun_Core.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators namespace" Url="html/N_Funkshun_Core_Decorators.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.BaseCatchExceptionDecorator(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.BaseCatchExceptionDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.BaseCatchExceptionDecorator&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.BaseCatchExceptionDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.BaseResultCollectorDecorator(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.BaseResultCollectorDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.BaseResultCollectorDecorator&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.BaseResultCollectorDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T1, T2, T3, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T1, T2, T3, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T1, T2, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of T1, T2, TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T1, T2, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;T1, T2, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchExceptionDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T1, T2, T3, T4, T5, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T1, T2, T3, T4, T5, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T1, T2, T3, T4, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T1, T2, T3, T4, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T1, T2, T3, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T1, T2, T3, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T1, T2, TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of T1, T2, TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of TResult, TException) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator(Of TResult, TException) class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T1, T2, T3, T4, T5, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T1, T2, T3, T4, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T1, T2, T3, T4, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T1, T2, T3, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T1, T2, T3, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T1, T2, TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;T1, T2, TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;TResult, TException&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.CatchTExceptionDecorator&lt;TResult, TException&gt; class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T1, T2, T3, T4, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T1, T2, T3, T4, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T1, T2, T3, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T1, T2, T3, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T1, T2, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of T1, T2, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator(Of TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T1, T2, T3, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T1, T2, T3, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T1, T2, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;T1, T2, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.IDecorator&lt;TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T1, T2, T3, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T1, T2, T3, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T1, T2, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of T1, T2, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T1, T2, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;T1, T2, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Decorators.ResultCollectorDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Exceptions namespace" Url="html/N_Funkshun_Core_Exceptions.htm" />
+  <HelpKINode Title="Funkshun.Core.Exceptions.MessageException class" Url="html/AllMembers_T_Funkshun_Core_Exceptions_MessageException.htm" />
+  <HelpKINode Title="Funkshun.Core.Exceptions.MessageException class" Url="html/T_Funkshun_Core_Exceptions_MessageException.htm" />
+  <HelpKINode Title="Funkshun.Core.Extensions namespace" Url="html/N_Funkshun_Core_Extensions.htm" />
+  <HelpKINode Title="Funkshun.Core.Extensions.EnumerableFunctionResultExtensions class" Url="html/AllMembers_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" />
+  <HelpKINode Title="Funkshun.Core.Extensions.EnumerableFunctionResultExtensions class" Url="html/T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" />
+  <HelpKINode Title="Funkshun.Core.Extensions.FunctionExtensions class" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
+  <HelpKINode Title="Funkshun.Core.Extensions.FunctionExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
+  <HelpKINode Title="Funkshun.Core.Extensions.FunctionResultExtensions class" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
+  <HelpKINode Title="Funkshun.Core.Extensions.FunctionResultExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
+  <HelpKINode Title="Funkshun.Core.FunctionResult class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult.htm" />
+  <HelpKINode Title="Funkshun.Core.FunctionResult class" Url="html/T_Funkshun_Core_FunctionResult.htm" />
+  <HelpKINode Title="Funkshun.Core.FunctionResult(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.FunctionResult(Of TResult) class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.FunctionResult&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.FunctionResult&lt;TResult&gt; class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Funkshun(Of TFunctionType) class" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Funkshun(Of TFunctionType) class" Url="html/T_Funkshun_Core_Funkshun_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Funkshun&lt;TFunctionType&gt; class" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Funkshun&lt;TFunctionType&gt; class" Url="html/T_Funkshun_Core_Funkshun_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Helpers namespace" Url="html/N_Funkshun_Core_Helpers.htm" />
+  <HelpKINode Title="Funkshun.Core.Helpers.ResultHelper class" Url="html/AllMembers_T_Funkshun_Core_Helpers_ResultHelper.htm" />
+  <HelpKINode Title="Funkshun.Core.Helpers.ResultHelper class" Url="html/T_Funkshun_Core_Helpers_ResultHelper.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction interface" Url="html/T_Funkshun_Core_IFunction.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_2.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T, TResult) interface" Url="html/T_Funkshun_Core_IFunction_2.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_6.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/T_Funkshun_Core_IFunction_6.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T1, T2, T3, T4, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_5.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T1, T2, T3, T4, TResult) interface" Url="html/T_Funkshun_Core_IFunction_5.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T1, T2, T3, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_4.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T1, T2, T3, TResult) interface" Url="html/T_Funkshun_Core_IFunction_4.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T1, T2, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_3.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of T1, T2, TResult) interface" Url="html/T_Funkshun_Core_IFunction_3.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction(Of TResult) interface" Url="html/T_Funkshun_Core_IFunction_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_2.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_2.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_6.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_6.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_5.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_5.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, T3, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_4.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, T3, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_4.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_3.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_3.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunction&lt;TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunctionResult interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunctionResult interface" Url="html/T_Funkshun_Core_IFunctionResult.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunctionResult(Of TR) interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunctionResult(Of TR) interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunctionResult&lt;TR&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IFunctionResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Message class" Url="html/AllMembers_T_Funkshun_Core_Message.htm" />
+  <HelpKINode Title="Funkshun.Core.Message class" Url="html/T_Funkshun_Core_Message.htm" />
+  <HelpKINode Title="Funkshun.Core.MessageType enumeration" Url="html/T_Funkshun_Core_MessageType.htm" />
+  <HelpKINode Title="Funkshun.Core.Void class" Url="html/AllMembers_T_Funkshun_Core_Void.htm" />
+  <HelpKINode Title="Funkshun.Core.Void class" Url="html/T_Funkshun_Core_Void.htm" />
+  <HelpKINode Title="Funkshun&lt;TFunctionType&gt; class" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
+  <HelpKINode Title="Funkshun&lt;TFunctionType&gt; class" Url="html/T_Funkshun_Core_Funkshun_1.htm" />
+  <HelpKINode Title="Funkshun&lt;TFunctionType&gt; class">
+    <HelpKINode Title="about Funkshun&lt;TFunctionType&gt; class" Url="html/T_Funkshun_Core_Funkshun_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Funkshun_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Funkshun_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Funkshun&lt;TFunctionType&gt;.Instance property" Url="html/P_Funkshun_Core_Funkshun_1_Instance.htm" />
+  <HelpKINode Title="Funkshun&lt;TFunctionType&gt;.New method" Url="html/M_Funkshun_Core_Funkshun_1_New.htm" />
+  <HelpKINode Title="GetResults method" Url="html/Overload_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults.htm" />
+  <HelpKINode Title="GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_1_GetResults.htm" />
+  <HelpKINode Title="GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_2_GetResults.htm" />
+  <HelpKINode Title="GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_3_GetResults.htm" />
+  <HelpKINode Title="GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_4_GetResults.htm" />
+  <HelpKINode Title="GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_5_GetResults.htm" />
+  <HelpKINode Title="GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_6_GetResults.htm" />
+  <HelpKINode Title="HasErrors method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasErrors.htm" />
+  <HelpKINode Title="HasErrors(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasErrors__1.htm" />
+  <HelpKINode Title="HasErrors&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasErrors__1.htm" />
+  <HelpKINode Title="HasInformationals method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasInformationals.htm" />
+  <HelpKINode Title="HasInformationals(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasInformationals__1.htm" />
+  <HelpKINode Title="HasInformationals&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasInformationals__1.htm" />
+  <HelpKINode Title="HasWarnings method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasWarnings.htm" />
+  <HelpKINode Title="HasWarnings(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasWarnings__1.htm" />
+  <HelpKINode Title="HasWarnings&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasWarnings__1.htm" />
+  <HelpKINode Title="IDecorator(Of T, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  <HelpKINode Title="IDecorator(Of T, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  <HelpKINode Title="IDecorator(Of T, TResult) interface">
+    <HelpKINode Title="about IDecorator(Of T, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, T4, T5, TResult) interface">
+    <HelpKINode Title="about IDecorator(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, T4, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, T4, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, T4, TResult) interface">
+    <HelpKINode Title="about IDecorator(Of T1, T2, T3, T4, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  <HelpKINode Title="IDecorator(Of T1, T2, T3, TResult) interface">
+    <HelpKINode Title="about IDecorator(Of T1, T2, T3, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator(Of T1, T2, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  <HelpKINode Title="IDecorator(Of T1, T2, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  <HelpKINode Title="IDecorator(Of T1, T2, TResult) interface">
+    <HelpKINode Title="about IDecorator(Of T1, T2, TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator(Of TResult) interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  <HelpKINode Title="IDecorator(Of TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  <HelpKINode Title="IDecorator(Of TResult) interface">
+    <HelpKINode Title="about IDecorator(Of TResult) interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator&lt;T, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  <HelpKINode Title="IDecorator&lt;T, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  <HelpKINode Title="IDecorator&lt;T, TResult&gt; interface">
+    <HelpKINode Title="about IDecorator&lt;T, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; interface">
+    <HelpKINode Title="about IDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, T4, TResult&gt; interface">
+    <HelpKINode Title="about IDecorator&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  <HelpKINode Title="IDecorator&lt;T1, T2, T3, TResult&gt; interface">
+    <HelpKINode Title="about IDecorator&lt;T1, T2, T3, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator&lt;T1, T2, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  <HelpKINode Title="IDecorator&lt;T1, T2, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  <HelpKINode Title="IDecorator&lt;T1, T2, TResult&gt; interface">
+    <HelpKINode Title="about IDecorator&lt;T1, T2, TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDecorator&lt;TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  <HelpKINode Title="IDecorator&lt;TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  <HelpKINode Title="IDecorator&lt;TResult&gt; interface">
+    <HelpKINode Title="about IDecorator&lt;TResult&gt; interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction interface" Url="html/T_Funkshun_Core_IFunction.htm" />
+  <HelpKINode Title="IFunction interface">
+    <HelpKINode Title="about IFunction interface" Url="html/T_Funkshun_Core_IFunction.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction(Of T, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_2.htm" />
+  <HelpKINode Title="IFunction(Of T, TResult) interface" Url="html/T_Funkshun_Core_IFunction_2.htm" />
+  <HelpKINode Title="IFunction(Of T, TResult) interface">
+    <HelpKINode Title="about IFunction(Of T, TResult) interface" Url="html/T_Funkshun_Core_IFunction_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction(Of T, TResult).Run method" Url="html/M_Funkshun_Core_IFunction_2_Run.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_6.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/T_Funkshun_Core_IFunction_6.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, T4, T5, TResult) interface">
+    <HelpKINode Title="about IFunction(Of T1, T2, T3, T4, T5, TResult) interface" Url="html/T_Funkshun_Core_IFunction_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction(Of T1, T2, T3, T4, T5, TResult).Run method" Url="html/M_Funkshun_Core_IFunction_6_Run.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, T4, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_5.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, T4, TResult) interface" Url="html/T_Funkshun_Core_IFunction_5.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, T4, TResult) interface">
+    <HelpKINode Title="about IFunction(Of T1, T2, T3, T4, TResult) interface" Url="html/T_Funkshun_Core_IFunction_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction(Of T1, T2, T3, T4, TResult).Run method" Url="html/M_Funkshun_Core_IFunction_5_Run.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_4.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, TResult) interface" Url="html/T_Funkshun_Core_IFunction_4.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, T3, TResult) interface">
+    <HelpKINode Title="about IFunction(Of T1, T2, T3, TResult) interface" Url="html/T_Funkshun_Core_IFunction_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction(Of T1, T2, T3, TResult).Run method" Url="html/M_Funkshun_Core_IFunction_4_Run.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_3.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, TResult) interface" Url="html/T_Funkshun_Core_IFunction_3.htm" />
+  <HelpKINode Title="IFunction(Of T1, T2, TResult) interface">
+    <HelpKINode Title="about IFunction(Of T1, T2, TResult) interface" Url="html/T_Funkshun_Core_IFunction_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction(Of T1, T2, TResult).Run method" Url="html/M_Funkshun_Core_IFunction_3_Run.htm" />
+  <HelpKINode Title="IFunction(Of TResult) interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" />
+  <HelpKINode Title="IFunction(Of TResult) interface" Url="html/T_Funkshun_Core_IFunction_1.htm" />
+  <HelpKINode Title="IFunction(Of TResult) interface">
+    <HelpKINode Title="about IFunction(Of TResult) interface" Url="html/T_Funkshun_Core_IFunction_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction(Of TResult).Run method" Url="html/M_Funkshun_Core_IFunction_1_Run.htm" />
+  <HelpKINode Title="IFunction&lt;T, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_2.htm" />
+  <HelpKINode Title="IFunction&lt;T, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_2.htm" />
+  <HelpKINode Title="IFunction&lt;T, TResult&gt; interface">
+    <HelpKINode Title="about IFunction&lt;T, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction&lt;T, TResult&gt;.Run method" Url="html/M_Funkshun_Core_IFunction_2_Run.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_6.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_6.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, T4, T5, TResult&gt; interface">
+    <HelpKINode Title="about IFunction&lt;T1, T2, T3, T4, T5, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, T4, T5, TResult&gt;.Run method" Url="html/M_Funkshun_Core_IFunction_6_Run.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_5.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_5.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, T4, TResult&gt; interface">
+    <HelpKINode Title="about IFunction&lt;T1, T2, T3, T4, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, T4, TResult&gt;.Run method" Url="html/M_Funkshun_Core_IFunction_5_Run.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_4.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_4.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, TResult&gt; interface">
+    <HelpKINode Title="about IFunction&lt;T1, T2, T3, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction&lt;T1, T2, T3, TResult&gt;.Run method" Url="html/M_Funkshun_Core_IFunction_4_Run.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_3.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_3.htm" />
+  <HelpKINode Title="IFunction&lt;T1, T2, TResult&gt; interface">
+    <HelpKINode Title="about IFunction&lt;T1, T2, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction&lt;T1, T2, TResult&gt;.Run method" Url="html/M_Funkshun_Core_IFunction_3_Run.htm" />
+  <HelpKINode Title="IFunction&lt;TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" />
+  <HelpKINode Title="IFunction&lt;TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_1.htm" />
+  <HelpKINode Title="IFunction&lt;TResult&gt; interface">
+    <HelpKINode Title="about IFunction&lt;TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunction&lt;TResult&gt;.Run method" Url="html/M_Funkshun_Core_IFunction_1_Run.htm" />
+  <HelpKINode Title="IFunctionResult interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult.htm" />
+  <HelpKINode Title="IFunctionResult interface" Url="html/T_Funkshun_Core_IFunctionResult.htm" />
+  <HelpKINode Title="IFunctionResult interface">
+    <HelpKINode Title="about IFunctionResult interface" Url="html/T_Funkshun_Core_IFunctionResult.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunctionResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IFunctionResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunctionResult(Of TR) interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="IFunctionResult(Of TR) interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="IFunctionResult(Of TR) interface">
+    <HelpKINode Title="about IFunctionResult(Of TR) interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunctionResult_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IFunctionResult_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunctionResult(Of TR).ReturnType property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnType.htm" />
+  <HelpKINode Title="IFunctionResult(Of TR).ReturnValue property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnValue.htm" />
+  <HelpKINode Title="IFunctionResult.Messages property" Url="html/P_Funkshun_Core_IFunctionResult_Messages.htm" />
+  <HelpKINode Title="IFunctionResult&lt;TR&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="IFunctionResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="IFunctionResult&lt;TR&gt; interface">
+    <HelpKINode Title="about IFunctionResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunctionResult_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IFunctionResult_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFunctionResult&lt;TR&gt;.ReturnType property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnType.htm" />
+  <HelpKINode Title="IFunctionResult&lt;TR&gt;.ReturnValue property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnValue.htm" />
+  <HelpKINode Title="Information enumeration member" Url="html/T_Funkshun_Core_MessageType.htm" />
+  <HelpKINode Title="Informationals method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Informationals.htm" />
+  <HelpKINode Title="Informationals(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Informationals__1.htm" />
+  <HelpKINode Title="Informationals&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Informationals__1.htm" />
+  <HelpKINode Title="Instance property" Url="html/P_Funkshun_Core_Funkshun_1_Instance.htm" />
+  <HelpKINode Title="IsVoid(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_IsVoid__1.htm" />
+  <HelpKINode Title="IsVoid&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_IsVoid__1.htm" />
+  <HelpKINode Title="Make method" Url="html/Overload_Funkshun_Core_Helpers_ResultHelper_Make.htm" />
+  <HelpKINode Title="MakeResult method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_MakeResult.htm" />
+  <HelpKINode Title="Message class" Url="html/AllMembers_T_Funkshun_Core_Message.htm" />
+  <HelpKINode Title="Message class" Url="html/T_Funkshun_Core_Message.htm" />
+  <HelpKINode Title="Message class">
+    <HelpKINode Title="about Message class" Url="html/T_Funkshun_Core_Message.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Message.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Message__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Message.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Message.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Message field" Url="html/F_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1_Message.htm" />
+  <HelpKINode Title="Message.Code property" Url="html/P_Funkshun_Core_Message_Code.htm" />
+  <HelpKINode Title="Message.Description property" Url="html/P_Funkshun_Core_Message_Description.htm" />
+  <HelpKINode Title="Message.Message constructor" Url="html/M_Funkshun_Core_Message__ctor.htm" />
+  <HelpKINode Title="Message.Severity property" Url="html/P_Funkshun_Core_Message_Severity.htm" />
+  <HelpKINode Title="Message.Tag property" Url="html/P_Funkshun_Core_Message_Tag.htm" />
+  <HelpKINode Title="Message.Timestamp property" Url="html/P_Funkshun_Core_Message_Timestamp.htm" />
+  <HelpKINode Title="MessageException class" Url="html/AllMembers_T_Funkshun_Core_Exceptions_MessageException.htm" />
+  <HelpKINode Title="MessageException class" Url="html/T_Funkshun_Core_Exceptions_MessageException.htm" />
+  <HelpKINode Title="MessageException class">
+    <HelpKINode Title="about MessageException class" Url="html/T_Funkshun_Core_Exceptions_MessageException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Exceptions_MessageException.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Exceptions_MessageException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Funkshun_Core_Exceptions_MessageException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Exceptions_MessageException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Exceptions_MessageException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageException.Code property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Code.htm" />
+  <HelpKINode Title="MessageException.Errors property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Errors.htm" />
+  <HelpKINode Title="MessageException.MessageException constructor" Url="html/M_Funkshun_Core_Exceptions_MessageException__ctor.htm" />
+  <HelpKINode Title="MessageException.Severity property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Severity.htm" />
+  <HelpKINode Title="MessageException.Tag property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Tag.htm" />
+  <HelpKINode Title="MessageException.TimeStamp property" Url="html/P_Funkshun_Core_Exceptions_MessageException_TimeStamp.htm" />
+  <HelpKINode Title="Messages property" Url="html/P_Funkshun_Core_FunctionResult_Messages.htm" />
+  <HelpKINode Title="Messages property" Url="html/P_Funkshun_Core_IFunctionResult_Messages.htm" />
+  <HelpKINode Title="MessageType enumeration" Url="html/T_Funkshun_Core_MessageType.htm" />
+  <HelpKINode Title="New method" Url="html/M_Funkshun_Core_FunctionResult_1_New.htm" />
+  <HelpKINode Title="New method" Url="html/M_Funkshun_Core_Funkshun_1_New.htm" />
+  <HelpKINode Title="OnError method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError.htm" />
+  <HelpKINode Title="OnError method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnError.htm" />
+  <HelpKINode Title="OnInformational method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational.htm" />
+  <HelpKINode Title="OnInformational method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational.htm" />
+  <HelpKINode Title="OnSuccess method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess.htm" />
+  <HelpKINode Title="OnSuccess method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess.htm" />
+  <HelpKINode Title="OnWarning method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning.htm" />
+  <HelpKINode Title="OnWarning method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning.htm" />
+  <HelpKINode Title="RealVoid property" Url="html/P_Funkshun_Core_Void_RealVoid.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T, TResult) class">
+    <HelpKINode Title="about ResultCollectorDecorator(Of T, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator(Of T, TResult).GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_2_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T, TResult).ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult) class">
+    <HelpKINode Title="about ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult).GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_6_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult).ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, T5, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, TResult) class">
+    <HelpKINode Title="about ResultCollectorDecorator(Of T1, T2, T3, T4, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, TResult).GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_5_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, TResult).ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, T4, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, TResult) class">
+    <HelpKINode Title="about ResultCollectorDecorator(Of T1, T2, T3, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, TResult).GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_4_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, TResult).ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, T3, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, TResult) class">
+    <HelpKINode Title="about ResultCollectorDecorator(Of T1, T2, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, TResult).GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_3_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, TResult).ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of T1, T2, TResult).Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of TResult) class">
+    <HelpKINode Title="about ResultCollectorDecorator(Of TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator(Of TResult).GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_1_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of TResult).ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator(Of TResult).Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T, TResult&gt; class">
+    <HelpKINode Title="about ResultCollectorDecorator&lt;T, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator&lt;T, TResult&gt;.GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_2_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T, TResult&gt;.ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class">
+    <HelpKINode Title="about ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt;.GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_6_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt;.ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, T5, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt; class">
+    <HelpKINode Title="about ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt;.GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_5_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt;.ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, T4, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt; class">
+    <HelpKINode Title="about ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt;.GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_4_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt;.ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, T3, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, TResult&gt; class">
+    <HelpKINode Title="about ResultCollectorDecorator&lt;T1, T2, TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, TResult&gt;.GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_3_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, TResult&gt;.ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;T1, T2, TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3_Run.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;TResult&gt; class">
+    <HelpKINode Title="about ResultCollectorDecorator&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultCollectorDecorator&lt;TResult&gt;.GetResults method" Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_1_GetResults.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;TResult&gt;.ResultCollectorDecorator constructor" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1__ctor.htm" />
+  <HelpKINode Title="ResultCollectorDecorator&lt;TResult&gt;.Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1_Run.htm" />
+  <HelpKINode Title="ResultHelper class" Url="html/AllMembers_T_Funkshun_Core_Helpers_ResultHelper.htm" />
+  <HelpKINode Title="ResultHelper class" Url="html/T_Funkshun_Core_Helpers_ResultHelper.htm" />
+  <HelpKINode Title="ResultHelper class">
+    <HelpKINode Title="about ResultHelper class" Url="html/T_Funkshun_Core_Helpers_ResultHelper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Helpers_ResultHelper.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Helpers_ResultHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultHelper.Make method" Url="html/Overload_Funkshun_Core_Helpers_ResultHelper_Make.htm" />
+  <HelpKINode Title="Results field" Url="html/F_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Results.htm" />
+  <HelpKINode Title="ReturnType property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnType.htm" />
+  <HelpKINode Title="ReturnType property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnType.htm" />
+  <HelpKINode Title="ReturnValue property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnValue.htm" />
+  <HelpKINode Title="ReturnValue property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnValue.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_IFunction_1_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_IFunction_2_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_IFunction_3_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_IFunction_4_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_IFunction_5_Run.htm" />
+  <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_IFunction_6_Run.htm" />
+  <HelpKINode Title="Severity property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Severity.htm" />
+  <HelpKINode Title="Severity property" Url="html/P_Funkshun_Core_Message_Severity.htm" />
+  <HelpKINode Title="Tag property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Tag.htm" />
+  <HelpKINode Title="Tag property" Url="html/P_Funkshun_Core_Message_Tag.htm" />
+  <HelpKINode Title="ThrowOnError method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_ThrowOnError.htm" />
+  <HelpKINode Title="TimeStamp property" Url="html/P_Funkshun_Core_Exceptions_MessageException_TimeStamp.htm" />
+  <HelpKINode Title="Timestamp property" Url="html/P_Funkshun_Core_Message_Timestamp.htm" />
+  <HelpKINode Title="Void class" Url="html/AllMembers_T_Funkshun_Core_Void.htm" />
+  <HelpKINode Title="Void class" Url="html/T_Funkshun_Core_Void.htm" />
+  <HelpKINode Title="Void class">
+    <HelpKINode Title="about Void class" Url="html/T_Funkshun_Core_Void.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Void.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Void__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Void.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Void.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Void.RealVoid property" Url="html/P_Funkshun_Core_Void_RealVoid.htm" />
+  <HelpKINode Title="Void.Void constructor" Url="html/M_Funkshun_Core_Void__ctor.htm" />
+  <HelpKINode Title="Warning enumeration member" Url="html/T_Funkshun_Core_MessageType.htm" />
+  <HelpKINode Title="Warnings method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Warnings.htm" />
+  <HelpKINode Title="Warnings(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Warnings__1.htm" />
+  <HelpKINode Title="Warnings&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Warnings__1.htm" />
+</HelpKI>

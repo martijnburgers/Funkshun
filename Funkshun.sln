@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funkshun.Core", "Funkshun\Funkshun.Core.csproj", "{1FC5D78A-DDC0-42B4-9666-4E1982E0917B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funkshun.Core.Test", "Funkshun.Test\Funkshun.Core.Test.csproj", "{6ACD780A-39D6-4F4C-9F82-BEDA6A97D49D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3154901-91DB-4BDC-9405-10CB07BF734B}"
+	ProjectSection(SolutionItems) = preProject
+		Funkshun.vsmdi = Funkshun.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Funkshun.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC5D78A-DDC0-42B4-9666-4E1982E0917B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC5D78A-DDC0-42B4-9666-4E1982E0917B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC5D78A-DDC0-42B4-9666-4E1982E0917B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC5D78A-DDC0-42B4-9666-4E1982E0917B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACD780A-39D6-4F4C-9F82-BEDA6A97D49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACD780A-39D6-4F4C-9F82-BEDA6A97D49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACD780A-39D6-4F4C-9F82-BEDA6A97D49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACD780A-39D6-4F4C-9F82-BEDA6A97D49D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

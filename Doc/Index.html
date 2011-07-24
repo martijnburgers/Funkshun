@@ -1,0 +1,1605 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>Simple, small and easy library which simplifies communication between functions - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.bmp" height="16" width="16" alt="Expand all "/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.bmp" height="16" width="16" alt="Collapse all" />
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Funkshun_Core.htm" target="TopicContent">Funkshun.Core Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_FunctionResult.htm" target="TopicContent">FunctionResult Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_FunctionResult.htm" target="TopicContent">FunctionResult Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_FunctionResult__ctor.htm" target="TopicContent">FunctionResult Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_FunctionResult.htm" target="TopicContent">FunctionResult Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_FunctionResult.htm" target="TopicContent">FunctionResult Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_FunctionResult_Messages.htm" target="TopicContent">Messages Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_FunctionResult_1.htm" target="TopicContent">FunctionResult(TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" target="TopicContent">FunctionResult(TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" target="TopicContent">FunctionResult(TResult) Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_FunctionResult_1.htm" target="TopicContent">FunctionResult(TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_FunctionResult_1_New.htm" target="TopicContent">New Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_FunctionResult_1.htm" target="TopicContent">FunctionResult(TResult) Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_FunctionResult_1_ReturnType.htm" target="TopicContent">ReturnType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_FunctionResult_1_ReturnValue.htm" target="TopicContent">ReturnValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Funkshun_1.htm" target="TopicContent">Funkshun(TFunctionType) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" target="TopicContent">Funkshun(TFunctionType) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Funkshun_1.htm" target="TopicContent">Funkshun(TFunctionType) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Funkshun_1_New.htm" target="TopicContent">New Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_Funkshun_1.htm" target="TopicContent">Funkshun(TFunctionType) Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Funkshun_1_Instance.htm" target="TopicContent">Instance Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Funkshun_Core_IFunction.htm" target="TopicContent">IFunction Interface</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_IFunction_1.htm" target="TopicContent">IFunction(TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" target="TopicContent">IFunction(TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_IFunction_1.htm" target="TopicContent">IFunction(TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_IFunction_1_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_IFunction_2.htm" target="TopicContent">IFunction(T, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_IFunction_2.htm" target="TopicContent">IFunction(T, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_IFunction_2.htm" target="TopicContent">IFunction(T, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_IFunction_2_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_IFunction_3.htm" target="TopicContent">IFunction(T1, T2, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_IFunction_3.htm" target="TopicContent">IFunction(T1, T2, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_IFunction_3.htm" target="TopicContent">IFunction(T1, T2, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_IFunction_3_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_IFunction_4.htm" target="TopicContent">IFunction(T1, T2, T3, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_IFunction_4.htm" target="TopicContent">IFunction(T1, T2, T3, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_IFunction_4.htm" target="TopicContent">IFunction(T1, T2, T3, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_IFunction_4_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_IFunction_5.htm" target="TopicContent">IFunction(T1, T2, T3, T4, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_IFunction_5.htm" target="TopicContent">IFunction(T1, T2, T3, T4, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_IFunction_5.htm" target="TopicContent">IFunction(T1, T2, T3, T4, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_IFunction_5_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_IFunction_6.htm" target="TopicContent">IFunction(T1, T2, T3, T4, T5, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_IFunction_6.htm" target="TopicContent">IFunction(T1, T2, T3, T4, T5, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_IFunction_6.htm" target="TopicContent">IFunction(T1, T2, T3, T4, T5, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_IFunction_6_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_IFunctionResult.htm" target="TopicContent">IFunctionResult Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_IFunctionResult.htm" target="TopicContent">IFunctionResult Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_IFunctionResult.htm" target="TopicContent">IFunctionResult Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_IFunctionResult.htm" target="TopicContent">IFunctionResult Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_IFunctionResult_Messages.htm" target="TopicContent">Messages Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_IFunctionResult_1.htm" target="TopicContent">IFunctionResult(TR) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" target="TopicContent">IFunctionResult(TR) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_IFunctionResult_1.htm" target="TopicContent">IFunctionResult(TR) Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_IFunctionResult_1.htm" target="TopicContent">IFunctionResult(TR) Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_IFunctionResult_1_ReturnType.htm" target="TopicContent">ReturnType Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_IFunctionResult_1_ReturnValue.htm" target="TopicContent">ReturnValue Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Message.htm" target="TopicContent">Message Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Message.htm" target="TopicContent">Message Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Message__ctor.htm" target="TopicContent">Message Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Message.htm" target="TopicContent">Message Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_Message.htm" target="TopicContent">Message Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Message_Code.htm" target="TopicContent">Code Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Message_Description.htm" target="TopicContent">Description Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Message_Severity.htm" target="TopicContent">Severity Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Message_Tag.htm" target="TopicContent">Tag Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Message_Timestamp.htm" target="TopicContent">Timestamp Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_Funkshun_Core_MessageType.htm" target="TopicContent">MessageType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Void.htm" target="TopicContent">Void Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Void.htm" target="TopicContent">Void Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Void__ctor.htm" target="TopicContent">Void Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Void.htm" target="TopicContent">Void Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_Void.htm" target="TopicContent">Void Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Void_RealVoid.htm" target="TopicContent">RealVoid Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Funkshun_Core_Decorators.htm" target="TopicContent">Funkshun.Core.Decorators Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" target="TopicContent">BaseCatchExceptionDecorator(TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" target="TopicContent">BaseCatchExceptionDecorator(TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1__ctor.htm" target="TopicContent">BaseCatchExceptionDecorator(TResult) Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" target="TopicContent">BaseCatchExceptionDecorator(TResult) Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1_Message.htm" target="TopicContent">Message Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" target="TopicContent">BaseCatchExceptionDecorator(TResult) Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" target="TopicContent">BaseResultCollectorDecorator(TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" target="TopicContent">BaseResultCollectorDecorator(TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1__ctor.htm" target="TopicContent">BaseResultCollectorDecorator(TResult) Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" target="TopicContent">BaseResultCollectorDecorator(TResult) Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Results.htm" target="TopicContent">Results Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" target="TopicContent">BaseResultCollectorDecorator(TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults.htm" target="TopicContent">GetResults Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults.htm" target="TopicContent">GetResults Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults_1.htm" target="TopicContent">GetResults Method (Predicate(IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" target="TopicContent">BaseResultCollectorDecorator(TResult) Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Count.htm" target="TopicContent">Count Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" target="TopicContent">CatchExceptionDecorator(TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" target="TopicContent">CatchExceptionDecorator(TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm" target="TopicContent">CatchExceptionDecorator(TResult) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm" target="TopicContent">CatchExceptionDecorator(TResult) Constructor (IFunction(TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor_1.htm" target="TopicContent">CatchExceptionDecorator(TResult) Constructor (IFunction(TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" target="TopicContent">CatchExceptionDecorator(TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" target="TopicContent">CatchExceptionDecorator(TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" target="TopicContent">CatchExceptionDecorator(T, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" target="TopicContent">CatchExceptionDecorator(T, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm" target="TopicContent">CatchExceptionDecorator(T, TResult) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm" target="TopicContent">CatchExceptionDecorator(T, TResult) Constructor (IFunction(T, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor_1.htm" target="TopicContent">CatchExceptionDecorator(T, TResult) Constructor (IFunction(T, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" target="TopicContent">CatchExceptionDecorator(T, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" target="TopicContent">CatchExceptionDecorator(T, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, TResult) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, TResult) Constructor (IFunction(T1, T2, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor_1.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, TResult) Constructor (IFunction(T1, T2, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, TResult) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, TResult) Constructor (IFunction(T1, T2, T3, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor_1.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, TResult) Constructor (IFunction(T1, T2, T3, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, TResult) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, TResult) Constructor (IFunction(T1, T2, T3, T4, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor_1.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, TResult) Constructor (IFunction(T1, T2, T3, T4, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Constructor (IFunction(T1, T2, T3, T4, T5, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor_1.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Constructor (IFunction(T1, T2, T3, T4, T5, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" target="TopicContent">CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" target="TopicContent">CatchTExceptionDecorator(TResult, TException) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" target="TopicContent">CatchTExceptionDecorator(TResult, TException) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm" target="TopicContent">CatchTExceptionDecorator(TResult, TException) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm" target="TopicContent">CatchTExceptionDecorator(TResult, TException) Constructor (IFunction(TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor_1.htm" target="TopicContent">CatchTExceptionDecorator(TResult, TException) Constructor (IFunction(TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" target="TopicContent">CatchTExceptionDecorator(TResult, TException) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" target="TopicContent">CatchTExceptionDecorator(TResult, TException) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" target="TopicContent">CatchTExceptionDecorator(T, TResult, TException) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" target="TopicContent">CatchTExceptionDecorator(T, TResult, TException) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T, TResult, TException) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T, TResult, TException) Constructor (IFunction(T, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor_1.htm" target="TopicContent">CatchTExceptionDecorator(T, TResult, TException) Constructor (IFunction(T, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" target="TopicContent">CatchTExceptionDecorator(T, TResult, TException) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" target="TopicContent">CatchTExceptionDecorator(T, TResult, TException) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, TResult, TException) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, TResult, TException) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, TResult, TException) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, TResult, TException) Constructor (IFunction(T1, T2, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor_1.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, TResult, TException) Constructor (IFunction(T1, T2, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, TResult, TException) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, TResult, TException) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Constructor (IFunction(T1, T2, T3, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor_1.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Constructor (IFunction(T1, T2, T3, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Constructor (IFunction(T1, T2, T3, T4, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor_1.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Constructor (IFunction(T1, T2, T3, T4, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Constructor (IFunction(T1, T2, T3, T4, T5, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor_1.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Constructor (IFunction(T1, T2, T3, T4, T5, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" target="TopicContent">CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_IDecorator_1.htm" target="TopicContent">IDecorator(TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_1.htm" target="TopicContent">IDecorator(TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Decorators_IDecorator_1.htm" target="TopicContent">IDecorator(TResult) Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_IDecorator_2.htm" target="TopicContent">IDecorator(T, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_2.htm" target="TopicContent">IDecorator(T, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Decorators_IDecorator_2.htm" target="TopicContent">IDecorator(T, TResult) Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_IDecorator_3.htm" target="TopicContent">IDecorator(T1, T2, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_3.htm" target="TopicContent">IDecorator(T1, T2, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Decorators_IDecorator_3.htm" target="TopicContent">IDecorator(T1, T2, TResult) Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_IDecorator_4.htm" target="TopicContent">IDecorator(T1, T2, T3, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_4.htm" target="TopicContent">IDecorator(T1, T2, T3, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Decorators_IDecorator_4.htm" target="TopicContent">IDecorator(T1, T2, T3, TResult) Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_IDecorator_5.htm" target="TopicContent">IDecorator(T1, T2, T3, T4, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_5.htm" target="TopicContent">IDecorator(T1, T2, T3, T4, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Decorators_IDecorator_5.htm" target="TopicContent">IDecorator(T1, T2, T3, T4, TResult) Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_IDecorator_6.htm" target="TopicContent">IDecorator(T1, T2, T3, T4, T5, TResult) Interface</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_6.htm" target="TopicContent">IDecorator(T1, T2, T3, T4, T5, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Decorators_IDecorator_6.htm" target="TopicContent">IDecorator(T1, T2, T3, T4, T5, TResult) Methods</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" target="TopicContent">ResultCollectorDecorator(TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" target="TopicContent">ResultCollectorDecorator(TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1__ctor.htm" target="TopicContent">ResultCollectorDecorator(TResult) Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" target="TopicContent">ResultCollectorDecorator(TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" target="TopicContent">ResultCollectorDecorator(TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_1_GetResults.htm" target="TopicContent">GetResults Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" target="TopicContent">ResultCollectorDecorator(TResult) Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" target="TopicContent">ResultCollectorDecorator(T, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" target="TopicContent">ResultCollectorDecorator(T, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2__ctor.htm" target="TopicContent">ResultCollectorDecorator(T, TResult) Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" target="TopicContent">ResultCollectorDecorator(T, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" target="TopicContent">ResultCollectorDecorator(T, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_2_GetResults.htm" target="TopicContent">GetResults Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" target="TopicContent">ResultCollectorDecorator(T, TResult) Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3__ctor.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, TResult) Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_3_GetResults.htm" target="TopicContent">GetResults Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, TResult) Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4__ctor.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, TResult) Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_4_GetResults.htm" target="TopicContent">GetResults Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, TResult) Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5__ctor.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, TResult) Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_5_GetResults.htm" target="TopicContent">GetResults Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, TResult) Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6__ctor.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_6_GetResults.htm" target="TopicContent">GetResults Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6_Run.htm" target="TopicContent">Run Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" target="TopicContent">ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Properties</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Funkshun_Core_Exceptions.htm" target="TopicContent">Funkshun.Core.Exceptions Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Exceptions_MessageException.htm" target="TopicContent">MessageException Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Exceptions_MessageException.htm" target="TopicContent">MessageException Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Exceptions_MessageException__ctor.htm" target="TopicContent">MessageException Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_Funkshun_Core_Exceptions_MessageException.htm" target="TopicContent">MessageException Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_Funkshun_Core_Exceptions_MessageException.htm" target="TopicContent">MessageException Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Exceptions_MessageException_Code.htm" target="TopicContent">Code Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Exceptions_MessageException_Errors.htm" target="TopicContent">Errors Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Exceptions_MessageException_Severity.htm" target="TopicContent">Severity Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Exceptions_MessageException_Tag.htm" target="TopicContent">Tag Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_Funkshun_Core_Exceptions_MessageException_TimeStamp.htm" target="TopicContent">TimeStamp Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_Funkshun_Core_Exceptions_MessageException.htm" target="TopicContent">MessageException Events</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Funkshun_Core_Extensions.htm" target="TopicContent">Funkshun.Core.Extensions Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" target="TopicContent">EnumerableFunctionResultExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" target="TopicContent">EnumerableFunctionResultExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" target="TopicContent">EnumerableFunctionResultExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Errors__1.htm" target="TopicContent">Errors(TResult) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasErrors__1.htm" target="TopicContent">HasErrors(TResult) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasInformationals__1.htm" target="TopicContent">HasInformationals(TResult) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasWarnings__1.htm" target="TopicContent">HasWarnings(TResult) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Informationals__1.htm" target="TopicContent">Informationals(TResult) Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError.htm" target="TopicContent">OnError Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__1.htm" target="TopicContent">OnError(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__1_2.htm" target="TopicContent">OnError(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action(IEnumerable(IFunctionResult(TResult))))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__2.htm" target="TopicContent">OnError(TResult, TNewResult) Method (IEnumerable(IFunctionResult(TResult)), Func(IEnumerable(IFunctionResult(TResult)), TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__1_1.htm" target="TopicContent">OnError(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__1_3.htm" target="TopicContent">OnError(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action(IEnumerable(IFunctionResult(TResult))), Action(IEnumerable(IFunctionResult(TResult))))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__2_1.htm" target="TopicContent">OnError(TResult, TNewResult) Method (IEnumerable(IFunctionResult(TResult)), Func(IEnumerable(IFunctionResult(TResult)), TNewResult), Func(IEnumerable(IFunctionResult(TResult)), TNewResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational.htm" target="TopicContent">OnInformational Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__1.htm" target="TopicContent">OnInformational(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__1_2.htm" target="TopicContent">OnInformational(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action(IEnumerable(IFunctionResult(TResult))))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__2.htm" target="TopicContent">OnInformational(TResult, TNewResult) Method (IEnumerable(IFunctionResult(TResult)), Func(IEnumerable(IFunctionResult(TResult)), TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__1_1.htm" target="TopicContent">OnInformational(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__1_3.htm" target="TopicContent">OnInformational(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action(IEnumerable(IFunctionResult(TResult))), Action(IEnumerable(IFunctionResult(TResult))))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__2_1.htm" target="TopicContent">OnInformational(TResult, TNewResult) Method (IEnumerable(IFunctionResult(TResult)), Func(IEnumerable(IFunctionResult(TResult)), TNewResult), Func(IEnumerable(IFunctionResult(TResult)), TNewResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess.htm" target="TopicContent">OnSuccess Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__1.htm" target="TopicContent">OnSuccess(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__1_2.htm" target="TopicContent">OnSuccess(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action(IEnumerable(IFunctionResult(TResult))))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__2.htm" target="TopicContent">OnSuccess(TResult, TNewResult) Method (IEnumerable(IFunctionResult(TResult)), Func(IEnumerable(IFunctionResult(TResult)), TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__1_1.htm" target="TopicContent">OnSuccess(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__1_3.htm" target="TopicContent">OnSuccess(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action(IEnumerable(IFunctionResult(TResult))), Action(IEnumerable(IFunctionResult(TResult))))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__2_1.htm" target="TopicContent">OnSuccess(TResult, TNewResult) Method (IEnumerable(IFunctionResult(TResult)), Func(IEnumerable(IFunctionResult(TResult)), TNewResult), Func(IEnumerable(IFunctionResult(TResult)), TNewResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning.htm" target="TopicContent">OnWarning Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__1.htm" target="TopicContent">OnWarning(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__1_2.htm" target="TopicContent">OnWarning(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action(IEnumerable(IFunctionResult(TResult))))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__2.htm" target="TopicContent">OnWarning(TResult, TNewResult) Method (IEnumerable(IFunctionResult(TResult)), Func(IEnumerable(IFunctionResult(TResult)), TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__1_1.htm" target="TopicContent">OnWarning(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__1_3.htm" target="TopicContent">OnWarning(TResult) Method (IEnumerable(IFunctionResult(TResult)), Action(IEnumerable(IFunctionResult(TResult))), Action(IEnumerable(IFunctionResult(TResult))))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__2_1.htm" target="TopicContent">OnWarning(TResult, TNewResult) Method (IEnumerable(IFunctionResult(TResult)), Func(IEnumerable(IFunctionResult(TResult)), TNewResult), Func(IEnumerable(IFunctionResult(TResult)), TNewResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Warnings__1.htm" target="TopicContent">Warnings(TResult) Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Extensions_FunctionExtensions.htm" target="TopicContent">FunctionExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Extensions_FunctionExtensions.htm" target="TopicContent">FunctionExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Extensions_FunctionExtensions.htm" target="TopicContent">FunctionExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions.htm" target="TopicContent">CatchExceptions Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__1.htm" target="TopicContent">CatchExceptions(TResult) Method (IFunction(TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__2.htm" target="TopicContent">CatchExceptions(TResult, TException) Method (IFunction(TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__3.htm" target="TopicContent">CatchExceptions(T, TResult, TException) Method (IFunction(T, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__2_2.htm" target="TopicContent">CatchExceptions(T, TResult) Method (IFunction(T, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__3_2.htm" target="TopicContent">CatchExceptions(T1, T2, TResult) Method (IFunction(T1, T2, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__4.htm" target="TopicContent">CatchExceptions(T1, T2, TResult, TException) Method (IFunction(T1, T2, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__5.htm" target="TopicContent">CatchExceptions(T1, T2, T3, TResult, TException) Method (IFunction(T1, T2, T3, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__4_2.htm" target="TopicContent">CatchExceptions(T1, T2, T3, TResult) Method (IFunction(T1, T2, T3, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__6.htm" target="TopicContent">CatchExceptions(T1, T2, T3, T4, TResult, TException) Method (IFunction(T1, T2, T3, T4, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__5_2.htm" target="TopicContent">CatchExceptions(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__7.htm" target="TopicContent">CatchExceptions(T1, T2, T3, T4, T5, TResult, TException) Method (IFunction(T1, T2, T3, T4, T5, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__6_2.htm" target="TopicContent">CatchExceptions(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__1_1.htm" target="TopicContent">CatchExceptions(TResult) Method (IFunction(TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__2_1.htm" target="TopicContent">CatchExceptions(TResult, TException) Method (IFunction(TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__2_3.htm" target="TopicContent">CatchExceptions(T, TResult) Method (IFunction(T, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__3_1.htm" target="TopicContent">CatchExceptions(T, TResult, TException) Method (IFunction(T, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__3_3.htm" target="TopicContent">CatchExceptions(T1, T2, TResult) Method (IFunction(T1, T2, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__4_1.htm" target="TopicContent">CatchExceptions(T1, T2, TResult, TException) Method (IFunction(T1, T2, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__4_3.htm" target="TopicContent">CatchExceptions(T1, T2, T3, TResult) Method (IFunction(T1, T2, T3, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__5_1.htm" target="TopicContent">CatchExceptions(T1, T2, T3, TResult, TException) Method (IFunction(T1, T2, T3, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__5_3.htm" target="TopicContent">CatchExceptions(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__6_1.htm" target="TopicContent">CatchExceptions(T1, T2, T3, T4, TResult, TException) Method (IFunction(T1, T2, T3, T4, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__6_3.htm" target="TopicContent">CatchExceptions(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult), Func(Exception, IFunctionResult(TResult)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__7_1.htm" target="TopicContent">CatchExceptions(T1, T2, T3, T4, T5, TResult, TException) Method (IFunction(T1, T2, T3, T4, T5, TResult), Func(TException, IFunctionResult(TResult)))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CollectResults.htm" target="TopicContent">CollectResults Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__1.htm" target="TopicContent">CollectResults(TResult) Method (IFunction(TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__2.htm" target="TopicContent">CollectResults(T, TResult) Method (IFunction(T, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__3.htm" target="TopicContent">CollectResults(T1, T2, TResult) Method (IFunction(T1, T2, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__4.htm" target="TopicContent">CollectResults(T1, T2, T3, TResult) Method (IFunction(T1, T2, T3, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__5.htm" target="TopicContent">CollectResults(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__6.htm" target="TopicContent">CollectResults(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_MakeResult.htm" target="TopicContent">MakeResult Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__1.htm" target="TopicContent">MakeResult(TResult) Method (IFunction(TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__2.htm" target="TopicContent">MakeResult(T, TResult) Method (IFunction(T, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__3.htm" target="TopicContent">MakeResult(T1, T2, TResult) Method (IFunction(T1, T2, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__4.htm" target="TopicContent">MakeResult(T1, T2, T3, TResult) Method (IFunction(T1, T2, T3, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__5.htm" target="TopicContent">MakeResult(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__6.htm" target="TopicContent">MakeResult(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__1_1.htm" target="TopicContent">MakeResult(TResult) Method (IFunction(TResult), IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__1_2.htm" target="TopicContent">MakeResult(TResult) Method (IFunction(TResult), TResult)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__2_1.htm" target="TopicContent">MakeResult(T, TResult) Method (IFunction(T, TResult), IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__2_2.htm" target="TopicContent">MakeResult(T, TResult) Method (IFunction(T, TResult), TResult)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__3_1.htm" target="TopicContent">MakeResult(T1, T2, TResult) Method (IFunction(T1, T2, TResult), IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__3_2.htm" target="TopicContent">MakeResult(T1, T2, TResult) Method (IFunction(T1, T2, TResult), TResult)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__4_1.htm" target="TopicContent">MakeResult(T1, T2, T3, TResult) Method (IFunction(T1, T2, T3, TResult), IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__4_2.htm" target="TopicContent">MakeResult(T1, T2, T3, TResult) Method (IFunction(T1, T2, T3, TResult), TResult)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__5_1.htm" target="TopicContent">MakeResult(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult), IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__5_2.htm" target="TopicContent">MakeResult(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult), TResult)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__6_1.htm" target="TopicContent">MakeResult(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult), IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__6_2.htm" target="TopicContent">MakeResult(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult), TResult)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__1_3.htm" target="TopicContent">MakeResult(TResult) Method (IFunction(TResult), TResult, IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__2_3.htm" target="TopicContent">MakeResult(T, TResult) Method (IFunction(T, TResult), TResult, IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__3_3.htm" target="TopicContent">MakeResult(T1, T2, TResult) Method (IFunction(T1, T2, TResult), TResult, IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__4_3.htm" target="TopicContent">MakeResult(T1, T2, T3, TResult) Method (IFunction(T1, T2, T3, TResult), TResult, IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__5_3.htm" target="TopicContent">MakeResult(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult), TResult, IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__6_3.htm" target="TopicContent">MakeResult(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult), TResult, IEnumerable(Message))</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" target="TopicContent">FunctionResultExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" target="TopicContent">FunctionResultExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" target="TopicContent">FunctionResultExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Errors.htm" target="TopicContent">Errors Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasErrors.htm" target="TopicContent">HasErrors Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasInformationals.htm" target="TopicContent">HasInformationals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasWarnings.htm" target="TopicContent">HasWarnings Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Informationals.htm" target="TopicContent">Informationals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_IsVoid__1.htm" target="TopicContent">IsVoid(TResult) Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnError.htm" target="TopicContent">OnError Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError.htm" target="TopicContent">OnError Method (IFunctionResult, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError_2.htm" target="TopicContent">OnError Method (IFunctionResult, Action(IFunctionResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__1.htm" target="TopicContent">OnError(TNewResult) Method (IFunctionResult, Func(IFunctionResult, TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__1_2.htm" target="TopicContent">OnError(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(IFunctionResult(TFunctionReturnType)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__1_4.htm" target="TopicContent">OnError(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(TFunctionReturnType))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__2.htm" target="TopicContent">OnError(TFunctionReturnType, TNewResult) Method (IFunctionResult(TFunctionReturnType), Func(IFunctionResult(TFunctionReturnType), TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError_1.htm" target="TopicContent">OnError Method (IFunctionResult, Action, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError_3.htm" target="TopicContent">OnError Method (IFunctionResult, Action(IFunctionResult), Action(IFunctionResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__1_1.htm" target="TopicContent">OnError(TNewResult) Method (IFunctionResult, Func(IFunctionResult, TNewResult), Func(IFunctionResult, TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__1_3.htm" target="TopicContent">OnError(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(IFunctionResult(TFunctionReturnType)), Action(IFunctionResult(TFunctionReturnType)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__1_5.htm" target="TopicContent">OnError(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(TFunctionReturnType), Action(TFunctionReturnType))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__2_1.htm" target="TopicContent">OnError(TFunctionReturnType, TNewResult) Method (IFunctionResult(TFunctionReturnType), Func(IFunctionResult(TFunctionReturnType), TNewResult), Func(IFunctionResult(TFunctionReturnType), TNewResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational.htm" target="TopicContent">OnInformational Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational.htm" target="TopicContent">OnInformational Method (IFunctionResult, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational_2.htm" target="TopicContent">OnInformational Method (IFunctionResult, Action(IFunctionResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__1.htm" target="TopicContent">OnInformational(TNewResult) Method (IFunctionResult, Func(IFunctionResult, TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__1_2.htm" target="TopicContent">OnInformational(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(IFunctionResult(TFunctionReturnType)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__1_4.htm" target="TopicContent">OnInformational(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(TFunctionReturnType))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__2.htm" target="TopicContent">OnInformational(TFunctionReturnType, TNewResult) Method (IFunctionResult(TFunctionReturnType), Func(IFunctionResult(TFunctionReturnType), TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational_1.htm" target="TopicContent">OnInformational Method (IFunctionResult, Action, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational_3.htm" target="TopicContent">OnInformational Method (IFunctionResult, Action(IFunctionResult), Action(IFunctionResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__1_1.htm" target="TopicContent">OnInformational(TNewResult) Method (IFunctionResult, Func(IFunctionResult, TNewResult), Func(IFunctionResult, TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__1_3.htm" target="TopicContent">OnInformational(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(IFunctionResult(TFunctionReturnType)), Action(IFunctionResult(TFunctionReturnType)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__1_5.htm" target="TopicContent">OnInformational(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(TFunctionReturnType), Action(TFunctionReturnType))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__2_1.htm" target="TopicContent">OnInformational(TFunctionReturnType, TNewResult) Method (IFunctionResult(TFunctionReturnType), Func(IFunctionResult(TFunctionReturnType), TNewResult), Func(IFunctionResult(TFunctionReturnType), TNewResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess.htm" target="TopicContent">OnSuccess Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess.htm" target="TopicContent">OnSuccess Method (IFunctionResult, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess_2.htm" target="TopicContent">OnSuccess Method (IFunctionResult, Action(IFunctionResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__1.htm" target="TopicContent">OnSuccess(TNewResult) Method (IFunctionResult, Func(IFunctionResult, TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__1_2.htm" target="TopicContent">OnSuccess(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(IFunctionResult(TFunctionReturnType)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__1_4.htm" target="TopicContent">OnSuccess(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(TFunctionReturnType))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__2.htm" target="TopicContent">OnSuccess(TFunctionReturnType, TNewResult) Method (IFunctionResult(TFunctionReturnType), Func(IFunctionResult(TFunctionReturnType), TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess_1.htm" target="TopicContent">OnSuccess Method (IFunctionResult, Action, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess_3.htm" target="TopicContent">OnSuccess Method (IFunctionResult, Action(IFunctionResult), Action(IFunctionResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__1_1.htm" target="TopicContent">OnSuccess(TNewResult) Method (IFunctionResult, Func(IFunctionResult, TNewResult), Func(IFunctionResult, TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__1_3.htm" target="TopicContent">OnSuccess(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(IFunctionResult(TFunctionReturnType)), Action(IFunctionResult(TFunctionReturnType)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__1_5.htm" target="TopicContent">OnSuccess(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(TFunctionReturnType), Action(TFunctionReturnType))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__2_1.htm" target="TopicContent">OnSuccess(TFunctionReturnType, TNewResult) Method (IFunctionResult(TFunctionReturnType), Func(IFunctionResult(TFunctionReturnType), TNewResult), Func(IFunctionResult(TFunctionReturnType), TNewResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning.htm" target="TopicContent">OnWarning Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning.htm" target="TopicContent">OnWarning Method (IFunctionResult, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning_2.htm" target="TopicContent">OnWarning Method (IFunctionResult, Action(IFunctionResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__1.htm" target="TopicContent">OnWarning(TNewResult) Method (IFunctionResult, Func(IFunctionResult, TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__1_2.htm" target="TopicContent">OnWarning(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(IFunctionResult(TFunctionReturnType)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__1_4.htm" target="TopicContent">OnWarning(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(TFunctionReturnType))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__2.htm" target="TopicContent">OnWarning(TFunctionReturnType, TNewResult) Method (IFunctionResult(TFunctionReturnType), Func(IFunctionResult(TFunctionReturnType), TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning_1.htm" target="TopicContent">OnWarning Method (IFunctionResult, Action, Action)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning_3.htm" target="TopicContent">OnWarning Method (IFunctionResult, Action(IFunctionResult), Action(IFunctionResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__1_1.htm" target="TopicContent">OnWarning(TNewResult) Method (IFunctionResult, Func(IFunctionResult, TNewResult), Func(IFunctionResult, TNewResult))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__1_3.htm" target="TopicContent">OnWarning(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(IFunctionResult(TFunctionReturnType)), Action(IFunctionResult(TFunctionReturnType)))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__1_5.htm" target="TopicContent">OnWarning(TFunctionReturnType) Method (IFunctionResult(TFunctionReturnType), Action(TFunctionReturnType), Action(TFunctionReturnType))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__2_1.htm" target="TopicContent">OnWarning(TFunctionReturnType, TNewResult) Method (IFunctionResult(TFunctionReturnType), Func(IFunctionResult(TFunctionReturnType), TNewResult), Func(IFunctionResult(TFunctionReturnType), TNewResult))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_ThrowOnError.htm" target="TopicContent">ThrowOnError Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Warnings.htm" target="TopicContent">Warnings Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_Funkshun_Core_Helpers.htm" target="TopicContent">Funkshun.Core.Helpers Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_Funkshun_Core_Helpers_ResultHelper.htm" target="TopicContent">ResultHelper Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers_T_Funkshun_Core_Helpers_ResultHelper.htm" target="TopicContent">ResultHelper Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_Funkshun_Core_Helpers_ResultHelper.htm" target="TopicContent">ResultHelper Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_Funkshun_Core_Helpers_ResultHelper_Make.htm" target="TopicContent">Make Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Helpers_ResultHelper_Make__1.htm" target="TopicContent">Make(TResult) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Helpers_ResultHelper_Make__1_2.htm" target="TopicContent">Make(TResult) Method (TResult)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Helpers_ResultHelper_Make__1_1.htm" target="TopicContent">Make(TResult) Method (IEnumerable(Message))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_Funkshun_Core_Helpers_ResultHelper_Make__1_3.htm" target="TopicContent">Make(TResult) Method (TResult, IEnumerable(Message))</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/N_Funkshun_Core.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>
