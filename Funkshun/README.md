@@ -19,6 +19,10 @@ With this in mind the goals of this project are:
 1. Provide a simple convention for handling functional/technical messages.
 2. Provide helper methods which utilizes this convention.
 
+
+It doesn't fit every situation but maybe it is for yours.
+
+
 Download
 --------
 The project is available on:
