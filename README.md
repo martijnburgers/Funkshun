@@ -8,7 +8,7 @@ be enforced by a special breed of methods called funkshuns or special return typ
 Goals
 -----
 
-In every project the question should arise: how are we going to deal with functional errors, warnings and thrown exceptions. For this, your 
+In every project the question should arise: how are we going to deal with functional errors, warnings and thrown exceptions? For this, your 
 project should have a convention which must apply for all writen sofware. A solution could be to throw exceptions for functional errors, 
 provide output parameters or even worse return a string with the error message. Now for all this kind of, let's be honest, simple problems 
 Funkshun provides a more simple solution.
