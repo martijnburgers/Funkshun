@@ -1,23 +1,30 @@
 ﻿Funkshun
 ========
 
-A small and simple library which gives a solution on how to deal with functional and technical exception handling. This is done by 
-defining a standard way of returning method calls. This behaviour is enforced by a special bread of methods called funkshuns, which
-mandates this and extense the possibilities with it. Read further if you want to know more... 
+A small and simple library which provides a simple implementation of a request-response pattern surrounded by helper classes for dealing with 
+responses, functional messages and technical exceptions. This is done by defining a convention for returning method calls. This behaviour can 
+be enforced by a special breed of methods called funkshuns or special return types. Read more if I got your attention.
 
 Goals
 -----
 
-In every project the question arises on how to deal with technical and functional exceptions. A solution could be to throw exceptions, 
-provide output parameters or even worse return strings. I've seen a lot different implementations or even combinations of those and they
-all didn't really do it for me. I believe that on every project there should be a convention on how to deal with exceptions be
-it function or technical. On most projects I have been on, this wasn't the case or it was implemented in different ways by different 
-developers.
+In every project the question should arise: how are we going to deal with functional errors, warnings and thrown exceptions. For this, your 
+project should have a convention which must apply for all writen sofware. A solution could be to throw exceptions for functional errors, 
+provide output parameters or even worse return a string with the error message. Now for all this kind of, let's be honest, simple problems 
+Funkshun provides a more simple solution.
+
+The Funkshun project believes in the following assumptions:
+
+1. Only technical errors should be thrown by exceptions.
+2. Functional messages can be part of the result of a method (even void methods) but are not mandatory. 
+3. Functional messages have a severity (error, warning or information). 
 
 With this in mind the goals of this project are:
 
-1. Provide a simple convention for handling functional/technical messages.
-2. Provide helper methods which utilizes this convention.
+1. Provide a simple convention for handling functional and technical messages/exceptions.
+2. Provide helper methods which utilizes this convention and makes working with it easy en fun.
+
+It doesn't fit in every situation but maybe perfectly in yours. Also checkout the other links for more information.
 
 Download
 --------
@@ -25,6 +32,10 @@ The project is available on:
 
 * [GitHub](https://github.com/martijnburgers/Funkshun/)
 * [Nuget](http://www.nuget.org/List/Packages/Funkshun.Core)
+
+Other links
+-------
+* [Introduction to Funkshun](http://www.martijnburgers.net)
 
 Author
 -------
