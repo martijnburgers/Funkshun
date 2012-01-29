@@ -45,6 +45,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlogTest.cs" />
     <Compile Include="Functions\FunctionStringWithException.cs" />
     <Compile Include="TestCatchExceptions.cs" />
     <Compile Include="Functions\FunctionString.cs" />

@@ -23,7 +23,7 @@ namespace Funkshun.Core.Test.Functions
 {
     public class FunctionStringStringInt : IFunction<string,string,int>
     {
-        public IFunctionResult<int> Run(string param1, string param2)
+        public IResult<int> Run(string param1, string param2)
         {
             var result = this.MakeResult();
             result.ReturnValue = 1;

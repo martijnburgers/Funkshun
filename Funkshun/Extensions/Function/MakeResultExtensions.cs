@@ -40,8 +40,8 @@ namespace Funkshun.Core.Extensions
         /// </summary>
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
-        /// <returns>A empty <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<TResult>(this IFunction<TResult> function)
+        /// <returns>A empty <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<TResult>(this IFunction<TResult> function)
         {
             return ResultHelper.Make<TResult>();
         }
@@ -52,8 +52,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <typeparam name="T">The type of the first parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
-        /// <returns>A empty <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T, TResult>(this IFunction<T, TResult> function)
+        /// <returns>A empty <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T, TResult>(this IFunction<T, TResult> function)
         {
             return ResultHelper.Make<TResult>();
         }
@@ -65,8 +65,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T1">The type of the first parameter.</typeparam>
         /// <typeparam name="T2">The type of the second parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
-        /// <returns>A empty <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, TResult>(this IFunction<T1, T2, TResult> function)
+        /// <returns>A empty <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, TResult>(this IFunction<T1, T2, TResult> function)
         {
             return ResultHelper.Make<TResult>();
         }
@@ -79,8 +79,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T2">The type of the second parameter.</typeparam>
         /// <typeparam name="T3">The type of the third parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
-        /// <returns>A empty <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, TResult>(
+        /// <returns>A empty <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, TResult>(
             this IFunction<T1, T2, T3, TResult> function)
         {
             return ResultHelper.Make<TResult>();
@@ -95,8 +95,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T3">The type of the third parameter.</typeparam>
         /// <typeparam name="T4">The type of the fourth parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
-        /// <returns>A empty <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, T4, TResult>(
+        /// <returns>A empty <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, T4, TResult>(
             this IFunction<T1, T2, T3, T4, TResult> function)
         {
             return ResultHelper.Make<TResult>();
@@ -112,8 +112,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T4">The type of the fourth parameter.</typeparam>
         /// <typeparam name="T5">The type of the fifth parameter</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
-        /// <returns>A empty <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, T4, T5, TResult>(
+        /// <returns>A empty <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, T4, T5, TResult>(
             this IFunction<T1, T2, T3, T4, T5, TResult> function)
         {
             return ResultHelper.Make<TResult>();
@@ -127,8 +127,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="TResult">The type of the return value of the function result.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<TResult>(this IFunction<TResult> function, IEnumerable<Message> messages)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<TResult>(this IFunction<TResult> function, IEnumerable<Message> messages)
         {
             return ResultHelper.Make<TResult>(messages);
         }
@@ -140,8 +140,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T">The type of the first parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>        
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T, TResult>(this IFunction<T, TResult> function, IEnumerable<Message> messages)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T, TResult>(this IFunction<T, TResult> function, IEnumerable<Message> messages)
         {
             return ResultHelper.Make<TResult>(messages);
         }
@@ -154,8 +154,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T2">The type of the second parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>        
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, TResult>(this IFunction<T1, T2, TResult> function, IEnumerable<Message> messages)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, TResult>(this IFunction<T1, T2, TResult> function, IEnumerable<Message> messages)
         {
             return ResultHelper.Make<TResult>(messages);
         }
@@ -169,8 +169,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T3">The type of the thirth parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>        
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, TResult>(
             this IFunction<T1, T2, T3, TResult> function, IEnumerable<Message> messages)
         {
             return ResultHelper.Make<TResult>(messages);
@@ -186,8 +186,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T4">The type of the fourth parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>        
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, T4, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, T4, TResult>(
             this IFunction<T1, T2, T3, T4, TResult> function, IEnumerable<Message> messages)
         {
             return ResultHelper.Make<TResult>(messages);
@@ -204,8 +204,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T5">The type of the fifth parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>        
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, T4, T5, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, T4, T5, TResult>(
             this IFunction<T1, T2, T3, T4, T5, TResult> function, IEnumerable<Message> messages)
         {
             return ResultHelper.Make<TResult>(messages);
@@ -219,8 +219,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="TResult">The type of the return value of the function result.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<TResult>(this IFunction<TResult> function, TResult value)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<TResult>(this IFunction<TResult> function, TResult value)
         {
             return ResultHelper.Make(value);
         }
@@ -232,8 +232,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T">The type of the first parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T, TResult>(this IFunction<T, TResult> function, TResult value)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T, TResult>(this IFunction<T, TResult> function, TResult value)
         {
             return ResultHelper.Make(value);
         }
@@ -246,8 +246,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T2">The type of the second parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, TResult>(this IFunction<T1, T2, TResult> function, TResult value)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, TResult>(this IFunction<T1, T2, TResult> function, TResult value)
         {
             return ResultHelper.Make(value);
         }
@@ -261,8 +261,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T3">The type of the third parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, TResult>(
             this IFunction<T1, T2, T3, TResult> function, TResult value)
         {
             return ResultHelper.Make(value);
@@ -278,8 +278,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T4">The type of the fourth parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, T4, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, T4, TResult>(
             this IFunction<T1, T2, T3, T4, TResult> function, TResult value)
         {
             return ResultHelper.Make(value);
@@ -296,8 +296,8 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="T5">The type of the fifth parameter.</typeparam>
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, T4, T5, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, T4, T5, TResult>(
             this IFunction<T1, T2, T3, T4, T5, TResult> function, TResult value)
         {
             return ResultHelper.Make(value);
@@ -312,8 +312,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<TResult>(this IFunction<TResult> function, TResult value, IEnumerable<Message> messages)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<TResult>(this IFunction<TResult> function, TResult value, IEnumerable<Message> messages)
         {
             return ResultHelper.Make(value, messages);
         }
@@ -326,8 +326,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T, TResult>(this IFunction<T, TResult> function, TResult value, IEnumerable<Message> messages)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T, TResult>(this IFunction<T, TResult> function, TResult value, IEnumerable<Message> messages)
         {
             return ResultHelper.Make(value, messages);
         }
@@ -341,8 +341,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, TResult>(this IFunction<T1, T2, TResult> function, TResult value, IEnumerable<Message> messages)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, TResult>(this IFunction<T1, T2, TResult> function, TResult value, IEnumerable<Message> messages)
         {
             return ResultHelper.Make(value, messages);
         }
@@ -357,8 +357,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, TResult>(
             this IFunction<T1, T2, T3, TResult> function, TResult value, IEnumerable<Message> messages)
         {
             return ResultHelper.Make(value, messages);
@@ -375,8 +375,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, T4, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, T4, TResult>(
             this IFunction<T1, T2, T3, T4, TResult> function, TResult value, IEnumerable<Message> messages)
         {
             return ResultHelper.Make(value, messages);
@@ -394,8 +394,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="function">The function for which you want to make the result.</param>
         /// <param name="value">The return value of the function result.</param>
         /// <param name="messages">A sequence of messages which are added to the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> MakeResult<T1, T2, T3, T4, T5, TResult>(
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> MakeResult<T1, T2, T3, T4, T5, TResult>(
             this IFunction<T1, T2, T3, T4, T5, TResult> function, TResult value, IEnumerable<Message> messages)
         {
             return ResultHelper.Make(value, messages);

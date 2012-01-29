@@ -23,7 +23,7 @@ namespace Funkshun.Core.Test.Functions
 {
     public class FunctionIntWithInformational : IFunction<int>
     {
-        public IFunctionResult<int> Run()
+        public IResult<int> Run()
         {
             var result = this.MakeResult();
 

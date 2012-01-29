@@ -20,7 +20,7 @@ namespace Funkshun.Core.Test.Extensions
 {
     public static class TestExtensions
     {
-        public static IFunctionResult DownCast<TResult>(this IFunctionResult<TResult> functionResult)
+        public static IResult DownCast<TResult>(this IResult<TResult> functionResult)
         {
             return functionResult;
         }

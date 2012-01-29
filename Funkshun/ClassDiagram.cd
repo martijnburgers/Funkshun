@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Funkshun.Core.Funkshun&lt;TFunctionType&gt;">
+    <Position X="7.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Funkshun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Funkshun.Core.FunkshunStore">
+    <Position X="7.75" Y="2.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAFAAAAAAAAAAAAIAAAQAAAAA=</HashCode>
+      <FileName>FunkshunStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Funkshun.Core.Message">
+    <Position X="12.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAiAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Funkshun.Core.Result">
+    <Position X="19" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAA=</HashCode>
+      <FileName>Result.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Funkshun.Core.Result&lt;TResult&gt;">
+    <Position X="18.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Result.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="Funkshun.Core.MessageCode">
+    <Position X="8.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Funkshun.Core.IFunction&lt;TResult&gt;" Collapsed="true">
+    <Position X="10.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Funkshun.Core.IFunction&lt;T, TResult&gt;" Collapsed="true">
+    <Position X="15.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Funkshun.Core.IFunction&lt;T1, T2, TResult&gt;" Collapsed="true">
+    <Position X="19.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Funkshun.Core.IFunction&lt;T1, T2, T3, TResult&gt;" Collapsed="true">
+    <Position X="13" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Funkshun.Core.IFunction&lt;T1, T2, T3, T4, TResult&gt;" Collapsed="true">
+    <Position X="17.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Funkshun.Core.IFunction&lt;T1, T2, T3, T4, T5, TResult&gt;" Collapsed="true">
+    <Position X="22" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Funkshun.Core.IFunction" Collapsed="true">
+    <Position X="16.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Funkshun.Core.IResult&lt;TR&gt;">
+    <Position X="15.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>IResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Funkshun.Core.IResult">
+    <Position X="15.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>IResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Funkshun.Core.MessageType">
+    <Position X="12.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

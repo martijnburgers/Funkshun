@@ -27,8 +27,8 @@ namespace Funkshun.Core
         /// <summary>
         /// Runs the function.
         /// </summary>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
-        IFunctionResult<TResult> Run();        
+        /// <returns>A <see cref="IResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
+        IResult<TResult> Run();        
     }
 
     /// <summary>
@@ -42,8 +42,8 @@ namespace Funkshun.Core
         /// Runs the function.
         /// </summary>
         /// <param name="param1">The first parameter of the function.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
-        IFunctionResult<TResult> Run(T param1);
+        /// <returns>A <see cref="IResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
+        IResult<TResult> Run(T param1);
     }
 
     /// <summary>
@@ -59,8 +59,8 @@ namespace Funkshun.Core
         /// </summary>
         /// <param name="param1">The first parameter of the function.</param>
         /// <param name="param2">The second parameter of the function.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
-        IFunctionResult<TResult> Run(T1 param1, T2 param2);
+        /// <returns>A <see cref="IResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
+        IResult<TResult> Run(T1 param1, T2 param2);
     }
 
     /// <summary>
@@ -78,8 +78,8 @@ namespace Funkshun.Core
         /// <param name="param1">The first parameter of the function.</param>
         /// <param name="param2">The second parameter of the function.</param>
         /// <param name="param3">The third parameter of the function.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
-        IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3);
+        /// <returns>A <see cref="IResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
+        IResult<TResult> Run(T1 param1, T2 param2, T3 param3);
     }
 
     /// <summary>
@@ -99,8 +99,8 @@ namespace Funkshun.Core
         /// <param name="param2">The second parameter of the function.</param>
         /// <param name="param3">The third parameter of the function.</param>
         /// <param name="param4">The fourth parameter of the function.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
-        IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4);
+        /// <returns>A <see cref="IResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
+        IResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4);
     }
 
     /// <summary>
@@ -122,8 +122,8 @@ namespace Funkshun.Core
         /// <param name="param3">The third parameter of the function.</param>
         /// <param name="param4">The fourth parameter of the function.</param>
         /// <param name="param5">The fifth parameter of the function.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
-        IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5);
+        /// <returns>A <see cref="IResult{TResult}" /> with or without a return value and a list which may or may not contain messages.</returns>
+        IResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5);
     }
 
     /// <summary>

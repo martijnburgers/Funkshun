@@ -41,7 +41,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <returns>A <see cref="CatchExceptionDecorator{TResult}"/> which decorates the function by catching exceptions.</returns>
         public static CatchExceptionDecorator<TResult> CatchExceptions<TResult>(this IFunction<TResult> function,
-                                                                                Func<Exception, IFunctionResult<TResult>> 
+                                                                                Func<Exception, IResult<TResult>> 
                                                                                     catchFunction)
         {
             CatchExceptionDecorator<TResult> decorator;
@@ -89,7 +89,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <returns>A <see cref="CatchExceptionDecorator{T, TResult}"/> which decorates the function by catching exceptions.</returns>
         public static CatchExceptionDecorator<T, TResult> CatchExceptions<T, TResult>(
-            this IFunction<T, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+            this IFunction<T, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
         {
             CatchExceptionDecorator<T, TResult> decorator;
 
@@ -139,7 +139,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <returns>A <see cref="CatchExceptionDecorator{T1,T2, TResult}"/> which decorates the function by catching exceptions.</returns>
         public static CatchExceptionDecorator<T1, T2, TResult> CatchExceptions<T1, T2, TResult>(
-            this IFunction<T1, T2, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+            this IFunction<T1, T2, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
         {
             CatchExceptionDecorator<T1, T2, TResult> decorator;
 
@@ -191,7 +191,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <returns>A <see cref="CatchExceptionDecorator{T1,T2,T3, TResult}"/> which decorates the function by catching exceptions.</returns>
         public static CatchExceptionDecorator<T1, T2, T3, TResult> CatchExceptions<T1, T2, T3, TResult>(
-            this IFunction<T1, T2, T3, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+            this IFunction<T1, T2, T3, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
         {
             CatchExceptionDecorator<T1, T2, T3, TResult> decorator;
 
@@ -246,7 +246,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <returns>A <see cref="CatchExceptionDecorator{T1,T2,T3,T4, TResult}"/> which decorates the function by catching exceptions.</returns>
         public static CatchExceptionDecorator<T1, T2, T3, T4, TResult> CatchExceptions<T1, T2, T3, T4, TResult>(
-            this IFunction<T1, T2, T3, T4, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+            this IFunction<T1, T2, T3, T4, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
         {
             CatchExceptionDecorator<T1, T2, T3, T4, TResult> decorator;
 
@@ -304,7 +304,7 @@ namespace Funkshun.Core.Extensions
         /// <returns>A <see cref="CatchExceptionDecorator{T1,T2,T3,T4,T5, TResult}"/> which decorates the function by catching exceptions.</returns>
         public static CatchExceptionDecorator<T1, T2, T3, T4, T5, TResult> CatchExceptions<T1, T2, T3, T4, T5, TResult>(
             this IFunction<T1, T2, T3, T4, T5, TResult> function,
-            Func<Exception, IFunctionResult<TResult>> catchFunction)
+            Func<Exception, IResult<TResult>> catchFunction)
         {
             CatchExceptionDecorator<T1, T2, T3, T4, T5, TResult> decorator;
 
@@ -382,7 +382,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <returns>A <see cref="CatchTExceptionDecorator{TResult, TException}"/> which decorates the function by catching exceptions.</returns>
         public static CatchTExceptionDecorator<TResult, TException> CatchExceptions<TResult, TException>(
-            this IFunction<TResult> function, Func<TException, IFunctionResult<TResult>> catchFunction)
+            this IFunction<TResult> function, Func<TException, IResult<TResult>> catchFunction)
             where TException : Exception
         {
             CatchTExceptionDecorator<TResult, TException> decorator;
@@ -435,7 +435,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <returns>A <see cref="CatchTExceptionDecorator{T, TResult, TException}"/> which decorates the function by catching exceptions.</returns>
         public static CatchTExceptionDecorator<T, TResult, TException> CatchExceptions<T, TResult, TException>(
-            this IFunction<T, TResult> function, Func<TException, IFunctionResult<TResult>> catchFunction)
+            this IFunction<T, TResult> function, Func<TException, IResult<TResult>> catchFunction)
             where TException : Exception
         {
             CatchTExceptionDecorator<T, TResult, TException> decorator;
@@ -489,7 +489,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <returns>A <see cref="CatchTExceptionDecorator{T1, T2, TResult, TException}"/> which decorates the function by catching exceptions.</returns>
         public static CatchTExceptionDecorator<T1, T2, TResult, TException> CatchExceptions<T1, T2, TResult, TException>
-            (this IFunction<T1, T2, TResult> function, Func<TException, IFunctionResult<TResult>> catchFunction)
+            (this IFunction<T1, T2, TResult> function, Func<TException, IResult<TResult>> catchFunction)
             where TException : Exception
         {
             CatchTExceptionDecorator<T1, T2, TResult, TException> decorator;
@@ -547,7 +547,7 @@ namespace Funkshun.Core.Extensions
         /// <returns>A <see cref="CatchTExceptionDecorator{T1, T2, T3, TResult, TException}"/> which decorates the function by catching exceptions.</returns>
         public static CatchTExceptionDecorator<T1, T2, T3, TResult, TException> CatchExceptions
             <T1, T2, T3, TResult, TException>(this IFunction<T1, T2, T3, TResult> function,
-                                              Func<TException, IFunctionResult<TResult>> catchFunction)
+                                              Func<TException, IResult<TResult>> catchFunction)
             where TException : Exception
         {
             CatchTExceptionDecorator<T1, T2, T3, TResult, TException> decorator;
@@ -608,7 +608,7 @@ namespace Funkshun.Core.Extensions
         /// <returns>A <see cref="CatchTExceptionDecorator{T1, T2, T3, T4, TResult, TException}"/> which decorates the function by catching exceptions.</returns>
         public static CatchTExceptionDecorator<T1, T2, T3, T4, TResult, TException> CatchExceptions
             <T1, T2, T3, T4, TResult, TException>(this IFunction<T1, T2, T3, T4, TResult> function,
-                                                  Func<TException, IFunctionResult<TResult>> catchFunction)
+                                                  Func<TException, IResult<TResult>> catchFunction)
             where TException : Exception
         {
             CatchTExceptionDecorator<T1, T2, T3, T4, TResult, TException> decorator;
@@ -671,7 +671,7 @@ namespace Funkshun.Core.Extensions
         /// <returns>A <see cref="CatchTExceptionDecorator{T1, T2, T3, T4,T5, TResult, TException}"/> which decorates the function by catching exceptions.</returns>
         public static CatchTExceptionDecorator<T1, T2, T3, T4, T5, TResult, TException> CatchExceptions
             <T1, T2, T3, T4, T5, TResult, TException>(this IFunction<T1, T2, T3, T4, T5, TResult> function,
-                                                      Func<TException, IFunctionResult<TResult>> catchFunction)
+                                                      Func<TException, IResult<TResult>> catchFunction)
             where TException : Exception
         {
             CatchTExceptionDecorator<T1, T2, T3, T4, T5, TResult, TException> decorator;

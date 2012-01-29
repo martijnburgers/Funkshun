@@ -1,3 +1,12 @@
-﻿Funkshun.Core 1.0.0.0
+﻿Funkshun Release Notes
+========
+
+Funkshun.Core 1.1.0.0
+
+* Made some breaking changes by renaming to types:
+* IFunctionResult -> IResult
+* FunctionResult -> Result
+
+Funkshun.Core 1.0.0.0
 
 * Initial release.

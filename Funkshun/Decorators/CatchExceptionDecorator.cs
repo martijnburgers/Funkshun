@@ -58,7 +58,7 @@ namespace Funkshun.Core.Decorators
     ///<typeparam name="TResult">The type of the return value of the function result. </typeparam>
     public class CatchExceptionDecorator<TResult> : BaseCatchExceptionDecorator<TResult>, IDecorator<TResult>
     {
-        private readonly Func<Exception, IFunctionResult<TResult>> _catchFunction;
+        private readonly Func<Exception, IResult<TResult>> _catchFunction;
         private readonly IFunction<TResult> _baseFunction;
 
         ///<summary>
@@ -79,7 +79,7 @@ namespace Funkshun.Core.Decorators
         ///<param name="function">A function with no parameters.</param>
         ///<param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <exception cref="ArgumentNullException">Thrown when the first parameter is null</exception>
-        public CatchExceptionDecorator(IFunction<TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+        public CatchExceptionDecorator(IFunction<TResult> function, Func<Exception, IResult<TResult>> catchFunction)
             : base(function.GetType())
         {
             if (function == null) throw new ArgumentNullException("function");
@@ -91,8 +91,8 @@ namespace Funkshun.Core.Decorators
         ///<summary>
         /// Runs the function and catch any thrown exception. 
         ///</summary>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run()
+        /// <returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run()
         {            
             try
             {
@@ -119,7 +119,7 @@ namespace Funkshun.Core.Decorators
     ///<typeparam name="T">The type of the parameter of the Run method in the function.</typeparam>
     public class CatchExceptionDecorator<T, TResult> : BaseCatchExceptionDecorator<TResult>, IDecorator<T, TResult>
     {
-        private readonly Func<Exception, IFunctionResult<TResult>> _catchFunction;
+        private readonly Func<Exception, IResult<TResult>> _catchFunction;
         private readonly IFunction<T, TResult> _baseFunction;
 
         ///<summary>
@@ -140,7 +140,7 @@ namespace Funkshun.Core.Decorators
         ///<param name="function">A function with one parameter.</param>
         ///<param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <exception cref="ArgumentNullException">Thrown when the first parameter is null.</exception>
-        public CatchExceptionDecorator(IFunction<T, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+        public CatchExceptionDecorator(IFunction<T, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
             : base(function.GetType())
         {
             if (function == null) throw new ArgumentNullException("function");
@@ -153,8 +153,8 @@ namespace Funkshun.Core.Decorators
         /// Runs the function and catch any thrown exception. 
         ///</summary>        
         ///<param name="param1">The parameter of the function.</param>
-        ///<returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T param1)
+        ///<returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T param1)
         {
             try
             {
@@ -182,7 +182,7 @@ namespace Funkshun.Core.Decorators
     ///<typeparam name="T2">The type of the second parameter of the Run method in the function.</typeparam>
     public class CatchExceptionDecorator<T1, T2, TResult> : BaseCatchExceptionDecorator<TResult>, IDecorator<T1,T2, TResult>
     {
-        private readonly Func<Exception, IFunctionResult<TResult>> _catchFunction;
+        private readonly Func<Exception, IResult<TResult>> _catchFunction;
         private readonly IFunction<T1,T2, TResult> _baseFunction;
 
         ///<summary>
@@ -203,7 +203,7 @@ namespace Funkshun.Core.Decorators
         ///<param name="function">A function with two parameters.</param>
         ///<param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <exception cref="ArgumentNullException">Thrown when the first parameter is null.</exception>
-        public CatchExceptionDecorator(IFunction<T1,T2, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+        public CatchExceptionDecorator(IFunction<T1,T2, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
             : base(function.GetType())
         {
             if (function == null) throw new ArgumentNullException("function");
@@ -217,8 +217,8 @@ namespace Funkshun.Core.Decorators
         ///</summary>        
         ///<param name="param1">The first parameter of the function.</param>
         ///<param name="param2">The second parameter of the function.</param>
-        ///<returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T1 param1, T2 param2)
+        ///<returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T1 param1, T2 param2)
         {
             try
             {
@@ -247,7 +247,7 @@ namespace Funkshun.Core.Decorators
     ///<typeparam name="T3">The type of the third parameter of the Run method in the function.</typeparam>
     public class CatchExceptionDecorator<T1, T2, T3, TResult> : BaseCatchExceptionDecorator<TResult>, IDecorator<T1, T2,T3, TResult>
     {
-        private readonly Func<Exception, IFunctionResult<TResult>> _catchFunction;
+        private readonly Func<Exception, IResult<TResult>> _catchFunction;
         private readonly IFunction<T1, T2, T3, TResult> _baseFunction;
 
         ///<summary>
@@ -268,7 +268,7 @@ namespace Funkshun.Core.Decorators
         ///<param name="function">A function with three parameters.</param>
         ///<param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <exception cref="ArgumentNullException">Thrown when the first parameter is null.</exception>
-        public CatchExceptionDecorator(IFunction<T1, T2, T3, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+        public CatchExceptionDecorator(IFunction<T1, T2, T3, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
             : base(function.GetType())
         {
             if (function == null) throw new ArgumentNullException("function");
@@ -283,8 +283,8 @@ namespace Funkshun.Core.Decorators
         ///<param name="param1">The first parameter of the function.</param>
         ///<param name="param2">The second parameter of the function.</param>
         ///<param name="param3">The third parameter of the function.</param>
-        ///<returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3)
+        ///<returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T1 param1, T2 param2, T3 param3)
         {
             try
             {
@@ -314,7 +314,7 @@ namespace Funkshun.Core.Decorators
     ///<typeparam name="T4">The type of the fourth parameter of the Run method in the function.</typeparam>
     public class CatchExceptionDecorator<T1, T2, T3, T4, TResult> : BaseCatchExceptionDecorator<TResult>, IDecorator<T1, T2, T3, T4, TResult>
     {
-        private readonly Func<Exception, IFunctionResult<TResult>> _catchFunction;
+        private readonly Func<Exception, IResult<TResult>> _catchFunction;
         private readonly IFunction<T1, T2, T3,T4, TResult> _baseFunction;
 
         ///<summary>
@@ -335,7 +335,7 @@ namespace Funkshun.Core.Decorators
         ///<param name="function">A function with four parameters.</param>
         ///<param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <exception cref="ArgumentNullException">Thrown when the first parameter is null.</exception>
-        public CatchExceptionDecorator(IFunction<T1, T2, T3, T4, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+        public CatchExceptionDecorator(IFunction<T1, T2, T3, T4, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
             : base(function.GetType())
         {
             if (function == null) throw new ArgumentNullException("function");
@@ -351,8 +351,8 @@ namespace Funkshun.Core.Decorators
         ///<param name="param2">The second parameter of the function.</param>
         ///<param name="param3">The third parameter of the function.</param>
         ///<param name="param4">The fourth parameter of the function.</param>
-        ///<returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4)
+        ///<returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4)
         {
             try
             {
@@ -383,7 +383,7 @@ namespace Funkshun.Core.Decorators
     ///<typeparam name="T5">The type of the fifth parameter of the Run method in the function.</typeparam>
     public class CatchExceptionDecorator<T1, T2, T3, T4, T5, TResult> : BaseCatchExceptionDecorator<TResult>, IDecorator<T1, T2, T3, T4,T5, TResult>
     {
-        private readonly Func<Exception, IFunctionResult<TResult>> _catchFunction;
+        private readonly Func<Exception, IResult<TResult>> _catchFunction;
         private readonly IFunction<T1, T2, T3, T4, T5, TResult> _baseFunction;
 
         ///<summary>
@@ -405,7 +405,7 @@ namespace Funkshun.Core.Decorators
         ///<param name="function">A function with five parameters.</param>
         ///<param name="catchFunction">A Func delegate for handling the catched exception.</param>
         /// <exception cref="ArgumentNullException">Thrown when the first parameter is null.</exception>
-        public CatchExceptionDecorator(IFunction<T1, T2, T3, T4, T5, TResult> function, Func<Exception, IFunctionResult<TResult>> catchFunction)
+        public CatchExceptionDecorator(IFunction<T1, T2, T3, T4, T5, TResult> function, Func<Exception, IResult<TResult>> catchFunction)
             : base(function.GetType())
         {
             if (function == null) throw new ArgumentNullException("function");
@@ -422,8 +422,8 @@ namespace Funkshun.Core.Decorators
         ///<param name="param3">The third parameter of the function.</param>
         ///<param name="param4">The fourth parameter of the function.</param>
         ///<param name="param5">The fifth parameter of the function.</param>
-        ///<returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
+        ///<returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
         {
             try
             {

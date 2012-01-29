@@ -30,10 +30,10 @@ namespace Funkshun.Core.Helpers
         /// Makes an instance of a empty function result.
         /// </summary>
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
-        /// <returns>A empty <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> Make<TResult>()
+        /// <returns>A empty <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> Make<TResult>()
         {
-            return FunctionResult<TResult>.New();
+            return Result<TResult>.New();
         }
 
     
@@ -42,10 +42,10 @@ namespace Funkshun.Core.Helpers
         ///</summary>
         ///<param name="messages">A sequence of messages which are added to the function result.</param>
         ///<typeparam name="TResult">The type of the return value of the function result. </typeparam>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> Make<TResult>(IEnumerable<Message> messages)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> Make<TResult>(IEnumerable<Message> messages)
         {
-            var result = FunctionResult<TResult>.New();
+            var result = Result<TResult>.New();
 
             if (messages != null)
             {
@@ -60,8 +60,8 @@ namespace Funkshun.Core.Helpers
         /// </summary>
         ///<typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <param name="value">The return value of the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> Make<TResult>(TResult value)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> Make<TResult>(TResult value)
         {
             return Make(value, null);
         }
@@ -72,10 +72,10 @@ namespace Funkshun.Core.Helpers
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <param name="value">The return value of the function result.</param>
         ///<param name="messages">A sequence of messages which are added to the function result.</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}"/> instance.</returns>
-        public static IFunctionResult<TResult> Make<TResult>(TResult value, IEnumerable<Message> messages)
+        /// <returns>A <see cref="IResult{TResult}"/> instance.</returns>
+        public static IResult<TResult> Make<TResult>(TResult value, IEnumerable<Message> messages)
         {
-            var result = FunctionResult<TResult>.New();
+            var result = Result<TResult>.New();
 
             if (messages != null)
             {

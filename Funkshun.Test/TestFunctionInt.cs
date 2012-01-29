@@ -39,7 +39,7 @@ namespace Funkshun.Core.Test
         public string Surname  = "Martijn";
         public string Lastname = "Burgers";
 
-        public IFunctionResult<int> GetAge()
+        public IResult<int> GetAge()
         {            
             DateTime now = DateTime.Today;
             int age = now.Year - BirthDay.Year;
@@ -48,7 +48,7 @@ namespace Funkshun.Core.Test
             return ResultHelper.Make(age);
         }
 
-        public IFunctionResult<string> GetFullName()
+        public IResult<string> GetFullName()
         {
             return ResultHelper.Make(string.Format("{0}{1}", Surname, Lastname));
         }
@@ -60,7 +60,7 @@ namespace Funkshun.Core.Test
         public string Surname { get; set; }
         public string LastName { get; set; }
 
-        public IFunctionResult<int> GetAge()
+        public IResult<int> GetAge()
         {
             DateTime now = DateTime.Today;
             int age = now.Year - BirthDay.Year;
@@ -69,7 +69,7 @@ namespace Funkshun.Core.Test
             return ResultHelper.Make(age);
         }
 
-        public IFunctionResult<string> GetFullName()
+        public IResult<string> GetFullName()
         {
             return ResultHelper.Make(string.Format("{0}{1}", Surname, LastName));
         }
@@ -81,7 +81,7 @@ namespace Funkshun.Core.Test
         string Surname { get; set; }
         string LastName { get; set; }
 
-        IFunctionResult<int> GetAge();
-        IFunctionResult<string> GetFullName();
+        IResult<int> GetAge();
+        IResult<string> GetFullName();
     }
 }

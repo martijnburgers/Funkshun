@@ -23,7 +23,7 @@ namespace Funkshun.Core.Test.Functions
 {
     public class FunctionStringWithInvalidOperationException : IFunction<string>
     {
-        public IFunctionResult<string> Run()
+        public IResult<string> Run()
         {
             throw new InvalidOperationException("Invalid operation test"); 
         }

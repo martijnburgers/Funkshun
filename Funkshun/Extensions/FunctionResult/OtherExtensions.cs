@@ -25,8 +25,8 @@ namespace Funkshun.Core.Extensions
 {
     /// <summary>
     /// Static (extension) class for extending the types: 
-    /// <see cref="IFunctionResult"/>, 
-    /// <see cref="IFunctionResult{TResult}"/>
+    /// <see cref="IResult"/>, 
+    /// <see cref="IResult{TResult}"/>
     /// </summary>
     public static partial class FunctionResultExtensions
     {
@@ -36,7 +36,7 @@ namespace Funkshun.Core.Extensions
         /// </summary>
         /// <param name="functionResult"> A result of a executed function that may or may not contain messages returned by a function</param>                
         /// <exception cref="MessageException">Thrown when a function result contains a least one message with the severity <see cref="MessageType"/>.Error </exception>
-        public static void ThrowOnError(this IFunctionResult functionResult)
+        public static void ThrowOnError(this IResult functionResult)
         {
             //obtain error list
             var errors = functionResult.Errors();
@@ -58,7 +58,7 @@ namespace Funkshun.Core.Extensions
         /// </summary>
         /// <param name="functionResult"> A result of a executed function that may or may not contain messages returned by a function</param>
         /// <returns>A <see cref="IEnumerable{Message}" /> that contains <see cref="Message" /> elemens with the severity <see cref="MessageType"/>.Error </returns>
-        public static IEnumerable<Message> Errors(this IFunctionResult functionResult)
+        public static IEnumerable<Message> Errors(this IResult functionResult)
         {
             return functionResult.Messages.Where(msg => msg.Severity == MessageType.Error);
         }
@@ -68,7 +68,7 @@ namespace Funkshun.Core.Extensions
         /// </summary>
         /// <param name="functionResult"> A result of a executed function that may or may not contain messages returned by a function.</param>
         /// <returns>True if the function contains error messages, false if it isn't.</returns>
-        public static bool HasErrors(this IFunctionResult functionResult)
+        public static bool HasErrors(this IResult functionResult)
         {
             return functionResult.Messages.Any(msg => msg.Severity == MessageType.Error);
         }
@@ -78,7 +78,7 @@ namespace Funkshun.Core.Extensions
         /// </summary>
         /// <param name="functionResult"> A result of a executed function that may or may not contain messages returned by a function</param>
         /// <returns>A <see cref="IEnumerable{Message}" /> that contains <see cref="Message" /> elemens with the severity <see cref="MessageType"/>.Warning</returns>
-        public static IEnumerable<Message> Warnings(this IFunctionResult functionResult)
+        public static IEnumerable<Message> Warnings(this IResult functionResult)
         {
             return functionResult.Messages.Where(msg => msg.Severity == MessageType.Warning);
         }
@@ -88,7 +88,7 @@ namespace Funkshun.Core.Extensions
         /// </summary>
         /// <param name="functionResult"> A result of a executed function that may or may not contain messages returned by a function.</param>
         /// <returns>True if the function contains warning messages, false if it isn't.</returns>
-        public static bool HasWarnings(this IFunctionResult functionResult)
+        public static bool HasWarnings(this IResult functionResult)
         {
             return functionResult.Messages.Any(msg => msg.Severity == MessageType.Warning);
         }
@@ -98,7 +98,7 @@ namespace Funkshun.Core.Extensions
         /// </summary>
         /// <param name="functionResult"> A result of a executed function that may or may not contain messages returned by a function</param>
         /// <returns>A <see cref="IEnumerable{Message}" /> that contains <see cref="Message" /> elemens with the severity <see cref="MessageType"/>.Informational</returns>
-        public static IEnumerable<Message> Informationals(this IFunctionResult functionResult)
+        public static IEnumerable<Message> Informationals(this IResult functionResult)
         {
             return functionResult.Messages.Where(msg => msg.Severity == MessageType.Information);
         }
@@ -108,7 +108,7 @@ namespace Funkshun.Core.Extensions
         /// </summary>
         /// <param name="functionResult"> A result of a executed function that may or may not contain messages returned by a function.</param>
         /// <returns>True if the function contains informational messages, false if it isn't.</returns>
-        public static bool HasInformationals(this IFunctionResult functionResult)
+        public static bool HasInformationals(this IResult functionResult)
         {
             return functionResult.Messages.Any(msg => msg.Severity == MessageType.Information);
         }
@@ -119,7 +119,7 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <param name="functionResult"> A result of a executed function that may or may not contain messages returned by a function.</param>
         /// <returns>True if the function return type is a void, false if it isn't</returns>
-        public static bool IsVoid<TResult>(this IFunctionResult<TResult> functionResult)
+        public static bool IsVoid<TResult>(this IResult<TResult> functionResult)
         {
             return typeof (TResult).IsAssignableFrom(typeof (Void));
         }            

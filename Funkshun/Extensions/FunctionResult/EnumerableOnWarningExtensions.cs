@@ -24,7 +24,7 @@ namespace Funkshun.Core.Extensions
 {
     /// <summary>
     /// Static (extension) class for extending the sequences of types:     
-    /// <see cref="IFunctionResult{TResult}"/>
+    /// <see cref="IResult{TResult}"/>
     /// </summary>
     public static partial class EnumerableFunctionResultExtensions
     {
@@ -34,7 +34,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResults">The sequence of function results to check for warnings.</param>
         /// <param name="warningAction">The action to call when there are warnings.</param>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnWarning<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults, Action warningAction)
+        public static void OnWarning<TResult>(this IEnumerable<IResult<TResult>> functionResults, Action warningAction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (warningAction == null) throw new ArgumentNullException("warningAction");
@@ -52,8 +52,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResults">The sequence of function results to check for warnings.</param>
         /// <param name="warningAction">The action to call when there are warnings.</param>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnWarning<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults,
-                                                          Action<IEnumerable<IFunctionResult<TResult>>> warningAction)
+        public static void OnWarning<TResult>(this IEnumerable<IResult<TResult>> functionResults,
+                                                          Action<IEnumerable<IResult<TResult>>> warningAction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (warningAction == null) throw new ArgumentNullException("warningAction");
@@ -74,8 +74,8 @@ namespace Funkshun.Core.Extensions
         /// <returns>A type of TNewResult which is returned by the func.</returns>
         /// <exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
         public static TNewResult OnWarning<TResult, TNewResult>(
-            this IEnumerable<IFunctionResult<TResult>> functionResults,
-            Func<IEnumerable<IFunctionResult<TResult>>, TNewResult> warningFunction)
+            this IEnumerable<IResult<TResult>> functionResults,
+            Func<IEnumerable<IResult<TResult>>, TNewResult> warningFunction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (warningFunction == null) throw new ArgumentNullException("warningFunction");
@@ -95,7 +95,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="warningAction">The action to call when there are warnings.</param>
         /// <param name="elseAction">The action to call when there are no warnings.</param>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static void OnWarning<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults, Action warningAction, Action elseAction)
+        public static void OnWarning<TResult>(this IEnumerable<IResult<TResult>> functionResults, Action warningAction, Action elseAction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (warningAction == null) throw new ArgumentNullException("warningAction");
@@ -119,9 +119,9 @@ namespace Funkshun.Core.Extensions
         ///<param name="elseAction">The action to call when there are no warnings.</param>
         ///<typeparam name="TResult">The type of the return value of the function result.</typeparam>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static void OnWarning<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults,
-                                                          Action<IEnumerable<IFunctionResult<TResult>>> warningAction,
-                                                          Action<IEnumerable<IFunctionResult<TResult>>> elseAction
+        public static void OnWarning<TResult>(this IEnumerable<IResult<TResult>> functionResults,
+                                                          Action<IEnumerable<IResult<TResult>>> warningAction,
+                                                          Action<IEnumerable<IResult<TResult>>> elseAction
                                                           )
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
@@ -149,9 +149,9 @@ namespace Funkshun.Core.Extensions
         ///<returns>A type of TNewResult which is returned by the func.</returns>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
         public static TNewResult OnWarning<TResult, TNewResult>(
-            this IEnumerable<IFunctionResult<TResult>> functionResults,
-            Func<IEnumerable<IFunctionResult<TResult>>, TNewResult> warningFunction,
-            Func<IEnumerable<IFunctionResult<TResult>>, TNewResult> elseFunction)
+            this IEnumerable<IResult<TResult>> functionResults,
+            Func<IEnumerable<IResult<TResult>>, TNewResult> warningFunction,
+            Func<IEnumerable<IResult<TResult>>, TNewResult> elseFunction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (warningFunction == null) throw new ArgumentNullException("warningFunction");

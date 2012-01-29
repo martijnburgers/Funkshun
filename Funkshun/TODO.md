@@ -1,2 +1,4 @@
-﻿* Add Technical severity of a messagetype.
-* Utilize Gendarme to find method which don't compy the convention.
+﻿Funkshun Todo
+========
+
+* Please contact me via twitter if you need to see new functionality

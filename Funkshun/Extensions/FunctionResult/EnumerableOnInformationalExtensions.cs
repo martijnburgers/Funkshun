@@ -24,7 +24,7 @@ namespace Funkshun.Core.Extensions
 {
     /// <summary>
     /// Static (extension) class for extending the sequences of types:     
-    /// <see cref="IFunctionResult{TResult}"/>
+    /// <see cref="IResult{TResult}"/>
     /// </summary>
     public static partial class EnumerableFunctionResultExtensions
     {
@@ -34,7 +34,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResults">The sequence of function results to check for informationals.</param>
         /// <param name="informationalAction">The action to call when there are informationals.</param>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnInformational<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults, Action informationalAction)
+        public static void OnInformational<TResult>(this IEnumerable<IResult<TResult>> functionResults, Action informationalAction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (informationalAction == null) throw new ArgumentNullException("informationalAction");
@@ -52,8 +52,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResults">The sequence of function results to check for informationals.</param>
         /// <param name="informationalAction">The action to call when there are informationals.</param>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnInformational<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults,
-                                                          Action<IEnumerable<IFunctionResult<TResult>>> informationalAction)
+        public static void OnInformational<TResult>(this IEnumerable<IResult<TResult>> functionResults,
+                                                          Action<IEnumerable<IResult<TResult>>> informationalAction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (informationalAction == null) throw new ArgumentNullException("informationalAction");
@@ -74,8 +74,8 @@ namespace Funkshun.Core.Extensions
         /// <returns>A type of TNewResult which is returned by the func.</returns>
         /// <exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
         public static TNewResult OnInformational<TResult, TNewResult>(
-            this IEnumerable<IFunctionResult<TResult>> functionResults,
-            Func<IEnumerable<IFunctionResult<TResult>>, TNewResult> informationalFunction)
+            this IEnumerable<IResult<TResult>> functionResults,
+            Func<IEnumerable<IResult<TResult>>, TNewResult> informationalFunction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (informationalFunction == null) throw new ArgumentNullException("informationalFunction");
@@ -95,7 +95,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="informationalAction">The action to call when there are informationals.</param>
         /// <param name="elseAction">The action to call when there are no informationals.</param>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static void OnInformational<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults, Action informationalAction, Action elseAction)
+        public static void OnInformational<TResult>(this IEnumerable<IResult<TResult>> functionResults, Action informationalAction, Action elseAction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (informationalAction == null) throw new ArgumentNullException("informationalAction");
@@ -119,9 +119,9 @@ namespace Funkshun.Core.Extensions
         ///<param name="elseAction">The action to call when there are no informationals.</param>
         ///<typeparam name="TResult">The type of the return value of the function result.</typeparam>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static void OnInformational<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults,
-                                                          Action<IEnumerable<IFunctionResult<TResult>>> informationalAction,
-                                                          Action<IEnumerable<IFunctionResult<TResult>>> elseAction
+        public static void OnInformational<TResult>(this IEnumerable<IResult<TResult>> functionResults,
+                                                          Action<IEnumerable<IResult<TResult>>> informationalAction,
+                                                          Action<IEnumerable<IResult<TResult>>> elseAction
                                                           )
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
@@ -149,9 +149,9 @@ namespace Funkshun.Core.Extensions
         ///<returns>A type of TNewResult which is returned by the func.</returns>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
         public static TNewResult OnInformational<TResult, TNewResult>(
-            this IEnumerable<IFunctionResult<TResult>> functionResults,
-            Func<IEnumerable<IFunctionResult<TResult>>, TNewResult> informationalFunction,
-            Func<IEnumerable<IFunctionResult<TResult>>, TNewResult> elseFunction)
+            this IEnumerable<IResult<TResult>> functionResults,
+            Func<IEnumerable<IResult<TResult>>, TNewResult> informationalFunction,
+            Func<IEnumerable<IResult<TResult>>, TNewResult> elseFunction)
         {
             if (functionResults == null) throw new ArgumentNullException("functionResults");
             if (informationalFunction == null) throw new ArgumentNullException("informationalFunction");

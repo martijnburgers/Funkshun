@@ -1,4 +1,4 @@
-﻿Funkshun.Core 1.0.0.0
+﻿Funkshun.Core 1.1.0.0
 
 Copyright 2011, Martijn Burgers
   

@@ -32,13 +32,13 @@ namespace Funkshun.Core.Decorators
         /// <summary>
         /// List of collected function results.
         /// </summary>
-        protected readonly List<IFunctionResult<TResult>> Results = new List<IFunctionResult<TResult>>();
+        protected readonly List<IResult<TResult>> Results = new List<IResult<TResult>>();
 
         ///<summary>
         /// Gets a sequence of collected results.
         ///</summary>
-        /// <returns>A <see cref="IEnumerable{T}" /> that contains elements of type <see cref="IFunctionResult{TResult}" />.</returns>
-        public IEnumerable<IFunctionResult<TResult>> GetResults()
+        /// <returns>A <see cref="IEnumerable{T}" /> that contains elements of type <see cref="IResult{TResult}" />.</returns>
+        public IEnumerable<IResult<TResult>> GetResults()
         {
             return Results;
         }
@@ -46,8 +46,8 @@ namespace Funkshun.Core.Decorators
         ///<summary>
         /// Gets a sequence of collected results which meets the predicate.
         ///</summary>
-        /// <returns>A <see cref="IEnumerable{T}" /> that contains elements of type <see cref="IFunctionResult{TResult}" />.</returns>
-        public IEnumerable<IFunctionResult<TResult>> GetResults(Predicate<IFunctionResult<TResult>> predicate)
+        /// <returns>A <see cref="IEnumerable{T}" /> that contains elements of type <see cref="IResult{TResult}" />.</returns>
+        public IEnumerable<IResult<TResult>> GetResults(Predicate<IResult<TResult>> predicate)
         {            
             return Results.Where(r => predicate(r)).DefaultIfEmpty();
         }
@@ -81,10 +81,10 @@ namespace Funkshun.Core.Decorators
         ///<summary>
         /// Runs the function and adds the result to a internal dictionary.
         ///</summary>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run()
+        /// <returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run()
         {            
-            IFunctionResult<TResult> result = _baseFunction.Run();
+            IResult<TResult> result = _baseFunction.Run();
 
             Results.Add(result);
 
@@ -115,10 +115,10 @@ namespace Funkshun.Core.Decorators
         /// Runs the function and adds the result to a internal dictionary.
         /// </summary>
         /// <param name="param1">The input parameter of the function</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T param1)
+        /// <returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T param1)
         {
-            IFunctionResult<TResult> result = _baseFunction.Run(param1);
+            IResult<TResult> result = _baseFunction.Run(param1);
 
             Results.Add(result);
 
@@ -153,10 +153,10 @@ namespace Funkshun.Core.Decorators
         /// </summary>
         /// <param name="param1">The first parameter of the function</param>
         /// <param name="param2">The second parameter of the function</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T1 param1, T2 param2)
+        /// <returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T1 param1, T2 param2)
         {
-            IFunctionResult<TResult> result = _baseFunction.Run(param1, param2);
+            IResult<TResult> result = _baseFunction.Run(param1, param2);
 
             Results.Add(result);
 
@@ -193,10 +193,10 @@ namespace Funkshun.Core.Decorators
         /// <param name="param1">The first parameter of the function</param>
         /// <param name="param2">The second parameter of the function</param>
         /// <param name="param3">The third parameter of the function</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3)
+        /// <returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T1 param1, T2 param2, T3 param3)
         {
-            IFunctionResult<TResult> result = _baseFunction.Run(param1, param2,param3);
+            IResult<TResult> result = _baseFunction.Run(param1, param2,param3);
 
             Results.Add(result);
 
@@ -235,10 +235,10 @@ namespace Funkshun.Core.Decorators
         /// <param name="param2">The second parameter of the function</param>
         /// <param name="param3">The third parameter of the function</param>
         /// <param name="param4">The fourth parameter of the function</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4)
+        /// <returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4)
         {
-            IFunctionResult<TResult> result = _baseFunction.Run(param1, param2, param3, param4);
+            IResult<TResult> result = _baseFunction.Run(param1, param2, param3, param4);
 
             Results.Add(result);
 
@@ -279,10 +279,10 @@ namespace Funkshun.Core.Decorators
         /// <param name="param3">The third parameter of the function</param>
         /// <param name="param4">The fourth parameter of the function</param>
         /// <param name="param5">The fifth parameter of the function</param>
-        /// <returns>A <see cref="IFunctionResult{TResult}" /> that represents the return value of a function.</returns>
-        public IFunctionResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
+        /// <returns>A <see cref="IResult{TResult}" /> that represents the return value of a function.</returns>
+        public IResult<TResult> Run(T1 param1, T2 param2, T3 param3, T4 param4, T5 param5)
         {
-            IFunctionResult<TResult> result = _baseFunction.Run(param1, param2, param3, param4, param5);
+            IResult<TResult> result = _baseFunction.Run(param1, param2, param3, param4, param5);
 
             Results.Add(result);
 

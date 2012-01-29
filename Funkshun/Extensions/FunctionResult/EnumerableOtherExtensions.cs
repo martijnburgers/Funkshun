@@ -24,7 +24,7 @@ namespace Funkshun.Core.Extensions
 {
     /// <summary>
     /// Static (extension) class for extending the sequences of types:        
-    /// <see cref="IFunctionResult{TResult}"/>
+    /// <see cref="IResult{TResult}"/>
     /// </summary>
     public static partial class EnumerableFunctionResultExtensions
     {
@@ -34,7 +34,7 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <param name="functionResults"> A sequence of results from executed functions.</param>
         /// <returns>True if there is a result with at least one error message, false if there isn't</returns>
-        public static bool HasErrors<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults)
+        public static bool HasErrors<TResult>(this IEnumerable<IResult<TResult>> functionResults)
         {
             return functionResults.Any(fr => fr.HasErrors());
         }
@@ -45,7 +45,7 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <param name="functionResults"> A sequence of results from executed functions.</param>
         /// <returns>True if there is a result with at least one warning message, false if there isn't</returns>
-        public static bool HasWarnings<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults)
+        public static bool HasWarnings<TResult>(this IEnumerable<IResult<TResult>> functionResults)
         {
             return functionResults.Any(fr => fr.HasWarnings());
         }
@@ -56,7 +56,7 @@ namespace Funkshun.Core.Extensions
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <param name="functionResults"> A sequence of results from executed functions.</param>
         /// <returns>True if there is a result with at least one informational message, false if there isn't</returns>
-        public static bool HasInformationals<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults)
+        public static bool HasInformationals<TResult>(this IEnumerable<IResult<TResult>> functionResults)
         {
             return functionResults.Any(fr => fr.HasInformationals());
         }
@@ -67,7 +67,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResults">A sequence of function results.</param>
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <returns>A seqeunece of function results that contains messages with the severity <see cref="MessageType"/>.Error.</returns>
-        public static IEnumerable<IFunctionResult<TResult>> Errors<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults)
+        public static IEnumerable<IResult<TResult>> Errors<TResult>(this IEnumerable<IResult<TResult>> functionResults)
         {
             return functionResults.Where(fr => fr.HasErrors());
         }
@@ -78,7 +78,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResults">A sequence of function results.</param>
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <returns>A seqeunece of function results that contains messages with the severity <see cref="MessageType"/>.Warning.</returns>
-        public static IEnumerable<IFunctionResult<TResult>> Warnings<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults)
+        public static IEnumerable<IResult<TResult>> Warnings<TResult>(this IEnumerable<IResult<TResult>> functionResults)
         {
             return functionResults.Where(fr => fr.HasWarnings());
         }
@@ -89,7 +89,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResults">A sequence of function results.</param>
         /// <typeparam name="TResult">The type of the return value of the function result. </typeparam>
         /// <returns>A seqeunece of function results that contains messages with the severity <see cref="MessageType"/>.Informationals.</returns>
-        public static IEnumerable<IFunctionResult<TResult>> Informationals<TResult>(this IEnumerable<IFunctionResult<TResult>> functionResults)
+        public static IEnumerable<IResult<TResult>> Informationals<TResult>(this IEnumerable<IResult<TResult>> functionResults)
         {
             return functionResults.Where(fr => fr.HasInformationals());
         }       

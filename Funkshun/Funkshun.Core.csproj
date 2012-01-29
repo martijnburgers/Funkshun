@@ -89,10 +89,10 @@
     <Compile Include="Extensions\FunctionResult\OtherExtensions.cs" />
     <Compile Include="Exceptions\MessageException.cs" />
     <Compile Include="Extensions\FunctionResult\OnSuccessExtensions.cs" />
-    <Compile Include="FunctionResult.cs" />
+    <Compile Include="Result.cs" />
     <Compile Include="Funkshun.cs" />
     <Compile Include="IFunction.cs" />
-    <Compile Include="IFunctionResult.cs" />
+    <Compile Include="IResult.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Void.cs" />
@@ -118,6 +118,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="RELEASENOTES.md" />
     <None Include="LICENSE.md" />
     <None Include="README.md" />

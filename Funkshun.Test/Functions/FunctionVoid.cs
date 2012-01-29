@@ -23,7 +23,7 @@ namespace Funkshun.Core.Test.Functions
 {
     public class FunctionVoid : IFunction<Void>
     {
-        public IFunctionResult<Void> Run()
+        public IResult<Void> Run()
         {
             var result = this.MakeResult();
 

@@ -23,8 +23,8 @@ namespace Funkshun.Core.Extensions
 {
     /// <summary>
     /// Static (extension) class for extending the types: 
-    /// <see cref="IFunctionResult"/>, 
-    /// <see cref="IFunctionResult{TResult}"/>
+    /// <see cref="IResult"/>, 
+    /// <see cref="IResult{TResult}"/>
     /// </summary>
     public static partial class FunctionResultExtensions
     {
@@ -34,7 +34,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResult">The function result to check for errors.</param>
         /// <param name="errorAction">The action to call when there are errors.</param>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnError(this IFunctionResult functionResult, Action errorAction)
+        public static void OnError(this IResult functionResult, Action errorAction)
         {
             if (errorAction == null) throw new ArgumentNullException("errorAction");
 
@@ -51,7 +51,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResult">The function result to check for errors.</param>
         /// <param name="errorAction">The action to call when there are errors.</param>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnError<TFunctionReturnType>(this IFunctionResult<TFunctionReturnType> functionResult,
+        public static void OnError<TFunctionReturnType>(this IResult<TFunctionReturnType> functionResult,
                                                           Action<TFunctionReturnType> errorAction)
         {
             if (errorAction == null) throw new ArgumentNullException("errorAction");
@@ -69,8 +69,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResult">The function result to check for errors.</param>
         /// <param name="errorAction">The action to call when there are errors.</param>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnError<TFunctionReturnType>(this IFunctionResult<TFunctionReturnType> functionResult,
-                                                          Action<IFunctionResult<TFunctionReturnType>> errorAction)
+        public static void OnError<TFunctionReturnType>(this IResult<TFunctionReturnType> functionResult,
+                                                          Action<IResult<TFunctionReturnType>> errorAction)
         {
             if (errorAction == null) throw new ArgumentNullException("errorAction");
 
@@ -86,7 +86,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="functionResult">The function result to check for errors.</param>
         /// <param name="errorAction">The action to call when there are errors.</param>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnError(this IFunctionResult functionResult, Action<IFunctionResult> errorAction)
+        public static void OnError(this IResult functionResult, Action<IResult> errorAction)
         {
             if (errorAction == null) throw new ArgumentNullException("errorAction");
 
@@ -106,8 +106,8 @@ namespace Funkshun.Core.Extensions
         /// <returns>A type of TNewResult which is  returned by the func.</returns>
         /// <exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
         public static TNewResult OnError<TFunctionReturnType, TNewResult>(
-            this IFunctionResult<TFunctionReturnType> functionResult,
-            Func<IFunctionResult<TFunctionReturnType>, TNewResult> errorFunction)
+            this IResult<TFunctionReturnType> functionResult,
+            Func<IResult<TFunctionReturnType>, TNewResult> errorFunction)
         {
             if (errorFunction == null) throw new ArgumentNullException("errorFunction");
 
@@ -127,8 +127,8 @@ namespace Funkshun.Core.Extensions
         /// <param name="errorFunction">The func to call when there are errors.</param>
         /// <returns>A type of TNewResult which is  returned by the func.</returns>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static TNewResult OnError<TNewResult>(this IFunctionResult functionResult,
-                                                       Func<IFunctionResult, TNewResult> errorFunction)
+        public static TNewResult OnError<TNewResult>(this IResult functionResult,
+                                                       Func<IResult, TNewResult> errorFunction)
         {
             if (errorFunction == null) throw new ArgumentNullException("errorFunction");
 
@@ -150,7 +150,7 @@ namespace Funkshun.Core.Extensions
         /// <param name="errorAction">The action to call when there are errors.</param>
         /// <param name="elseAction">The action to call when there are no errors.</param>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static void OnError(this IFunctionResult functionResult, Action errorAction, Action elseAction)
+        public static void OnError(this IResult functionResult, Action errorAction, Action elseAction)
         {
             if (errorAction == null) throw new ArgumentNullException("errorAction");
             if (elseAction == null) throw new ArgumentNullException("elseAction");
@@ -173,7 +173,7 @@ namespace Funkshun.Core.Extensions
         ///<param name="elseAction">The action to call when there are no errors.</param>
         ///<typeparam name="TFunctionReturnType">The type of the return value of the function result.</typeparam>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static void OnError<TFunctionReturnType>(this IFunctionResult<TFunctionReturnType> functionResult,
+        public static void OnError<TFunctionReturnType>(this IResult<TFunctionReturnType> functionResult,
                                                           Action<TFunctionReturnType> errorAction,
                                                           Action<TFunctionReturnType> elseAction
                                                           )
@@ -199,9 +199,9 @@ namespace Funkshun.Core.Extensions
         ///<param name="elseAction">The action to call when there are no errors.</param>
         ///<typeparam name="TFunctionReturnType">The type of the return value of the function result.</typeparam>
         /// <exception cref="ArgumentNullException">Thrown when the parameter is null.</exception>
-        public static void OnError<TFunctionReturnType>(this IFunctionResult<TFunctionReturnType> functionResult,
-                                                          Action<IFunctionResult<TFunctionReturnType>> errorAction,
-                                                            Action<IFunctionResult<TFunctionReturnType>> elseAction)
+        public static void OnError<TFunctionReturnType>(this IResult<TFunctionReturnType> functionResult,
+                                                          Action<IResult<TFunctionReturnType>> errorAction,
+                                                            Action<IResult<TFunctionReturnType>> elseAction)
         {
             if (errorAction == null) throw new ArgumentNullException("errorAction");
             if (elseAction == null) throw new ArgumentNullException("elseAction");
@@ -223,7 +223,7 @@ namespace Funkshun.Core.Extensions
         ///<param name="errorAction">The action to call when there are errors.</param>
         ///<param name="elseAction">The action to call when there are no errors.</param>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static void OnError(this IFunctionResult functionResult, Action<IFunctionResult> errorAction, Action<IFunctionResult> elseAction)
+        public static void OnError(this IResult functionResult, Action<IResult> errorAction, Action<IResult> elseAction)
         {
             if (errorAction == null) throw new ArgumentNullException("errorAction");
             if (elseAction == null) throw new ArgumentNullException("elseAction");
@@ -249,9 +249,9 @@ namespace Funkshun.Core.Extensions
         ///<returns>A type of TNewResult which is  returned by the func.</returns>
         ///<exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
         public static TNewResult OnError<TFunctionReturnType, TNewResult>(
-            this IFunctionResult<TFunctionReturnType> functionResult,
-            Func<IFunctionResult<TFunctionReturnType>, TNewResult> errorFunction,
-            Func<IFunctionResult<TFunctionReturnType>, TNewResult> elseFunction
+            this IResult<TFunctionReturnType> functionResult,
+            Func<IResult<TFunctionReturnType>, TNewResult> errorFunction,
+            Func<IResult<TFunctionReturnType>, TNewResult> elseFunction
             )
         {
             if (errorFunction == null) throw new ArgumentNullException("errorFunction");
@@ -274,9 +274,9 @@ namespace Funkshun.Core.Extensions
         /// <param name="elseFunction">The func to call when there are no errors.</param>
         /// <returns>A type of TNewResult which is returned by the func.</returns>
         /// <exception cref="ArgumentNullException">Thrown when the parameters are null.</exception>
-        public static TNewResult OnError<TNewResult>(this IFunctionResult functionResult,
-                                                       Func<IFunctionResult, TNewResult> errorFunction,
-                                                       Func<IFunctionResult, TNewResult> elseFunction)
+        public static TNewResult OnError<TNewResult>(this IResult functionResult,
+                                                       Func<IResult, TNewResult> errorFunction,
+                                                       Func<IResult, TNewResult> elseFunction)
         {
             if (errorFunction == null) throw new ArgumentNullException("errorFunction");
             if (elseFunction == null) throw new ArgumentNullException("elseFunction");
