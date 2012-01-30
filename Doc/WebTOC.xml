@@ -1,73 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="43ce283f-f97b-4fa1-a3f5-e607c0357bef" Title="Funkshun.Core Namespace" Url="html/N_Funkshun_Core.htm">
-    <HelpTOCNode Id="26a9389d-028c-4c96-a39e-61a548b3b86f" Title="Funkshun(TFunctionType) Class" Url="html/T_Funkshun_Core_Funkshun_1.htm">
+  <HelpTOCNode Id="e6d4389b-35fd-42c0-81b1-0ec7a7ca72fa" Title="Funkshun.Core Namespace" Url="html/N_Funkshun_Core.htm">
+    <HelpTOCNode Id="f32539aa-43be-4665-9118-36d2f33734ea" Title="Funkshun(TFunctionType) Class" Url="html/T_Funkshun_Core_Funkshun_1.htm">
       <HelpTOCNode Title="Funkshun(TFunctionType) Members" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
-      <HelpTOCNode Id="dd2969e7-7ec7-437a-8e57-e839548e5ae2" Title="Funkshun(TFunctionType) Methods" Url="html/Methods_T_Funkshun_Core_Funkshun_1.htm">
+      <HelpTOCNode Id="d9186aa2-e01b-4019-bdd4-81ffd93437df" Title="Funkshun(TFunctionType) Methods" Url="html/Methods_T_Funkshun_Core_Funkshun_1.htm">
         <HelpTOCNode Title="New Method " Url="html/M_Funkshun_Core_Funkshun_1_New.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8a031b87-e6fa-40fd-87a7-fe48b4255a57" Title="Funkshun(TFunctionType) Properties" Url="html/Properties_T_Funkshun_Core_Funkshun_1.htm">
+      <HelpTOCNode Id="6f247679-0066-44a3-a73f-4d862a4e8298" Title="Funkshun(TFunctionType) Properties" Url="html/Properties_T_Funkshun_Core_Funkshun_1.htm">
         <HelpTOCNode Title="Instance Property " Url="html/P_Funkshun_Core_Funkshun_1_Instance.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="IFunction Interface" Url="html/T_Funkshun_Core_IFunction.htm" />
-    <HelpTOCNode Id="0cb8ea1b-0206-4815-adf6-be085fd057a1" Title="IFunction(TResult) Interface" Url="html/T_Funkshun_Core_IFunction_1.htm">
+    <HelpTOCNode Id="68476cdf-3aed-4f52-aa7f-51e2f92c7710" Title="IFunction(TResult) Interface" Url="html/T_Funkshun_Core_IFunction_1.htm">
       <HelpTOCNode Title="IFunction(TResult) Members" Url="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" />
-      <HelpTOCNode Id="8c076c57-f9df-418f-ba14-1c32286b3512" Title="IFunction(TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_1.htm">
+      <HelpTOCNode Id="0e44d6b3-bd9c-4d75-b80e-5001e84f2b34" Title="IFunction(TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_1.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_IFunction_1_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="99d4dbf6-6723-4a2f-b5fe-42c945abf585" Title="IFunction(T, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_2.htm">
+    <HelpTOCNode Id="1d5c2fb4-fa4a-47b0-976d-e14bd254a71b" Title="IFunction(T, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_2.htm">
       <HelpTOCNode Title="IFunction(T, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_IFunction_2.htm" />
-      <HelpTOCNode Id="80b6689a-837c-4379-9b67-0243703423f6" Title="IFunction(T, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_2.htm">
+      <HelpTOCNode Id="ffdcd714-ead8-47dd-9829-ffb1ec86f144" Title="IFunction(T, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_2.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_IFunction_2_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="be72fca1-e936-4b37-9a1a-9cd114c3385c" Title="IFunction(T1, T2, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_3.htm">
+    <HelpTOCNode Id="3674b82e-9cbc-4ce8-b6af-7d0c0a6f10ba" Title="IFunction(T1, T2, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_3.htm">
       <HelpTOCNode Title="IFunction(T1, T2, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_IFunction_3.htm" />
-      <HelpTOCNode Id="9e0d306e-4aee-49c3-83fc-5a64c9380ed7" Title="IFunction(T1, T2, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_3.htm">
+      <HelpTOCNode Id="8321a03c-4fd4-47d3-8006-a7ca3156b54a" Title="IFunction(T1, T2, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_3.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_IFunction_3_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="358b796f-2c4c-4dd2-b2d5-b34a43491686" Title="IFunction(T1, T2, T3, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_4.htm">
+    <HelpTOCNode Id="7e141e6d-836e-4905-9371-ca69a61d150c" Title="IFunction(T1, T2, T3, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_4.htm">
       <HelpTOCNode Title="IFunction(T1, T2, T3, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_IFunction_4.htm" />
-      <HelpTOCNode Id="f855b994-82fa-40db-bee2-7fc745589bff" Title="IFunction(T1, T2, T3, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_4.htm">
+      <HelpTOCNode Id="6f85c41f-37f8-4be8-82ea-d631d9b2421c" Title="IFunction(T1, T2, T3, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_4.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_IFunction_4_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1bb1f80e-3321-4ec5-bf05-fc6db3446e31" Title="IFunction(T1, T2, T3, T4, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_5.htm">
+    <HelpTOCNode Id="79c18a83-5583-4ffa-8e6f-1f87138ff9e1" Title="IFunction(T1, T2, T3, T4, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_5.htm">
       <HelpTOCNode Title="IFunction(T1, T2, T3, T4, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_IFunction_5.htm" />
-      <HelpTOCNode Id="c6ba3742-19bc-4834-b9d3-1ed815af406e" Title="IFunction(T1, T2, T3, T4, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_5.htm">
+      <HelpTOCNode Id="cc4731a4-ebdf-4b3a-9bf6-0cf645a6fc65" Title="IFunction(T1, T2, T3, T4, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_5.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_IFunction_5_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1d068c3f-9828-4831-9b19-9a7b0d18be53" Title="IFunction(T1, T2, T3, T4, T5, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_6.htm">
+    <HelpTOCNode Id="6d5b4dea-f381-4016-af1b-97030e1eb9ed" Title="IFunction(T1, T2, T3, T4, T5, TResult) Interface" Url="html/T_Funkshun_Core_IFunction_6.htm">
       <HelpTOCNode Title="IFunction(T1, T2, T3, T4, T5, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_IFunction_6.htm" />
-      <HelpTOCNode Id="0653827e-bff7-4e4b-a34f-5c37f51e1c26" Title="IFunction(T1, T2, T3, T4, T5, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_6.htm">
+      <HelpTOCNode Id="0bb7393a-930a-4730-9d0f-5f070b8b50f8" Title="IFunction(T1, T2, T3, T4, T5, TResult) Methods" Url="html/Methods_T_Funkshun_Core_IFunction_6.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_IFunction_6_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="30dd7566-0129-48ea-bced-28c1c7077a90" Title="IResult Interface" Url="html/T_Funkshun_Core_IResult.htm">
+    <HelpTOCNode Id="36559e70-ea67-45ed-9ffe-df194a2490e4" Title="IResult Interface" Url="html/T_Funkshun_Core_IResult.htm">
       <HelpTOCNode Title="IResult Members" Url="html/AllMembers_T_Funkshun_Core_IResult.htm" />
       <HelpTOCNode Title="IResult Methods" Url="html/Methods_T_Funkshun_Core_IResult.htm" />
-      <HelpTOCNode Id="b5e23517-b121-4a0a-9fec-06cad91c6ec1" Title="IResult Properties" Url="html/Properties_T_Funkshun_Core_IResult.htm">
+      <HelpTOCNode Id="5c0e38a3-b6b2-4ca4-837f-5026bd194060" Title="IResult Properties" Url="html/Properties_T_Funkshun_Core_IResult.htm">
         <HelpTOCNode Title="Messages Property " Url="html/P_Funkshun_Core_IResult_Messages.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b65cce0a-9e92-4a5a-9f35-a6e597b6cf9e" Title="IResult(TR) Interface" Url="html/T_Funkshun_Core_IResult_1.htm">
+    <HelpTOCNode Id="9f39ad76-5aa2-4b98-a7c3-0c276888a395" Title="IResult(TR) Interface" Url="html/T_Funkshun_Core_IResult_1.htm">
       <HelpTOCNode Title="IResult(TR) Members" Url="html/AllMembers_T_Funkshun_Core_IResult_1.htm" />
       <HelpTOCNode Title="IResult(TR) Methods" Url="html/Methods_T_Funkshun_Core_IResult_1.htm" />
-      <HelpTOCNode Id="59343eab-88de-4504-828b-d9e125046739" Title="IResult(TR) Properties" Url="html/Properties_T_Funkshun_Core_IResult_1.htm">
+      <HelpTOCNode Id="5c507a36-2e9c-4881-8117-10eeb69271b0" Title="IResult(TR) Properties" Url="html/Properties_T_Funkshun_Core_IResult_1.htm">
         <HelpTOCNode Title="ReturnType Property " Url="html/P_Funkshun_Core_IResult_1_ReturnType.htm" />
         <HelpTOCNode Title="ReturnValue Property " Url="html/P_Funkshun_Core_IResult_1_ReturnValue.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="0d6c2517-94ec-49e0-85d3-c95e0f9f15a8" Title="Message Class" Url="html/T_Funkshun_Core_Message.htm">
+    <HelpTOCNode Id="a821ed98-b290-4cf7-8c69-5fe12611d74e" Title="Message Class" Url="html/T_Funkshun_Core_Message.htm">
       <HelpTOCNode Title="Message Members" Url="html/AllMembers_T_Funkshun_Core_Message.htm" />
       <HelpTOCNode Title="Message Constructor " Url="html/M_Funkshun_Core_Message__ctor.htm" />
       <HelpTOCNode Title="Message Methods" Url="html/Methods_T_Funkshun_Core_Message.htm" />
-      <HelpTOCNode Id="b54b9ab4-d258-4605-a6f0-804bbbc84235" Title="Message Properties" Url="html/Properties_T_Funkshun_Core_Message.htm">
+      <HelpTOCNode Id="e4f8da56-02ab-4612-84a6-d07f98667a53" Title="Message Properties" Url="html/Properties_T_Funkshun_Core_Message.htm">
         <HelpTOCNode Title="Code Property " Url="html/P_Funkshun_Core_Message_Code.htm" />
         <HelpTOCNode Title="Description Property " Url="html/P_Funkshun_Core_Message_Description.htm" />
         <HelpTOCNode Title="Severity Property " Url="html/P_Funkshun_Core_Message_Severity.htm" />
@@ -76,282 +76,282 @@
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="MessageType Enumeration" Url="html/T_Funkshun_Core_MessageType.htm" />
-    <HelpTOCNode Id="1ad14978-006e-4ebc-a96d-2cc2cd0e7f70" Title="Result Class" Url="html/T_Funkshun_Core_Result.htm">
+    <HelpTOCNode Id="4703ea40-61f6-4533-98f3-28592f28a794" Title="Result Class" Url="html/T_Funkshun_Core_Result.htm">
       <HelpTOCNode Title="Result Members" Url="html/AllMembers_T_Funkshun_Core_Result.htm" />
       <HelpTOCNode Title="Result Constructor " Url="html/M_Funkshun_Core_Result__ctor.htm" />
       <HelpTOCNode Title="Result Methods" Url="html/Methods_T_Funkshun_Core_Result.htm" />
-      <HelpTOCNode Id="e2d87953-a8dc-4a45-be6d-e63a148e150d" Title="Result Properties" Url="html/Properties_T_Funkshun_Core_Result.htm">
+      <HelpTOCNode Id="a2d82948-a4e7-4311-bc83-569b9d50c1fb" Title="Result Properties" Url="html/Properties_T_Funkshun_Core_Result.htm">
         <HelpTOCNode Title="Messages Property " Url="html/P_Funkshun_Core_Result_Messages.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="99c62c63-3754-463d-ab9a-d6b41f3f496a" Title="Result(TResult) Class" Url="html/T_Funkshun_Core_Result_1.htm">
+    <HelpTOCNode Id="8f7bb1f6-792c-49e8-b34f-0565edecbf6b" Title="Result(TResult) Class" Url="html/T_Funkshun_Core_Result_1.htm">
       <HelpTOCNode Title="Result(TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Result_1.htm" />
       <HelpTOCNode Title="Result(TResult) Constructor " Url="html/M_Funkshun_Core_Result_1__ctor.htm" />
-      <HelpTOCNode Id="d64e33bf-f596-4094-8f1b-690bd9e78072" Title="Result(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Result_1.htm">
+      <HelpTOCNode Id="96eab4ed-27c0-4e3a-af00-190f9f8ce3c6" Title="Result(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Result_1.htm">
         <HelpTOCNode Title="New Method " Url="html/M_Funkshun_Core_Result_1_New.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0c041b52-d9f2-4a55-9f0a-ceb79665ea4e" Title="Result(TResult) Properties" Url="html/Properties_T_Funkshun_Core_Result_1.htm">
+      <HelpTOCNode Id="59ebbb6a-fa08-494b-abb5-70ed9ccf0295" Title="Result(TResult) Properties" Url="html/Properties_T_Funkshun_Core_Result_1.htm">
         <HelpTOCNode Title="ReturnType Property " Url="html/P_Funkshun_Core_Result_1_ReturnType.htm" />
         <HelpTOCNode Title="ReturnValue Property " Url="html/P_Funkshun_Core_Result_1_ReturnValue.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4e498131-c7c9-43ec-aaa5-f25fff4aefaa" Title="Void Class" Url="html/T_Funkshun_Core_Void.htm">
+    <HelpTOCNode Id="dc935448-1938-41d5-9b4c-440b432f5e75" Title="Void Class" Url="html/T_Funkshun_Core_Void.htm">
       <HelpTOCNode Title="Void Members" Url="html/AllMembers_T_Funkshun_Core_Void.htm" />
       <HelpTOCNode Title="Void Constructor " Url="html/M_Funkshun_Core_Void__ctor.htm" />
       <HelpTOCNode Title="Void Methods" Url="html/Methods_T_Funkshun_Core_Void.htm" />
-      <HelpTOCNode Id="edf9b272-ab84-4e06-a894-8766728c67df" Title="Void Properties" Url="html/Properties_T_Funkshun_Core_Void.htm">
+      <HelpTOCNode Id="599d53d5-392f-4d88-996c-5b396921ce84" Title="Void Properties" Url="html/Properties_T_Funkshun_Core_Void.htm">
         <HelpTOCNode Title="RealVoid Property " Url="html/P_Funkshun_Core_Void_RealVoid.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="4ed24d28-fe11-48a0-b3c9-dd09760bf336" Title="Funkshun.Core.Decorators Namespace" Url="html/N_Funkshun_Core_Decorators.htm">
-    <HelpTOCNode Id="1ac2e218-a3bf-4ccd-bfd0-332071d2bde3" Title="BaseCatchExceptionDecorator(TResult) Class" Url="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm">
+  <HelpTOCNode Id="4453ca96-6081-403d-8104-47569cf8c64f" Title="Funkshun.Core.Decorators Namespace" Url="html/N_Funkshun_Core_Decorators.htm">
+    <HelpTOCNode Id="69fa3005-7aa2-460a-93c2-750866444551" Title="BaseCatchExceptionDecorator(TResult) Class" Url="html/T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm">
       <HelpTOCNode Title="BaseCatchExceptionDecorator(TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
       <HelpTOCNode Title="BaseCatchExceptionDecorator(TResult) Constructor " Url="html/M_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1__ctor.htm" />
-      <HelpTOCNode Id="9e39e5f5-dbfb-4ba2-b6f5-1be3bad017ed" Title="BaseCatchExceptionDecorator(TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm">
+      <HelpTOCNode Id="9fecf303-4e88-47b1-8d69-2eb6a99c3b7a" Title="BaseCatchExceptionDecorator(TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm">
         <HelpTOCNode Title="Message Field" Url="html/F_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1_Message.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="BaseCatchExceptionDecorator(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_BaseCatchExceptionDecorator_1.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d9bce0f7-1f01-4f7f-a8b9-a6a5a3a6991c" Title="BaseResultCollectorDecorator(TResult) Class" Url="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm">
+    <HelpTOCNode Id="69063004-b14a-4012-b3a5-c2935a7a9ffb" Title="BaseResultCollectorDecorator(TResult) Class" Url="html/T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm">
       <HelpTOCNode Title="BaseResultCollectorDecorator(TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm" />
       <HelpTOCNode Title="BaseResultCollectorDecorator(TResult) Constructor " Url="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1__ctor.htm" />
-      <HelpTOCNode Id="39371ba6-feb6-47a7-811c-50090582caaf" Title="BaseResultCollectorDecorator(TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm">
+      <HelpTOCNode Id="3d23b55b-77f5-4e82-a4b3-7615cc693653" Title="BaseResultCollectorDecorator(TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm">
         <HelpTOCNode Title="Results Field" Url="html/F_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Results.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="83c68fd3-9614-4582-bf6b-74c08fa21b49" Title="BaseResultCollectorDecorator(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm">
-        <HelpTOCNode Id="cf0be21f-4d22-445a-a062-f52d03a27e43" Title="GetResults Method " Url="html/Overload_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults.htm">
+      <HelpTOCNode Id="528b997f-37fd-4518-92d0-2537d6cb6965" Title="BaseResultCollectorDecorator(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm">
+        <HelpTOCNode Id="ceaf27a3-2ef0-479d-9b29-924b043c238f" Title="GetResults Method " Url="html/Overload_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults.htm">
           <HelpTOCNode Title="GetResults Method " Url="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults.htm" />
           <HelpTOCNode Title="GetResults Method (Predicate(IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_GetResults_1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="0abae214-d1a2-4e80-942a-8941b7d70fe0" Title="BaseResultCollectorDecorator(TResult) Properties" Url="html/Properties_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm">
+      <HelpTOCNode Id="e8fbf37c-ba23-45f0-a361-3567063d71f3" Title="BaseResultCollectorDecorator(TResult) Properties" Url="html/Properties_T_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1.htm">
         <HelpTOCNode Title="Count Property " Url="html/P_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Count.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ed20011b-2c23-4002-abaf-a46fb20a323b" Title="CatchExceptionDecorator(TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm">
+    <HelpTOCNode Id="a7135404-9cae-43d9-90f3-5022f5949cb5" Title="CatchExceptionDecorator(TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm">
       <HelpTOCNode Title="CatchExceptionDecorator(TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
-      <HelpTOCNode Id="9e71a1d2-e31c-47bc-ad46-e814ec68926b" Title="CatchExceptionDecorator(TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm">
+      <HelpTOCNode Id="a8cfd6f0-641f-4842-b3d3-775d24005998" Title="CatchExceptionDecorator(TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm">
         <HelpTOCNode Title="CatchExceptionDecorator(TResult) Constructor (IFunction(TResult))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor.htm" />
         <HelpTOCNode Title="CatchExceptionDecorator(TResult) Constructor (IFunction(TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchExceptionDecorator(TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm" />
-      <HelpTOCNode Id="18cbd09a-76ee-4fa7-a0d9-2021a2521e6c" Title="CatchExceptionDecorator(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm">
+      <HelpTOCNode Id="5b8490c5-3e1a-4dc1-b821-25701bf09876" Title="CatchExceptionDecorator(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_1.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="77af1e69-68a8-4ffc-b410-998018f720dc" Title="CatchExceptionDecorator(T, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm">
+    <HelpTOCNode Id="95927484-4863-453d-98b2-762968cbe383" Title="CatchExceptionDecorator(T, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm">
       <HelpTOCNode Title="CatchExceptionDecorator(T, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
-      <HelpTOCNode Id="c59a7ca3-99c2-4c56-bafc-1b78b2bef082" Title="CatchExceptionDecorator(T, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm">
+      <HelpTOCNode Id="06431fb7-14fd-4a8e-89dc-2c88dd896ecb" Title="CatchExceptionDecorator(T, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm">
         <HelpTOCNode Title="CatchExceptionDecorator(T, TResult) Constructor (IFunction(T, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor.htm" />
         <HelpTOCNode Title="CatchExceptionDecorator(T, TResult) Constructor (IFunction(T, TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchExceptionDecorator(T, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm" />
-      <HelpTOCNode Id="ac138538-7117-4877-a8d5-12f506baa2f0" Title="CatchExceptionDecorator(T, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm">
+      <HelpTOCNode Id="fdd89ec8-9fb2-46fb-bca5-59bd26738d2f" Title="CatchExceptionDecorator(T, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_2.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="f315ba59-298a-4f19-8547-f0763b4996e2" Title="CatchExceptionDecorator(T1, T2, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm">
+    <HelpTOCNode Id="aea9f4e0-5a61-4121-8e31-58cf5e13bd95" Title="CatchExceptionDecorator(T1, T2, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm">
       <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
-      <HelpTOCNode Id="bd429c37-502b-40c9-ba32-798d8085856c" Title="CatchExceptionDecorator(T1, T2, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm">
+      <HelpTOCNode Id="bd4152ea-bf99-4289-824b-b584ab995535" Title="CatchExceptionDecorator(T1, T2, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm">
         <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, TResult) Constructor (IFunction(T1, T2, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor.htm" />
         <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, TResult) Constructor (IFunction(T1, T2, TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm" />
-      <HelpTOCNode Id="604eb92a-370f-4014-a72f-7523d6507e3e" Title="CatchExceptionDecorator(T1, T2, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm">
+      <HelpTOCNode Id="1bed4749-3166-4416-928b-185a49f904ad" Title="CatchExceptionDecorator(T1, T2, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_3.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2b1c4308-3f9a-41f3-b52e-d9a76718b792" Title="CatchExceptionDecorator(T1, T2, T3, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm">
+    <HelpTOCNode Id="9c7fd65f-ed65-4603-9596-8e200e86ef25" Title="CatchExceptionDecorator(T1, T2, T3, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm">
       <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
-      <HelpTOCNode Id="e1eb3a01-b56b-4434-a907-9d008365c96f" Title="CatchExceptionDecorator(T1, T2, T3, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm">
+      <HelpTOCNode Id="1e216bb4-253d-4594-989f-15787eb1f06b" Title="CatchExceptionDecorator(T1, T2, T3, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm">
         <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, TResult) Constructor (IFunction(T1, T2, T3, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor.htm" />
         <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, TResult) Constructor (IFunction(T1, T2, T3, TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm" />
-      <HelpTOCNode Id="fb00d9a2-f745-4623-9419-fbc3eeec754b" Title="CatchExceptionDecorator(T1, T2, T3, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm">
+      <HelpTOCNode Id="acc92152-6db1-4712-ba69-0a20eec0a47c" Title="CatchExceptionDecorator(T1, T2, T3, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_4.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_4_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4cbdeb3a-998d-4ca9-9123-d1b5cc3a4cdd" Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm">
+    <HelpTOCNode Id="f1d0915b-8c42-4cac-ba96-24cc13b338ac" Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm">
       <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
-      <HelpTOCNode Id="dc02328f-e0b1-4d77-a0d1-0cb9c50bc836" Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm">
+      <HelpTOCNode Id="d0be8408-5cc4-4698-b45f-8d813f057d5f" Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm">
         <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Constructor (IFunction(T1, T2, T3, T4, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor.htm" />
         <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Constructor (IFunction(T1, T2, T3, T4, TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm" />
-      <HelpTOCNode Id="5ec5be93-1f54-4f74-bf7a-c1e212d81ad1" Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm">
+      <HelpTOCNode Id="f2f68ef9-f32f-4b45-b44b-86395cd6bf1b" Title="CatchExceptionDecorator(T1, T2, T3, T4, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_5.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_5_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6cf72b56-286f-43ac-8710-74d119eda295" Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm">
+    <HelpTOCNode Id="f7ff54b2-95f2-42b3-9294-eca48677804f" Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Class" Url="html/T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm">
       <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
-      <HelpTOCNode Id="5f0e2446-736f-413f-ba98-a5cd73a6eba1" Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm">
+      <HelpTOCNode Id="496fda8a-1170-4716-898b-b6a99ad4dd34" Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm">
         <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Constructor (IFunction(T1, T2, T3, T4, T5, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor.htm" />
         <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Constructor (IFunction(T1, T2, T3, T4, T5, TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm" />
-      <HelpTOCNode Id="2c657c42-3a14-496e-a1e8-7432d90a7818" Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm">
+      <HelpTOCNode Id="9243ddd3-0ed8-46a1-8c54-2c246145a080" Title="CatchExceptionDecorator(T1, T2, T3, T4, T5, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchExceptionDecorator_6.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_6_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7192c298-8321-4d07-8b03-dd528814eec9" Title="CatchTExceptionDecorator(TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm">
+    <HelpTOCNode Id="9d8d2f33-fe60-4de1-a9fc-b339183fac77" Title="CatchTExceptionDecorator(TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm">
       <HelpTOCNode Title="CatchTExceptionDecorator(TResult, TException) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
-      <HelpTOCNode Id="86e32471-84de-444a-a3de-f7801a2840ff" Title="CatchTExceptionDecorator(TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm">
+      <HelpTOCNode Id="5a48e7c0-c069-4bc7-a5a5-0b73d185f541" Title="CatchTExceptionDecorator(TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm">
         <HelpTOCNode Title="CatchTExceptionDecorator(TResult, TException) Constructor (IFunction(TResult))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor.htm" />
         <HelpTOCNode Title="CatchTExceptionDecorator(TResult, TException) Constructor (IFunction(TResult), Func(TException, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchTExceptionDecorator(TResult, TException) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm" />
-      <HelpTOCNode Id="fe9a2321-0414-4450-8ab9-481a52b69de9" Title="CatchTExceptionDecorator(TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm">
+      <HelpTOCNode Id="5b6ff6d9-2f86-46a2-87e0-c1b363fe6c86" Title="CatchTExceptionDecorator(TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_2.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_2_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d897a853-d5bc-45e5-8154-00ed5e39cdc2" Title="CatchTExceptionDecorator(T, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm">
+    <HelpTOCNode Id="1d29ec97-cf32-4507-9109-6869fa8ac951" Title="CatchTExceptionDecorator(T, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm">
       <HelpTOCNode Title="CatchTExceptionDecorator(T, TResult, TException) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
-      <HelpTOCNode Id="f7a70c03-1b14-405d-a903-ff3f3fdf61f9" Title="CatchTExceptionDecorator(T, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm">
+      <HelpTOCNode Id="934174ac-e84b-4113-be9e-1915152882ab" Title="CatchTExceptionDecorator(T, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm">
         <HelpTOCNode Title="CatchTExceptionDecorator(T, TResult, TException) Constructor (IFunction(T, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor.htm" />
         <HelpTOCNode Title="CatchTExceptionDecorator(T, TResult, TException) Constructor (IFunction(T, TResult), Func(TException, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchTExceptionDecorator(T, TResult, TException) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm" />
-      <HelpTOCNode Id="c0d5a10a-bcf5-4212-8998-494c30cb7c67" Title="CatchTExceptionDecorator(T, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm">
+      <HelpTOCNode Id="be07c15e-897e-4ccf-9f2f-a7069b939cc1" Title="CatchTExceptionDecorator(T, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_3.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_3_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c8b89de6-8e28-4504-b661-285c6b73e653" Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm">
+    <HelpTOCNode Id="0c095e26-7bcb-40f9-adcc-dd8608adfc72" Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm">
       <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
-      <HelpTOCNode Id="9691dc33-a64e-4b5d-9ffe-760066dd5560" Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm">
+      <HelpTOCNode Id="8d67165e-c361-4d4f-a8f1-b1ac7c81a50d" Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm">
         <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Constructor (IFunction(T1, T2, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor.htm" />
         <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Constructor (IFunction(T1, T2, TResult), Func(TException, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm" />
-      <HelpTOCNode Id="db4b047d-d806-41fa-b30a-34e4cb6f529b" Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm">
+      <HelpTOCNode Id="fd73eb71-5b05-4730-b2a5-38b7eed16067" Title="CatchTExceptionDecorator(T1, T2, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_4.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_4_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="fae37a63-bb18-4e67-ad4b-def02e361b68" Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm">
+    <HelpTOCNode Id="99caa1e2-5c10-4b46-af66-b08a783094fd" Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm">
       <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
-      <HelpTOCNode Id="eda04510-dc89-4197-8155-15736d339d2e" Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm">
+      <HelpTOCNode Id="686d75ea-4037-47d3-9b69-893661693481" Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm">
         <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Constructor (IFunction(T1, T2, T3, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor.htm" />
         <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Constructor (IFunction(T1, T2, T3, TResult), Func(TException, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm" />
-      <HelpTOCNode Id="e8246b95-e395-45eb-96a8-cb88d92d7c83" Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm">
+      <HelpTOCNode Id="2b18eba5-caaa-4f3d-8095-f49fdfc83ba1" Title="CatchTExceptionDecorator(T1, T2, T3, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_5.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_5_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3a6eac50-3c93-44da-a944-d0dd49fcad57" Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm">
+    <HelpTOCNode Id="2388d496-fe20-4af2-8b94-6344c11aa632" Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm">
       <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
-      <HelpTOCNode Id="1345e436-4cd2-479d-aced-eeccf658b518" Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm">
+      <HelpTOCNode Id="a2b1ecf2-4a52-4e71-925a-0d4c2d9a9e74" Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm">
         <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Constructor (IFunction(T1, T2, T3, T4, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor.htm" />
         <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Constructor (IFunction(T1, T2, T3, T4, TResult), Func(TException, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm" />
-      <HelpTOCNode Id="fc10af0c-da32-4369-b161-d74aab797e5e" Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm">
+      <HelpTOCNode Id="8cd94ac5-be04-4132-9f65-5675cf1faae9" Title="CatchTExceptionDecorator(T1, T2, T3, T4, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_6.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_6_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="61ed735c-d57f-4891-9d4c-11d9d842fec2" Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm">
+    <HelpTOCNode Id="d207a6e7-7e67-454a-a585-014c6b3f1d7e" Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Class" Url="html/T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm">
       <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
-      <HelpTOCNode Id="97332b4d-3560-49fd-a87c-7b829a4d8f6c" Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm">
+      <HelpTOCNode Id="a985326c-625d-4ad9-bc18-e9f6c67cf30b" Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Constructor " Url="html/Overload_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm">
         <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Constructor (IFunction(T1, T2, T3, T4, T5, TResult))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor.htm" />
         <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Constructor (IFunction(T1, T2, T3, T4, T5, TResult), Func(TException, IResult(TResult)))" Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7__ctor_1.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm" />
-      <HelpTOCNode Id="8375a85b-15d7-42f0-982b-05c3194445d9" Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm">
+      <HelpTOCNode Id="26d5648c-c32f-4ad0-a059-97d1f684f73b" Title="CatchTExceptionDecorator(T1, T2, T3, T4, T5, TResult, TException) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_CatchTExceptionDecorator_7.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_CatchTExceptionDecorator_7_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d2454eb0-3ec8-4775-bacd-9bef02055e9a" Title="IDecorator(TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_1.htm">
+    <HelpTOCNode Id="4fd5a5d2-0476-46be-8bf4-e146be7dcaec" Title="IDecorator(TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_1.htm">
       <HelpTOCNode Title="IDecorator(TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
       <HelpTOCNode Title="IDecorator(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_1.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4c659e7c-e51d-41c6-b569-7db26181b0ab" Title="IDecorator(T, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_2.htm">
+    <HelpTOCNode Id="95809299-aa14-4ded-be47-085aeb802a7f" Title="IDecorator(T, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_2.htm">
       <HelpTOCNode Title="IDecorator(T, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
       <HelpTOCNode Title="IDecorator(T, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_2.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1b4d0ec7-cc5e-483d-b516-5139a62b2510" Title="IDecorator(T1, T2, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_3.htm">
+    <HelpTOCNode Id="3da39c59-690e-4a05-85f5-949646988320" Title="IDecorator(T1, T2, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_3.htm">
       <HelpTOCNode Title="IDecorator(T1, T2, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
       <HelpTOCNode Title="IDecorator(T1, T2, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_3.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="071b8714-fb82-4e84-b429-e0a4f10ae121" Title="IDecorator(T1, T2, T3, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_4.htm">
+    <HelpTOCNode Id="3e29911c-1db3-4998-93af-264c75a5beaf" Title="IDecorator(T1, T2, T3, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_4.htm">
       <HelpTOCNode Title="IDecorator(T1, T2, T3, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
       <HelpTOCNode Title="IDecorator(T1, T2, T3, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_4.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="25d25ea4-6db4-452f-badb-776859855f56" Title="IDecorator(T1, T2, T3, T4, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_5.htm">
+    <HelpTOCNode Id="bd4e3e6f-8e65-4c90-a5f8-602be43a6af6" Title="IDecorator(T1, T2, T3, T4, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_5.htm">
       <HelpTOCNode Title="IDecorator(T1, T2, T3, T4, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
       <HelpTOCNode Title="IDecorator(T1, T2, T3, T4, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_5.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b593f24f-f0fb-4f3d-9068-cbb3e979e682" Title="IDecorator(T1, T2, T3, T4, T5, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_6.htm">
+    <HelpTOCNode Id="0552f85c-a22c-4712-9963-ee5b58dec0ab" Title="IDecorator(T1, T2, T3, T4, T5, TResult) Interface" Url="html/T_Funkshun_Core_Decorators_IDecorator_6.htm">
       <HelpTOCNode Title="IDecorator(T1, T2, T3, T4, T5, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
       <HelpTOCNode Title="IDecorator(T1, T2, T3, T4, T5, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_IDecorator_6.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="63082352-74bc-47ca-9404-c8dc5555c67d" Title="ResultCollectorDecorator(TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm">
+    <HelpTOCNode Id="965f8c54-21e9-4444-9c59-d0f9fabe500b" Title="ResultCollectorDecorator(TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm">
       <HelpTOCNode Title="ResultCollectorDecorator(TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(TResult) Constructor " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1__ctor.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
-      <HelpTOCNode Id="4ae3054d-413d-43fe-806c-e1700e20d467" Title="ResultCollectorDecorator(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm">
+      <HelpTOCNode Id="4923bc70-6d9f-411b-add7-f4c5cdfbaa41" Title="ResultCollectorDecorator(TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm">
         <HelpTOCNode Title="GetResults Method " Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_1_GetResults.htm" />
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_1_Run.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ResultCollectorDecorator(TResult) Properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_1.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f0339c6b-2a1b-4d11-9961-2c2756069e75" Title="ResultCollectorDecorator(T, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm">
+    <HelpTOCNode Id="3f734d25-fec9-479a-be8b-31e2907a358c" Title="ResultCollectorDecorator(T, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm">
       <HelpTOCNode Title="ResultCollectorDecorator(T, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T, TResult) Constructor " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2__ctor.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
-      <HelpTOCNode Id="98b31f91-ec85-4612-87ed-97f8cf4d9fbc" Title="ResultCollectorDecorator(T, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm">
+      <HelpTOCNode Id="a0bcec3b-ea30-4d90-a98d-f77432b62a7b" Title="ResultCollectorDecorator(T, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm">
         <HelpTOCNode Title="GetResults Method " Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_2_GetResults.htm" />
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_2_Run.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ResultCollectorDecorator(T, TResult) Properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="dcf4976d-a64a-4e07-a873-d4f5ca1b3c08" Title="ResultCollectorDecorator(T1, T2, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm">
+    <HelpTOCNode Id="d9f2e02e-13b2-4fc7-bc4e-58d83919a7d2" Title="ResultCollectorDecorator(T1, T2, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm">
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, TResult) Constructor " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3__ctor.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
-      <HelpTOCNode Id="e084c29a-6961-4e5c-a065-878f4d790020" Title="ResultCollectorDecorator(T1, T2, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm">
+      <HelpTOCNode Id="adab6457-a1bb-4f5f-a1a1-074a9cf7b307" Title="ResultCollectorDecorator(T1, T2, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm">
         <HelpTOCNode Title="GetResults Method " Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_3_GetResults.htm" />
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_3_Run.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, TResult) Properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_3.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e5e9a57b-20ab-4e4e-b473-26aa6c5ea63f" Title="ResultCollectorDecorator(T1, T2, T3, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm">
+    <HelpTOCNode Id="da3650c7-1554-4bf7-bbe2-c72158914c5a" Title="ResultCollectorDecorator(T1, T2, T3, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm">
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, TResult) Constructor " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4__ctor.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
-      <HelpTOCNode Id="45f12e95-0f47-4c9d-a8c7-b0f52fff2253" Title="ResultCollectorDecorator(T1, T2, T3, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm">
+      <HelpTOCNode Id="43fb76d1-f4ee-4d54-b2c6-fa4105975a74" Title="ResultCollectorDecorator(T1, T2, T3, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm">
         <HelpTOCNode Title="GetResults Method " Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_4_GetResults.htm" />
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_4_Run.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, TResult) Properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_4.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="ed7a5f0f-e866-4853-804d-a232dcdf16ce" Title="ResultCollectorDecorator(T1, T2, T3, T4, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm">
+    <HelpTOCNode Id="7e68a275-6b60-463c-812e-d3e917871d8b" Title="ResultCollectorDecorator(T1, T2, T3, T4, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm">
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, T4, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, T4, TResult) Constructor " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5__ctor.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, T4, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
-      <HelpTOCNode Id="005843f7-71ec-4897-ae5c-49cf6f7b25b2" Title="ResultCollectorDecorator(T1, T2, T3, T4, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm">
+      <HelpTOCNode Id="cb29a927-669a-4b00-a9f7-f5afed82508b" Title="ResultCollectorDecorator(T1, T2, T3, T4, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm">
         <HelpTOCNode Title="GetResults Method " Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_5_GetResults.htm" />
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_5_Run.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, T4, TResult) Properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_5.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e4d64782-99a6-465d-82b1-3d643c05d806" Title="ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm">
+    <HelpTOCNode Id="f38f536b-d3f2-43ff-9a3a-dbce7c1cccd8" Title="ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm">
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Members" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Constructor " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6__ctor.htm" />
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Fields" Url="html/Fields_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
-      <HelpTOCNode Id="d00c16fb-e636-4946-8382-f84f110993d9" Title="ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm">
+      <HelpTOCNode Id="5a015dff-1e64-485e-8942-2218d0d4a589" Title="ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Methods" Url="html/Methods_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm">
         <HelpTOCNode Title="GetResults Method " Url="html/Overload_Funkshun_Core_Decorators_ResultCollectorDecorator_6_GetResults.htm" />
         <HelpTOCNode Title="Run Method " Url="html/M_Funkshun_Core_Decorators_ResultCollectorDecorator_6_Run.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ResultCollectorDecorator(T1, T2, T3, T4, T5, TResult) Properties" Url="html/Properties_T_Funkshun_Core_Decorators_ResultCollectorDecorator_6.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="1fec31d7-99d0-442e-9be5-6cb9c2334d9f" Title="Funkshun.Core.Exceptions Namespace" Url="html/N_Funkshun_Core_Exceptions.htm">
-    <HelpTOCNode Id="cb328142-6599-410e-a23b-00bf0c265a2c" Title="MessageException Class" Url="html/T_Funkshun_Core_Exceptions_MessageException.htm">
+  <HelpTOCNode Id="f72627b6-9cae-4204-800f-79ed08803302" Title="Funkshun.Core.Exceptions Namespace" Url="html/N_Funkshun_Core_Exceptions.htm">
+    <HelpTOCNode Id="6c1fa8dc-48db-4239-ac27-71bebbfada1b" Title="MessageException Class" Url="html/T_Funkshun_Core_Exceptions_MessageException.htm">
       <HelpTOCNode Title="MessageException Members" Url="html/AllMembers_T_Funkshun_Core_Exceptions_MessageException.htm" />
       <HelpTOCNode Title="MessageException Constructor " Url="html/M_Funkshun_Core_Exceptions_MessageException__ctor.htm" />
       <HelpTOCNode Title="MessageException Methods" Url="html/Methods_T_Funkshun_Core_Exceptions_MessageException.htm" />
-      <HelpTOCNode Id="e13b7f3a-239b-40a7-bd31-14ea34fd1731" Title="MessageException Properties" Url="html/Properties_T_Funkshun_Core_Exceptions_MessageException.htm">
+      <HelpTOCNode Id="e33765c8-653c-4f9e-ac12-21e909d9f482" Title="MessageException Properties" Url="html/Properties_T_Funkshun_Core_Exceptions_MessageException.htm">
         <HelpTOCNode Title="Code Property " Url="html/P_Funkshun_Core_Exceptions_MessageException_Code.htm" />
         <HelpTOCNode Title="Errors Property " Url="html/P_Funkshun_Core_Exceptions_MessageException_Errors.htm" />
         <HelpTOCNode Title="Severity Property " Url="html/P_Funkshun_Core_Exceptions_MessageException_Severity.htm" />
@@ -361,16 +361,16 @@
       <HelpTOCNode Title="MessageException Events" Url="html/Events_T_Funkshun_Core_Exceptions_MessageException.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="6a48607b-fc0b-4809-808c-4ce458ba730b" Title="Funkshun.Core.Extensions Namespace" Url="html/N_Funkshun_Core_Extensions.htm">
-    <HelpTOCNode Id="0e436b2b-7c9b-40c9-9a7c-388caac5942d" Title="EnumerableFunctionResultExtensions Class" Url="html/T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm">
+  <HelpTOCNode Id="05c64752-77ce-44ad-8204-b6dc5c15fc5c" Title="Funkshun.Core.Extensions Namespace" Url="html/N_Funkshun_Core_Extensions.htm">
+    <HelpTOCNode Id="109931bb-5cb3-47b4-a5c5-e80258cd38d3" Title="EnumerableFunctionResultExtensions Class" Url="html/T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm">
       <HelpTOCNode Title="EnumerableFunctionResultExtensions Members" Url="html/AllMembers_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm" />
-      <HelpTOCNode Id="37e4b6f7-1482-40de-8949-a034ffbd7fae" Title="EnumerableFunctionResultExtensions Methods" Url="html/Methods_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm">
+      <HelpTOCNode Id="afcc4ee1-d585-4002-83de-2177f27a77fd" Title="EnumerableFunctionResultExtensions Methods" Url="html/Methods_T_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions.htm">
         <HelpTOCNode Title="Errors(TResult) Method " Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Errors__1.htm" />
         <HelpTOCNode Title="HasErrors(TResult) Method " Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasErrors__1.htm" />
         <HelpTOCNode Title="HasInformationals(TResult) Method " Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasInformationals__1.htm" />
         <HelpTOCNode Title="HasWarnings(TResult) Method " Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_HasWarnings__1.htm" />
         <HelpTOCNode Title="Informationals(TResult) Method " Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Informationals__1.htm" />
-        <HelpTOCNode Id="9ae5b534-97bd-4d18-a2a8-b7655f006c43" Title="OnError Method " Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError.htm">
+        <HelpTOCNode Id="e57447b2-b0b4-44a1-adc2-23b5b84659bf" Title="OnError Method " Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError.htm">
           <HelpTOCNode Title="OnError(TResult) Method (IEnumerable(IResult(TResult)), Action)" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__1.htm" />
           <HelpTOCNode Title="OnError(TResult) Method (IEnumerable(IResult(TResult)), Action(IEnumerable(IResult(TResult))))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__1_2.htm" />
           <HelpTOCNode Title="OnError(TResult, TNewResult) Method (IEnumerable(IResult(TResult)), Func(IEnumerable(IResult(TResult)), TNewResult))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__2.htm" />
@@ -378,7 +378,7 @@
           <HelpTOCNode Title="OnError(TResult) Method (IEnumerable(IResult(TResult)), Action(IEnumerable(IResult(TResult))), Action(IEnumerable(IResult(TResult))))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__1_3.htm" />
           <HelpTOCNode Title="OnError(TResult, TNewResult) Method (IEnumerable(IResult(TResult)), Func(IEnumerable(IResult(TResult)), TNewResult), Func(IEnumerable(IResult(TResult)), TNewResult))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError__2_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5548912f-8bce-45b9-907c-668d74c8baca" Title="OnInformational Method " Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational.htm">
+        <HelpTOCNode Id="6f386979-1349-4924-8747-02d4b6ccaeb6" Title="OnInformational Method " Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational.htm">
           <HelpTOCNode Title="OnInformational(TResult) Method (IEnumerable(IResult(TResult)), Action)" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__1.htm" />
           <HelpTOCNode Title="OnInformational(TResult) Method (IEnumerable(IResult(TResult)), Action(IEnumerable(IResult(TResult))))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__1_2.htm" />
           <HelpTOCNode Title="OnInformational(TResult, TNewResult) Method (IEnumerable(IResult(TResult)), Func(IEnumerable(IResult(TResult)), TNewResult))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__2.htm" />
@@ -386,7 +386,7 @@
           <HelpTOCNode Title="OnInformational(TResult) Method (IEnumerable(IResult(TResult)), Action(IEnumerable(IResult(TResult))), Action(IEnumerable(IResult(TResult))))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__1_3.htm" />
           <HelpTOCNode Title="OnInformational(TResult, TNewResult) Method (IEnumerable(IResult(TResult)), Func(IEnumerable(IResult(TResult)), TNewResult), Func(IEnumerable(IResult(TResult)), TNewResult))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational__2_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="62115313-c5a5-4e19-be02-0a4662212bb8" Title="OnSuccess Method " Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess.htm">
+        <HelpTOCNode Id="fd111045-c9f2-45bd-b9c5-904f356c0128" Title="OnSuccess Method " Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess.htm">
           <HelpTOCNode Title="OnSuccess(TResult) Method (IEnumerable(IResult(TResult)), Action)" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__1.htm" />
           <HelpTOCNode Title="OnSuccess(TResult) Method (IEnumerable(IResult(TResult)), Action(IEnumerable(IResult(TResult))))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__1_2.htm" />
           <HelpTOCNode Title="OnSuccess(TResult, TNewResult) Method (IEnumerable(IResult(TResult)), Func(IEnumerable(IResult(TResult)), TNewResult))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__2.htm" />
@@ -394,7 +394,7 @@
           <HelpTOCNode Title="OnSuccess(TResult) Method (IEnumerable(IResult(TResult)), Action(IEnumerable(IResult(TResult))), Action(IEnumerable(IResult(TResult))))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__1_3.htm" />
           <HelpTOCNode Title="OnSuccess(TResult, TNewResult) Method (IEnumerable(IResult(TResult)), Func(IEnumerable(IResult(TResult)), TNewResult), Func(IEnumerable(IResult(TResult)), TNewResult))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnSuccess__2_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="681ad79b-51a3-4676-9be8-34ef9a9b981f" Title="OnWarning Method " Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning.htm">
+        <HelpTOCNode Id="44187204-9880-42ad-bf7a-f00677958f8e" Title="OnWarning Method " Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning.htm">
           <HelpTOCNode Title="OnWarning(TResult) Method (IEnumerable(IResult(TResult)), Action)" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__1.htm" />
           <HelpTOCNode Title="OnWarning(TResult) Method (IEnumerable(IResult(TResult)), Action(IEnumerable(IResult(TResult))))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__1_2.htm" />
           <HelpTOCNode Title="OnWarning(TResult, TNewResult) Method (IEnumerable(IResult(TResult)), Func(IEnumerable(IResult(TResult)), TNewResult))" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning__2.htm" />
@@ -405,22 +405,22 @@
         <HelpTOCNode Title="Warnings(TResult) Method " Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Warnings__1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="aff51be3-cf10-4a4b-842c-0fdf01069bbc" Title="FunctionExtensions Class" Url="html/T_Funkshun_Core_Extensions_FunctionExtensions.htm">
+    <HelpTOCNode Id="e7ee710f-3528-4276-b619-efe8c48e1b38" Title="FunctionExtensions Class" Url="html/T_Funkshun_Core_Extensions_FunctionExtensions.htm">
       <HelpTOCNode Title="FunctionExtensions Members" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
-      <HelpTOCNode Id="8fb6bed3-0e7c-4cc8-81df-06c1230b2cf6" Title="FunctionExtensions Methods" Url="html/Methods_T_Funkshun_Core_Extensions_FunctionExtensions.htm">
-        <HelpTOCNode Id="a4c67f00-be17-405b-a4f9-097e96c3ec79" Title="CatchExceptions Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions.htm">
+      <HelpTOCNode Id="0b9a0812-64c7-45d0-9963-218f77eec0ec" Title="FunctionExtensions Methods" Url="html/Methods_T_Funkshun_Core_Extensions_FunctionExtensions.htm">
+        <HelpTOCNode Id="328c928b-a0d0-4b4f-bda1-1b4cc7686a19" Title="CatchExceptions Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions.htm">
           <HelpTOCNode Title="CatchExceptions(TResult) Method (IFunction(TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__1.htm" />
           <HelpTOCNode Title="CatchExceptions(TResult, TException) Method (IFunction(TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__2.htm" />
           <HelpTOCNode Title="CatchExceptions(T, TResult, TException) Method (IFunction(T, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__3.htm" />
           <HelpTOCNode Title="CatchExceptions(T, TResult) Method (IFunction(T, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__2_2.htm" />
           <HelpTOCNode Title="CatchExceptions(T1, T2, TResult) Method (IFunction(T1, T2, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__3_2.htm" />
           <HelpTOCNode Title="CatchExceptions(T1, T2, TResult, TException) Method (IFunction(T1, T2, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__4.htm" />
-          <HelpTOCNode Title="CatchExceptions(T1, T2, T3, TResult, TException) Method (IFunction(T1, T2, T3, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__5.htm" />
           <HelpTOCNode Title="CatchExceptions(T1, T2, T3, TResult) Method (IFunction(T1, T2, T3, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__4_2.htm" />
+          <HelpTOCNode Title="CatchExceptions(T1, T2, T3, TResult, TException) Method (IFunction(T1, T2, T3, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__5.htm" />
           <HelpTOCNode Title="CatchExceptions(T1, T2, T3, T4, TResult, TException) Method (IFunction(T1, T2, T3, T4, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__6.htm" />
           <HelpTOCNode Title="CatchExceptions(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__5_2.htm" />
-          <HelpTOCNode Title="CatchExceptions(T1, T2, T3, T4, T5, TResult, TException) Method (IFunction(T1, T2, T3, T4, T5, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__7.htm" />
           <HelpTOCNode Title="CatchExceptions(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__6_2.htm" />
+          <HelpTOCNode Title="CatchExceptions(T1, T2, T3, T4, T5, TResult, TException) Method (IFunction(T1, T2, T3, T4, T5, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__7.htm" />
           <HelpTOCNode Title="CatchExceptions(TResult) Method (IFunction(TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__1_1.htm" />
           <HelpTOCNode Title="CatchExceptions(TResult, TException) Method (IFunction(TResult), Func(TException, IResult(TResult)))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__2_1.htm" />
           <HelpTOCNode Title="CatchExceptions(T, TResult) Method (IFunction(T, TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__2_3.htm" />
@@ -434,7 +434,7 @@
           <HelpTOCNode Title="CatchExceptions(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult), Func(Exception, IResult(TResult)))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__6_3.htm" />
           <HelpTOCNode Title="CatchExceptions(T1, T2, T3, T4, T5, TResult, TException) Method (IFunction(T1, T2, T3, T4, T5, TResult), Func(TException, IResult(TResult)))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions__7_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9f99e2ef-6203-4708-9c10-19c8e7dddf26" Title="CollectResults Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CollectResults.htm">
+        <HelpTOCNode Id="04d41025-5671-47cf-b5b3-ef36e5a3d170" Title="CollectResults Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CollectResults.htm">
           <HelpTOCNode Title="CollectResults(TResult) Method (IFunction(TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__1.htm" />
           <HelpTOCNode Title="CollectResults(T, TResult) Method (IFunction(T, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__2.htm" />
           <HelpTOCNode Title="CollectResults(T1, T2, TResult) Method (IFunction(T1, T2, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__3.htm" />
@@ -442,7 +442,7 @@
           <HelpTOCNode Title="CollectResults(T1, T2, T3, T4, TResult) Method (IFunction(T1, T2, T3, T4, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__5.htm" />
           <HelpTOCNode Title="CollectResults(T1, T2, T3, T4, T5, TResult) Method (IFunction(T1, T2, T3, T4, T5, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_CollectResults__6.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="034d8cf0-7798-4552-af1c-2ed8e010401f" Title="MakeResult Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_MakeResult.htm">
+        <HelpTOCNode Id="aa830fcc-baca-48c6-8f1d-0ddead1799c1" Title="MakeResult Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_MakeResult.htm">
           <HelpTOCNode Title="MakeResult(TResult) Method (IFunction(TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__1.htm" />
           <HelpTOCNode Title="MakeResult(T, TResult) Method (IFunction(T, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__2.htm" />
           <HelpTOCNode Title="MakeResult(T1, T2, TResult) Method (IFunction(T1, T2, TResult))" Url="html/M_Funkshun_Core_Extensions_FunctionExtensions_MakeResult__3.htm" />
@@ -470,16 +470,16 @@
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="89abb818-52fc-4adb-909a-ec99e4dce8bb" Title="FunctionResultExtensions Class" Url="html/T_Funkshun_Core_Extensions_FunctionResultExtensions.htm">
+    <HelpTOCNode Id="5068cff0-2f8b-403c-9054-c41df66f02b4" Title="FunctionResultExtensions Class" Url="html/T_Funkshun_Core_Extensions_FunctionResultExtensions.htm">
       <HelpTOCNode Title="FunctionResultExtensions Members" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
-      <HelpTOCNode Id="8e5641dc-18ac-4857-87d8-54e4a9b9e249" Title="FunctionResultExtensions Methods" Url="html/Methods_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm">
+      <HelpTOCNode Id="d1f8c6e6-b528-4dda-aaf9-efa3b0d747de" Title="FunctionResultExtensions Methods" Url="html/Methods_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm">
         <HelpTOCNode Title="Errors Method " Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Errors.htm" />
         <HelpTOCNode Title="HasErrors Method " Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasErrors.htm" />
         <HelpTOCNode Title="HasInformationals Method " Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasInformationals.htm" />
         <HelpTOCNode Title="HasWarnings Method " Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_HasWarnings.htm" />
         <HelpTOCNode Title="Informationals Method " Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Informationals.htm" />
         <HelpTOCNode Title="IsVoid(TResult) Method " Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_IsVoid__1.htm" />
-        <HelpTOCNode Id="23d3968c-5b81-4dc4-b88c-7050097ea64b" Title="OnError Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnError.htm">
+        <HelpTOCNode Id="9f36c200-f820-4e75-adb2-54f3a61e9241" Title="OnError Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnError.htm">
           <HelpTOCNode Title="OnError Method (IResult, Action)" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError.htm" />
           <HelpTOCNode Title="OnError Method (IResult, Action(IResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError_2.htm" />
           <HelpTOCNode Title="OnError(TNewResult) Method (IResult, Func(IResult, TNewResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__1.htm" />
@@ -493,7 +493,7 @@
           <HelpTOCNode Title="OnError(TFunctionReturnType) Method (IResult(TFunctionReturnType), Action(TFunctionReturnType), Action(TFunctionReturnType))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__1_5.htm" />
           <HelpTOCNode Title="OnError(TFunctionReturnType, TNewResult) Method (IResult(TFunctionReturnType), Func(IResult(TFunctionReturnType), TNewResult), Func(IResult(TFunctionReturnType), TNewResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnError__2_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="c976dcab-2528-43c8-977e-4075ac0aa553" Title="OnInformational Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational.htm">
+        <HelpTOCNode Id="df5a0245-c4b4-4098-a077-894ff5800981" Title="OnInformational Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational.htm">
           <HelpTOCNode Title="OnInformational Method (IResult, Action)" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational.htm" />
           <HelpTOCNode Title="OnInformational Method (IResult, Action(IResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational_2.htm" />
           <HelpTOCNode Title="OnInformational(TNewResult) Method (IResult, Func(IResult, TNewResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__1.htm" />
@@ -507,7 +507,7 @@
           <HelpTOCNode Title="OnInformational(TFunctionReturnType) Method (IResult(TFunctionReturnType), Action(TFunctionReturnType), Action(TFunctionReturnType))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__1_5.htm" />
           <HelpTOCNode Title="OnInformational(TFunctionReturnType, TNewResult) Method (IResult(TFunctionReturnType), Func(IResult(TFunctionReturnType), TNewResult), Func(IResult(TFunctionReturnType), TNewResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnInformational__2_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="c2c70154-9527-490c-aedc-3948444ac0ad" Title="OnSuccess Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess.htm">
+        <HelpTOCNode Id="03cc4f87-c53c-47fa-86fa-80cbff3df7fd" Title="OnSuccess Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess.htm">
           <HelpTOCNode Title="OnSuccess Method (IResult, Action)" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess.htm" />
           <HelpTOCNode Title="OnSuccess Method (IResult, Action(IResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess_2.htm" />
           <HelpTOCNode Title="OnSuccess(TNewResult) Method (IResult, Func(IResult, TNewResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__1.htm" />
@@ -521,7 +521,7 @@
           <HelpTOCNode Title="OnSuccess(TFunctionReturnType) Method (IResult(TFunctionReturnType), Action(TFunctionReturnType), Action(TFunctionReturnType))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__1_5.htm" />
           <HelpTOCNode Title="OnSuccess(TFunctionReturnType, TNewResult) Method (IResult(TFunctionReturnType), Func(IResult(TFunctionReturnType), TNewResult), Func(IResult(TFunctionReturnType), TNewResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnSuccess__2_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="11ad92d1-eece-4689-8892-ef7076248352" Title="OnWarning Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning.htm">
+        <HelpTOCNode Id="1ce26883-e259-42d5-94c7-3579b9dd0a09" Title="OnWarning Method " Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning.htm">
           <HelpTOCNode Title="OnWarning Method (IResult, Action)" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning.htm" />
           <HelpTOCNode Title="OnWarning Method (IResult, Action(IResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning_2.htm" />
           <HelpTOCNode Title="OnWarning(TNewResult) Method (IResult, Func(IResult, TNewResult))" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning__1.htm" />
@@ -540,11 +540,11 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="d5f9141b-f1ad-42db-ab29-f3c521e2dd43" Title="Funkshun.Core.Helpers Namespace" Url="html/N_Funkshun_Core_Helpers.htm">
-    <HelpTOCNode Id="8b896ea9-b38f-4277-a434-8e609b354524" Title="ResultHelper Class" Url="html/T_Funkshun_Core_Helpers_ResultHelper.htm">
+  <HelpTOCNode Id="cd51346a-23d9-484f-b52e-ef733fa84c08" Title="Funkshun.Core.Helpers Namespace" Url="html/N_Funkshun_Core_Helpers.htm">
+    <HelpTOCNode Id="4de174a0-fc21-4881-b75b-9b4ea5286af1" Title="ResultHelper Class" Url="html/T_Funkshun_Core_Helpers_ResultHelper.htm">
       <HelpTOCNode Title="ResultHelper Members" Url="html/AllMembers_T_Funkshun_Core_Helpers_ResultHelper.htm" />
-      <HelpTOCNode Id="00e34843-b00f-4186-b2b5-0ebc2b58bd1d" Title="ResultHelper Methods" Url="html/Methods_T_Funkshun_Core_Helpers_ResultHelper.htm">
-        <HelpTOCNode Id="5fb8547b-e087-4740-82e4-c63136fb683e" Title="Make Method " Url="html/Overload_Funkshun_Core_Helpers_ResultHelper_Make.htm">
+      <HelpTOCNode Id="b3a31309-034c-4fbe-b08f-8cc0e11eaac7" Title="ResultHelper Methods" Url="html/Methods_T_Funkshun_Core_Helpers_ResultHelper.htm">
+        <HelpTOCNode Id="80e9b035-b0ae-4d07-8a03-162fdde5eeaf" Title="Make Method " Url="html/Overload_Funkshun_Core_Helpers_ResultHelper_Make.htm">
           <HelpTOCNode Title="Make(TResult) Method " Url="html/M_Funkshun_Core_Helpers_ResultHelper_Make__1.htm" />
           <HelpTOCNode Title="Make(TResult) Method (TResult)" Url="html/M_Funkshun_Core_Helpers_ResultHelper_Make__1_2.htm" />
           <HelpTOCNode Title="Make(TResult) Method (IEnumerable(Message))" Url="html/M_Funkshun_Core_Helpers_ResultHelper_Make__1_1.htm" />
