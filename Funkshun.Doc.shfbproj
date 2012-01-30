@@ -15,7 +15,7 @@
     <RootNamespace>Documentation</RootNamespace>
     <Name>Documentation</Name>
     <!-- SHFB properties -->
-    <OutputPath>D:\Dropbox\m.l.burgers@xs4all.nl\Dropbox\Projects\Funkshun\Funkshun\Doc\</OutputPath>
+    <OutputPath>D:\dev\projects\Funkshun\Funkshun\Doc\</OutputPath>
     <HtmlHelpName>Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <HelpFileFormat>Website</HelpFileFormat>
@@ -24,7 +24,7 @@
     <DocumentationSources>
       <DocumentationSource sourceFile="Funkshun\Funkshun.Core.csproj" />
     </DocumentationSources>
-    <HelpTitle>Simple, small and easy library which simplifies communication between functions</HelpTitle>
+    <HelpTitle>Simple and easy to use library which provides a simple convention for handling functional and technical messages/exceptions between method calls.</HelpTitle>
     <SyntaxFilters>CSharp</SyntaxFilters>
     <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, TypeParameter, AutoDocumentDispose</MissingTags>
     <BuildLogFile />
@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Funkshun.Core">
-      <HintPath>D:\Dropbox\m.l.burgers@xs4all.nl\Dropbox\Projects\Funkshun\Funkshun\Funkshun\bin\Debug\Funkshun.Core.dll</HintPath>
+      <HintPath>Funkshun\bin\Release\Funkshun.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <!-- Import the SHFB build targets -->
