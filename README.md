@@ -21,7 +21,7 @@ The Funkshun project believes in the following assumptions:
 
 With this in mind the goals of this project are:
 
-1. Provide a simple convention for handling functional and technical messages/exceptions.
+1. Provide a simple convention for handling functional and technical messages/exceptions between method calls.
 2. Provide helper methods which utilizes this convention and makes working with it easy en fun.
 
 It doesn't fit in every situation but maybe perfectly in yours. Also checkout the other links for more information.
@@ -36,6 +36,7 @@ The project is available on:
 Other links
 -------
 * [Introduction to Funkshun](http://www.martijnburgers.net)
+* [API DOCS](http://www.martijnburgers.net/projects/funkshun/apidocs/)
 
 Author
 -------
