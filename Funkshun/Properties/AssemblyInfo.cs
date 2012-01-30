@@ -1,4 +1,4 @@
-﻿#region LICENSE
+﻿    #region LICENSE
 //  Funkshun.Core 1.0.0.0
 //  
 //  Copyright 2011, see AUTHORS.txt
@@ -24,7 +24,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Simple, small and easy library which simplifies communication between functions")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("Funkshun")]
-[assembly: AssemblyCopyright("Copyright © Martijn Burgers 2011")]
+[assembly: AssemblyCopyright("Copyright © Martijn Burgers 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
