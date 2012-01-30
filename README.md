@@ -35,8 +35,8 @@ The project is available on:
 
 Other links
 -------
-* [Introduction to Funkshun](http://www.martijnburgers.net)
-* [API DOCS](http://www.martijnburgers.net/projects/funkshun/apidocs/)
+* [Introduction to Funkshun](http://www.martijnburgers.net/post/2012/01/30/Introduction-to-Funkshun.aspx)
+* [API Docs](http://www.martijnburgers.net/projects/funkshun/apidocs/)
 
 Author
 -------
