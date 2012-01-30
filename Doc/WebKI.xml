@@ -359,43 +359,6 @@
   <HelpKINode Title="FunctionExtensions.CatchExceptions method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CatchExceptions.htm" />
   <HelpKINode Title="FunctionExtensions.CollectResults method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_CollectResults.htm" />
   <HelpKINode Title="FunctionExtensions.MakeResult method" Url="html/Overload_Funkshun_Core_Extensions_FunctionExtensions_MakeResult.htm" />
-  <HelpKINode Title="FunctionResult class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult.htm" />
-  <HelpKINode Title="FunctionResult class" Url="html/T_Funkshun_Core_FunctionResult.htm" />
-  <HelpKINode Title="FunctionResult class">
-    <HelpKINode Title="about FunctionResult class" Url="html/T_Funkshun_Core_FunctionResult.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_FunctionResult.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_FunctionResult__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_FunctionResult.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_FunctionResult.htm" />
-  </HelpKINode>
-  <HelpKINode Title="FunctionResult(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
-  <HelpKINode Title="FunctionResult(Of TResult) class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
-  <HelpKINode Title="FunctionResult(Of TResult) class">
-    <HelpKINode Title="about FunctionResult(Of TResult) class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_FunctionResult_1.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_FunctionResult_1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="FunctionResult(Of TResult).FunctionResult constructor" Url="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" />
-  <HelpKINode Title="FunctionResult(Of TResult).New method" Url="html/M_Funkshun_Core_FunctionResult_1_New.htm" />
-  <HelpKINode Title="FunctionResult(Of TResult).ReturnType property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnType.htm" />
-  <HelpKINode Title="FunctionResult(Of TResult).ReturnValue property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnValue.htm" />
-  <HelpKINode Title="FunctionResult.FunctionResult constructor" Url="html/M_Funkshun_Core_FunctionResult__ctor.htm" />
-  <HelpKINode Title="FunctionResult.Messages property" Url="html/P_Funkshun_Core_FunctionResult_Messages.htm" />
-  <HelpKINode Title="FunctionResult&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
-  <HelpKINode Title="FunctionResult&lt;TResult&gt; class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
-  <HelpKINode Title="FunctionResult&lt;TResult&gt; class">
-    <HelpKINode Title="about FunctionResult&lt;TResult&gt; class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_FunctionResult_1.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_FunctionResult_1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="FunctionResult&lt;TResult&gt;.FunctionResult constructor" Url="html/M_Funkshun_Core_FunctionResult_1__ctor.htm" />
-  <HelpKINode Title="FunctionResult&lt;TResult&gt;.New method" Url="html/M_Funkshun_Core_FunctionResult_1_New.htm" />
-  <HelpKINode Title="FunctionResult&lt;TResult&gt;.ReturnType property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnType.htm" />
-  <HelpKINode Title="FunctionResult&lt;TResult&gt;.ReturnValue property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnValue.htm" />
   <HelpKINode Title="FunctionResultExtensions class" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
   <HelpKINode Title="FunctionResultExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
   <HelpKINode Title="FunctionResultExtensions class">
@@ -542,12 +505,6 @@
   <HelpKINode Title="Funkshun.Core.Extensions.FunctionExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionExtensions.htm" />
   <HelpKINode Title="Funkshun.Core.Extensions.FunctionResultExtensions class" Url="html/AllMembers_T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
   <HelpKINode Title="Funkshun.Core.Extensions.FunctionResultExtensions class" Url="html/T_Funkshun_Core_Extensions_FunctionResultExtensions.htm" />
-  <HelpKINode Title="Funkshun.Core.FunctionResult class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult.htm" />
-  <HelpKINode Title="Funkshun.Core.FunctionResult class" Url="html/T_Funkshun_Core_FunctionResult.htm" />
-  <HelpKINode Title="Funkshun.Core.FunctionResult(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
-  <HelpKINode Title="Funkshun.Core.FunctionResult(Of TResult) class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
-  <HelpKINode Title="Funkshun.Core.FunctionResult&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_FunctionResult_1.htm" />
-  <HelpKINode Title="Funkshun.Core.FunctionResult&lt;TResult&gt; class" Url="html/T_Funkshun_Core_FunctionResult_1.htm" />
   <HelpKINode Title="Funkshun.Core.Funkshun(Of TFunctionType) class" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
   <HelpKINode Title="Funkshun.Core.Funkshun(Of TFunctionType) class" Url="html/T_Funkshun_Core_Funkshun_1.htm" />
   <HelpKINode Title="Funkshun.Core.Funkshun&lt;TFunctionType&gt; class" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
@@ -580,15 +537,21 @@
   <HelpKINode Title="Funkshun.Core.IFunction&lt;T1, T2, TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_3.htm" />
   <HelpKINode Title="Funkshun.Core.IFunction&lt;TResult&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunction_1.htm" />
   <HelpKINode Title="Funkshun.Core.IFunction&lt;TResult&gt; interface" Url="html/T_Funkshun_Core_IFunction_1.htm" />
-  <HelpKINode Title="Funkshun.Core.IFunctionResult interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult.htm" />
-  <HelpKINode Title="Funkshun.Core.IFunctionResult interface" Url="html/T_Funkshun_Core_IFunctionResult.htm" />
-  <HelpKINode Title="Funkshun.Core.IFunctionResult(Of TR) interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
-  <HelpKINode Title="Funkshun.Core.IFunctionResult(Of TR) interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
-  <HelpKINode Title="Funkshun.Core.IFunctionResult&lt;TR&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
-  <HelpKINode Title="Funkshun.Core.IFunctionResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IResult interface" Url="html/AllMembers_T_Funkshun_Core_IResult.htm" />
+  <HelpKINode Title="Funkshun.Core.IResult interface" Url="html/T_Funkshun_Core_IResult.htm" />
+  <HelpKINode Title="Funkshun.Core.IResult(Of TR) interface" Url="html/AllMembers_T_Funkshun_Core_IResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IResult(Of TR) interface" Url="html/T_Funkshun_Core_IResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IResult&lt;TR&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IResult_1.htm" />
+  <HelpKINode Title="Funkshun.Core.IResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IResult_1.htm" />
   <HelpKINode Title="Funkshun.Core.Message class" Url="html/AllMembers_T_Funkshun_Core_Message.htm" />
   <HelpKINode Title="Funkshun.Core.Message class" Url="html/T_Funkshun_Core_Message.htm" />
   <HelpKINode Title="Funkshun.Core.MessageType enumeration" Url="html/T_Funkshun_Core_MessageType.htm" />
+  <HelpKINode Title="Funkshun.Core.Result class" Url="html/AllMembers_T_Funkshun_Core_Result.htm" />
+  <HelpKINode Title="Funkshun.Core.Result class" Url="html/T_Funkshun_Core_Result.htm" />
+  <HelpKINode Title="Funkshun.Core.Result(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Result_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Result(Of TResult) class" Url="html/T_Funkshun_Core_Result_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Result&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Result_1.htm" />
+  <HelpKINode Title="Funkshun.Core.Result&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Result_1.htm" />
   <HelpKINode Title="Funkshun.Core.Void class" Url="html/AllMembers_T_Funkshun_Core_Void.htm" />
   <HelpKINode Title="Funkshun.Core.Void class" Url="html/T_Funkshun_Core_Void.htm" />
   <HelpKINode Title="Funkshun&lt;TFunctionType&gt; class" Url="html/AllMembers_T_Funkshun_Core_Funkshun_1.htm" />
@@ -801,40 +764,40 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunction_1.htm" />
   </HelpKINode>
   <HelpKINode Title="IFunction&lt;TResult&gt;.Run method" Url="html/M_Funkshun_Core_IFunction_1_Run.htm" />
-  <HelpKINode Title="IFunctionResult interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult.htm" />
-  <HelpKINode Title="IFunctionResult interface" Url="html/T_Funkshun_Core_IFunctionResult.htm" />
-  <HelpKINode Title="IFunctionResult interface">
-    <HelpKINode Title="about IFunctionResult interface" Url="html/T_Funkshun_Core_IFunctionResult.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunctionResult.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IFunctionResult.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IFunctionResult(Of TR) interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
-  <HelpKINode Title="IFunctionResult(Of TR) interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
-  <HelpKINode Title="IFunctionResult(Of TR) interface">
-    <HelpKINode Title="about IFunctionResult(Of TR) interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunctionResult_1.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IFunctionResult_1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IFunctionResult(Of TR).ReturnType property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnType.htm" />
-  <HelpKINode Title="IFunctionResult(Of TR).ReturnValue property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnValue.htm" />
-  <HelpKINode Title="IFunctionResult.Messages property" Url="html/P_Funkshun_Core_IFunctionResult_Messages.htm" />
-  <HelpKINode Title="IFunctionResult&lt;TR&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
-  <HelpKINode Title="IFunctionResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
-  <HelpKINode Title="IFunctionResult&lt;TR&gt; interface">
-    <HelpKINode Title="about IFunctionResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IFunctionResult_1.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IFunctionResult_1.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IFunctionResult_1.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IFunctionResult_1.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IFunctionResult&lt;TR&gt;.ReturnType property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnType.htm" />
-  <HelpKINode Title="IFunctionResult&lt;TR&gt;.ReturnValue property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnValue.htm" />
   <HelpKINode Title="Information enumeration member" Url="html/T_Funkshun_Core_MessageType.htm" />
   <HelpKINode Title="Informationals method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_Informationals.htm" />
   <HelpKINode Title="Informationals(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Informationals__1.htm" />
   <HelpKINode Title="Informationals&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_Informationals__1.htm" />
   <HelpKINode Title="Instance property" Url="html/P_Funkshun_Core_Funkshun_1_Instance.htm" />
+  <HelpKINode Title="IResult interface" Url="html/AllMembers_T_Funkshun_Core_IResult.htm" />
+  <HelpKINode Title="IResult interface" Url="html/T_Funkshun_Core_IResult.htm" />
+  <HelpKINode Title="IResult interface">
+    <HelpKINode Title="about IResult interface" Url="html/T_Funkshun_Core_IResult.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IResult.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IResult.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IResult(Of TR) interface" Url="html/AllMembers_T_Funkshun_Core_IResult_1.htm" />
+  <HelpKINode Title="IResult(Of TR) interface" Url="html/T_Funkshun_Core_IResult_1.htm" />
+  <HelpKINode Title="IResult(Of TR) interface">
+    <HelpKINode Title="about IResult(Of TR) interface" Url="html/T_Funkshun_Core_IResult_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IResult_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IResult_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IResult_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IResult(Of TR).ReturnType property" Url="html/P_Funkshun_Core_IResult_1_ReturnType.htm" />
+  <HelpKINode Title="IResult(Of TR).ReturnValue property" Url="html/P_Funkshun_Core_IResult_1_ReturnValue.htm" />
+  <HelpKINode Title="IResult.Messages property" Url="html/P_Funkshun_Core_IResult_Messages.htm" />
+  <HelpKINode Title="IResult&lt;TR&gt; interface" Url="html/AllMembers_T_Funkshun_Core_IResult_1.htm" />
+  <HelpKINode Title="IResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IResult_1.htm" />
+  <HelpKINode Title="IResult&lt;TR&gt; interface">
+    <HelpKINode Title="about IResult&lt;TR&gt; interface" Url="html/T_Funkshun_Core_IResult_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_IResult_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_IResult_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_IResult_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IResult&lt;TR&gt;.ReturnType property" Url="html/P_Funkshun_Core_IResult_1_ReturnType.htm" />
+  <HelpKINode Title="IResult&lt;TR&gt;.ReturnValue property" Url="html/P_Funkshun_Core_IResult_1_ReturnValue.htm" />
   <HelpKINode Title="IsVoid(Of TResult) method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_IsVoid__1.htm" />
   <HelpKINode Title="IsVoid&lt;TResult&gt; method" Url="html/M_Funkshun_Core_Extensions_FunctionResultExtensions_IsVoid__1.htm" />
   <HelpKINode Title="Make method" Url="html/Overload_Funkshun_Core_Helpers_ResultHelper_Make.htm" />
@@ -871,11 +834,11 @@
   <HelpKINode Title="MessageException.Severity property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Severity.htm" />
   <HelpKINode Title="MessageException.Tag property" Url="html/P_Funkshun_Core_Exceptions_MessageException_Tag.htm" />
   <HelpKINode Title="MessageException.TimeStamp property" Url="html/P_Funkshun_Core_Exceptions_MessageException_TimeStamp.htm" />
-  <HelpKINode Title="Messages property" Url="html/P_Funkshun_Core_FunctionResult_Messages.htm" />
-  <HelpKINode Title="Messages property" Url="html/P_Funkshun_Core_IFunctionResult_Messages.htm" />
+  <HelpKINode Title="Messages property" Url="html/P_Funkshun_Core_IResult_Messages.htm" />
+  <HelpKINode Title="Messages property" Url="html/P_Funkshun_Core_Result_Messages.htm" />
   <HelpKINode Title="MessageType enumeration" Url="html/T_Funkshun_Core_MessageType.htm" />
-  <HelpKINode Title="New method" Url="html/M_Funkshun_Core_FunctionResult_1_New.htm" />
   <HelpKINode Title="New method" Url="html/M_Funkshun_Core_Funkshun_1_New.htm" />
+  <HelpKINode Title="New method" Url="html/M_Funkshun_Core_Result_1_New.htm" />
   <HelpKINode Title="OnError method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnError.htm" />
   <HelpKINode Title="OnError method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnError.htm" />
   <HelpKINode Title="OnInformational method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnInformational.htm" />
@@ -885,6 +848,43 @@
   <HelpKINode Title="OnWarning method" Url="html/Overload_Funkshun_Core_Extensions_EnumerableFunctionResultExtensions_OnWarning.htm" />
   <HelpKINode Title="OnWarning method" Url="html/Overload_Funkshun_Core_Extensions_FunctionResultExtensions_OnWarning.htm" />
   <HelpKINode Title="RealVoid property" Url="html/P_Funkshun_Core_Void_RealVoid.htm" />
+  <HelpKINode Title="Result class" Url="html/AllMembers_T_Funkshun_Core_Result.htm" />
+  <HelpKINode Title="Result class" Url="html/T_Funkshun_Core_Result.htm" />
+  <HelpKINode Title="Result class">
+    <HelpKINode Title="about Result class" Url="html/T_Funkshun_Core_Result.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Result.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Result__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Result.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Result.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Result(Of TResult) class" Url="html/AllMembers_T_Funkshun_Core_Result_1.htm" />
+  <HelpKINode Title="Result(Of TResult) class" Url="html/T_Funkshun_Core_Result_1.htm" />
+  <HelpKINode Title="Result(Of TResult) class">
+    <HelpKINode Title="about Result(Of TResult) class" Url="html/T_Funkshun_Core_Result_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Result_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Result_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Result_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Result_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Result(Of TResult).New method" Url="html/M_Funkshun_Core_Result_1_New.htm" />
+  <HelpKINode Title="Result(Of TResult).Result constructor" Url="html/M_Funkshun_Core_Result_1__ctor.htm" />
+  <HelpKINode Title="Result(Of TResult).ReturnType property" Url="html/P_Funkshun_Core_Result_1_ReturnType.htm" />
+  <HelpKINode Title="Result(Of TResult).ReturnValue property" Url="html/P_Funkshun_Core_Result_1_ReturnValue.htm" />
+  <HelpKINode Title="Result.Messages property" Url="html/P_Funkshun_Core_Result_Messages.htm" />
+  <HelpKINode Title="Result.Result constructor" Url="html/M_Funkshun_Core_Result__ctor.htm" />
+  <HelpKINode Title="Result&lt;TResult&gt; class" Url="html/AllMembers_T_Funkshun_Core_Result_1.htm" />
+  <HelpKINode Title="Result&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Result_1.htm" />
+  <HelpKINode Title="Result&lt;TResult&gt; class">
+    <HelpKINode Title="about Result&lt;TResult&gt; class" Url="html/T_Funkshun_Core_Result_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Funkshun_Core_Result_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Funkshun_Core_Result_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Funkshun_Core_Result_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Funkshun_Core_Result_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Result&lt;TResult&gt;.New method" Url="html/M_Funkshun_Core_Result_1_New.htm" />
+  <HelpKINode Title="Result&lt;TResult&gt;.Result constructor" Url="html/M_Funkshun_Core_Result_1__ctor.htm" />
+  <HelpKINode Title="Result&lt;TResult&gt;.ReturnType property" Url="html/P_Funkshun_Core_Result_1_ReturnType.htm" />
+  <HelpKINode Title="Result&lt;TResult&gt;.ReturnValue property" Url="html/P_Funkshun_Core_Result_1_ReturnValue.htm" />
   <HelpKINode Title="ResultCollectorDecorator(Of T, TResult) class" Url="html/AllMembers_T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
   <HelpKINode Title="ResultCollectorDecorator(Of T, TResult) class" Url="html/T_Funkshun_Core_Decorators_ResultCollectorDecorator_2.htm" />
   <HelpKINode Title="ResultCollectorDecorator(Of T, TResult) class">
@@ -1050,10 +1050,10 @@
   </HelpKINode>
   <HelpKINode Title="ResultHelper.Make method" Url="html/Overload_Funkshun_Core_Helpers_ResultHelper_Make.htm" />
   <HelpKINode Title="Results field" Url="html/F_Funkshun_Core_Decorators_BaseResultCollectorDecorator_1_Results.htm" />
-  <HelpKINode Title="ReturnType property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnType.htm" />
-  <HelpKINode Title="ReturnType property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnType.htm" />
-  <HelpKINode Title="ReturnValue property" Url="html/P_Funkshun_Core_FunctionResult_1_ReturnValue.htm" />
-  <HelpKINode Title="ReturnValue property" Url="html/P_Funkshun_Core_IFunctionResult_1_ReturnValue.htm" />
+  <HelpKINode Title="ReturnType property" Url="html/P_Funkshun_Core_IResult_1_ReturnType.htm" />
+  <HelpKINode Title="ReturnType property" Url="html/P_Funkshun_Core_Result_1_ReturnType.htm" />
+  <HelpKINode Title="ReturnValue property" Url="html/P_Funkshun_Core_IResult_1_ReturnValue.htm" />
+  <HelpKINode Title="ReturnValue property" Url="html/P_Funkshun_Core_Result_1_ReturnValue.htm" />
   <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_1_Run.htm" />
   <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_2_Run.htm" />
   <HelpKINode Title="Run method" Url="html/M_Funkshun_Core_Decorators_CatchExceptionDecorator_3_Run.htm" />

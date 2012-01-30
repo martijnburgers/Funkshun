@@ -4,7 +4,7 @@
 <html>
 
 <head>
-<title>Simple, small and easy library which simplifies communication between functions - Table of Content</title>
+<title>Simple and easy to use library which provides a simple convention for handling functional and technical messages/exceptions between method calls. - Table of Content</title>
 <link rel="stylesheet" href="TOC.css">
 <link rel="shortcut icon" href="favicon.ico"/>
 <script type="text/javascript" src="TOC.js"></script>
